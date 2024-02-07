@@ -17,3 +17,50 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+
+WebUI.click(findTestObject('Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser'))
+
+WebUI.click(findTestObject('Object Repository/Fitur Register/a_CREATE NEW ACCOUNT'))
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input__usernameRegisterPage'), 'tugasyudha2')
+
+WebUI.click(findTestObject('Object Repository/Fitur Register/label_Email'))
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input__emailRegisterPage'), 'tugasyudha2@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Register/input__passwordRegisterPage'), '6WioJ3YIWjwfuGy+05B60g==')
+
+WebUI.click(findTestObject('Object Repository/Fitur Register/label_Confirm password'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Register/input__confirm_passwordRegisterPage'), '6WioJ3YIWjwfuGy+05B60g==')
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'), 'Dharma')
+
+WebUI.click(findTestObject('Object Repository/Fitur Register/label_Last Name'))
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'), 'Yudha')
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'), '081353081122')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
+    'object:153', true)
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_Country_cityRegisterPage'), 'Jakarta')
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'), 'Jalan Medan Merdeka 1 Jakarta')
+
+WebUI.click(findTestObject('Object Repository/Fitur Register/label_State  Province  Region'))
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'), 'Jakarta')
+
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'), '85082')
+
+WebUI.click(findTestObject('Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450'))
+
+WebUI.click(findTestObject('Object Repository/Fitur Register/button_REGISTER'))
+
+
+
