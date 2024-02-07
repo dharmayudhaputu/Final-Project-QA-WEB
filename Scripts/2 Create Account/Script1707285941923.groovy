@@ -63,4 +63,3 @@ WebUI.click(findTestObject('Object Repository/Fitur Register/input_Receive exclu
 WebUI.click(findTestObject('Object Repository/Fitur Register/button_REGISTER'))
 
 
-
