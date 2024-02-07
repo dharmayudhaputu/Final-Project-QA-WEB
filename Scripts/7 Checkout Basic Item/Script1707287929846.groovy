@@ -17,19 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://advantageonlineshopping.com/')
-
-WebUI.click(findTestObject('Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser'))
-
-WebUI.setText(findTestObject('Object Repository/Fitur Login User/input_OR_username'), 'yudhatesting')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Login User/input_Username_password'), 'VjyC/is+sZNhzZxZ8kSNJw==')
-
-WebUI.click(findTestObject('Object Repository/Fitur Login User/button_SIGN IN'))
-
-WebUI.click(findTestObject('Object Repository/Fitur Login User/button_SEE OFFER'))
-WebUI.delay(5)
-WebUI.closeBrowser()
-
