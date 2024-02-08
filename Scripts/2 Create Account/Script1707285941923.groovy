@@ -25,41 +25,40 @@ WebUI.click(findTestObject('Object Repository/Fitur Register/svg_CHECKOUT  (0.00
 
 WebUI.click(findTestObject('Object Repository/Fitur Register/a_CREATE NEW ACCOUNT'))
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input__usernameRegisterPage'), 'tugasyudha2')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input__usernameRegisterPage'), username)
 
 WebUI.click(findTestObject('Object Repository/Fitur Register/label_Email'))
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input__emailRegisterPage'), 'tugasyudha2@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input__emailRegisterPage'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Register/input__passwordRegisterPage'), '6WioJ3YIWjwfuGy+05B60g==')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input__passwordRegisterPage'), password)
 
 WebUI.click(findTestObject('Object Repository/Fitur Register/label_Confirm password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Register/input__confirm_passwordRegisterPage'), '6WioJ3YIWjwfuGy+05B60g==')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input__confirm_passwordRegisterPage'), confirmpassword)
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'), 'Dharma')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'), firstname)
 
 WebUI.click(findTestObject('Object Repository/Fitur Register/label_Last Name'))
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'), 'Yudha')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'), lastname)
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'), '081353081122')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'), phone)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
     'object:153', true)
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input_Country_cityRegisterPage'), 'Jakarta')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_Country_cityRegisterPage'), city)
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'), 'Jalan Medan Merdeka 1 Jakarta')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'), address)
 
 WebUI.click(findTestObject('Object Repository/Fitur Register/label_State  Province  Region'))
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'), 'Jakarta')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'), state)
 
-WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'), '85082')
+WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'), postalcode)
 
 WebUI.click(findTestObject('Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450'))
 
 WebUI.click(findTestObject('Object Repository/Fitur Register/button_REGISTER'))
-
 

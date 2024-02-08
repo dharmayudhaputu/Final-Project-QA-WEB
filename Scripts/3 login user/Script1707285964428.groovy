@@ -25,11 +25,13 @@ WebUI.click(findTestObject('Object Repository/Fitur Login User/svg_CHECKOUT  (0.
 
 WebUI.setText(findTestObject('Object Repository/Fitur Login User/input_OR_username'), 'yudhatesting')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Login User/input_Username_password'), 'VjyC/is+sZNhzZxZ8kSNJw==')
+WebUI.setText(findTestObject('Object Repository/Fitur Login User/input_Username_password'), 'Dharmayudha1')
 
 WebUI.click(findTestObject('Object Repository/Fitur Login User/button_SIGN IN'))
 
 WebUI.click(findTestObject('Object Repository/Fitur Login User/button_SEE OFFER'))
+
 WebUI.delay(5)
+
 WebUI.closeBrowser()
 

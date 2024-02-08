@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3 Login user,Chrome 121.0.0.0,,,07-02-2024 17:27:40,07-02-2024 17:28:24,44.224s,PASSED
+,,,,,,,
+Test Cases/3 login user,Chrome 121.0.0.0,Pengujian scenario login oleh user,,07-02-2024 17:27:41,07-02-2024 17:28:05,24.252s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,07-02-2024 17:27:41,07-02-2024 17:27:46,4.526s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,07-02-2024 17:27:46,07-02-2024 17:27:50,4.423s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,07-02-2024 17:27:50,07-02-2024 17:27:54,4.111s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,07-02-2024 17:27:54,07-02-2024 17:27:56,1.602s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_Username_password""), ""Dharmayudha1"")",Chrome 121.0.0.0,,,07-02-2024 17:27:56,07-02-2024 17:27:57,1.628s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SIGN IN""))",Chrome 121.0.0.0,,,07-02-2024 17:27:57,07-02-2024 17:27:58,0.686s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SEE OFFER""))",Chrome 121.0.0.0,,,07-02-2024 17:27:58,07-02-2024 17:28:00,1.433s,PASSED
+delay(5),Chrome 121.0.0.0,,,07-02-2024 17:28:00,07-02-2024 17:28:05,5.067s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 17:28:05,07-02-2024 17:28:05,0.324s,PASSED
+,,,,,,,
+Test Cases/3 login user,Chrome 121.0.0.0,Pengujian scenario login oleh user,,07-02-2024 17:28:05,07-02-2024 17:28:24,19.337s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,07-02-2024 17:28:05,07-02-2024 17:28:06,1.228s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,07-02-2024 17:28:06,07-02-2024 17:28:10,3.562s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,07-02-2024 17:28:10,07-02-2024 17:28:14,4.190s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,07-02-2024 17:28:14,07-02-2024 17:28:16,1.552s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_Username_password""), ""Dharmayudha1"")",Chrome 121.0.0.0,,,07-02-2024 17:28:16,07-02-2024 17:28:17,1.729s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SIGN IN""))",Chrome 121.0.0.0,,,07-02-2024 17:28:17,07-02-2024 17:28:18,0.598s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SEE OFFER""))",Chrome 121.0.0.0,,,07-02-2024 17:28:18,07-02-2024 17:28:19,1.158s,PASSED
+delay(5),Chrome 121.0.0.0,,,07-02-2024 17:28:19,07-02-2024 17:28:24,5.018s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 17:28:24,07-02-2024 17:28:24,0.264s,PASSED
