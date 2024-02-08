@@ -9,6 +9,36 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Fitur Search/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/fitur delete all chart/svg_SHOP NOW_menuCart",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SHOP NOW\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027menuCart\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/fitur delete all chart/svg_SHOP NOW_menuCart_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/fitur delete all chart/a_REMOVE",
+      "brokenLocator": "//div[@id\u003d\u0027shoppingCart\u0027]/table/tbody/tr/td[6]/span/a[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/fitur delete all chart/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#menuCart \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/fitur delete all chart/path_CSS.png"
     }
   ]
 }

@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+
+WebUI.click(findTestObject('Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser'))
+
+WebUI.setText(findTestObject('Object Repository/fitur gagal search/input_OR_username'), 'yudhatesting')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/fitur gagal search/input_Username_password'), 'VjyC/is+sZNhzZxZ8kSNJw==')
+
+WebUI.click(findTestObject('Object Repository/fitur gagal search/button_SIGN IN'))
+
+WebUI.setText(findTestObject('Object Repository/fitur gagal search/input_DEMO_mobile_search'), 'buku naruto')
+
+WebUI.sendKeys(findTestObject('Object Repository/fitur gagal search/input_DEMO_mobile_search'), Keys.chord(Keys.ENTER))
+
+WebUI.closeBrowser()
+

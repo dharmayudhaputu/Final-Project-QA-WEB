@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+
+WebUI.click(findTestObject('Object Repository/Fitur gagal checkout/div_MICE                        Shop Now'))
+
+WebUI.click(findTestObject('Object Repository/Fitur gagal checkout/img_SHOP NOW_29'))
+
+WebUI.click(findTestObject('Object Repository/Fitur gagal checkout/div_Quantity_plus'))
+
+WebUI.click(findTestObject('Object Repository/Fitur gagal checkout/div_Quantity_plus'))
+
+WebUI.click(findTestObject('Object Repository/Fitur gagal checkout/button_ADD TO CART'))
+
+WebUI.click(findTestObject('Object Repository/Fitur gagal checkout/a_3'))
+
+WebUI.click(findTestObject('Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)'))
+
+WebUI.setText(findTestObject('Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'), 
+    'yudhatesting')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'), 'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.click(findTestObject('Object Repository/Fitur gagal checkout/button_LOGIN'))
+WebUI.delay(5)
+WebUI.closeBrowser()
+

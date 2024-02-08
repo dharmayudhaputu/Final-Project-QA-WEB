@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/img_SHOP NOW_9'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/button_ADD TO CART'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_LAPTOPS'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/img_SHOP NOW_10'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/button_ADD TO CART'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_LAPTOPS'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_2'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_REMOVE'))
+
+WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_REMOVE'))
+
+WebUI.closeBrowser()
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_1</name>
+   <tag></tag>
+   <elementGuidId>665a72cb-caf5-4629-ad74-e675b435acbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menuCart > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>06811996-1e17-4416-b094-433dffe99e39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#313131</value>
+      <webElementGuid>06bb5006-c00c-4083-96aa-b12a53aef73e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M9,20c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2C11,20.9,10.1,20,9,20z M19,20c-1.1,0-2,0.9-2,2
+        c0,1.1,0.9,2,2,2s2-0.9,2-2C21,20.9,20.1,20,19,20z M8.3,15h12.5L24,4H5.5L4.8,1H0v2h3.2l4,16H21v-2H8.8L8.3,15z M6,6h15.3l-2,7
+        H7.8L6,6z</value>
+      <webElementGuid>35577015-7985-41e9-9029-23b2831d2bf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menuCart&quot;)/path[1]</value>
+      <webElementGuid>030a41f9-8274-49ff-ae86-907453c72718</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
