@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>20b08afe-6cc2-4d03-9925-994b70a26610</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mobileSearch > #menuSearch > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>7b4cf42e-daca-44a7-8e30-248f189ec000</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#313131</value>
+      <webElementGuid>d8475380-3a9d-4430-9b32-ef1529dac6c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M23.7,22l-6.8-5.6c0,0-0.1,0-0.1-0.1c3.1-3.8,2.9-9.4-0.6-12.9c-1.8-1.8-4.2-2.8-6.7-2.8
+	c-2.5,0-4.9,1-6.7,2.8c-3.7,3.7-3.7,9.8,0,13.6c1.8,1.8,4.2,2.8,6.7,2.8c2.3,0,4.4-0.8,6.1-2.2c0,0,0,0.1,0.1,0.1l6.8,5.6
+	c0.2,0.2,0.4,0.3,0.6,0.3c0.2,0,0.4-0.1,0.6-0.3C24.1,22.9,24.1,22.3,23.7,22z M9.5,17.9c-2.1,0-4-0.8-5.5-2.3c-3-3.1-3-8,0-11.1
+	c1.5-1.5,3.4-2.3,5.5-2.3c2.1,0,4,0.8,5.5,2.3c3,3.1,3,8,0,11.1C13.5,17.1,11.6,17.9,9.5,17.9z</value>
+      <webElementGuid>5051609a-7deb-4c4e-a728-a62c3e540a8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mobileSearch&quot;)/svg[@id=&quot;menuSearch&quot;]/path[1]</value>
+      <webElementGuid>6c6b0cc9-bfb1-46a1-b685-8f7e57e8a657</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
