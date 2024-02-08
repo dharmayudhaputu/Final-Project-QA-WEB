@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>username</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/2 Create Account</testCaseId>
+      <testCaseId>Test Cases/1. Positive test case/2 Create Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>47637308-601e-4e96-b793-6b52b3d9c6b8</id>
