@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_LAPTOPS</name>
+   <tag></tag>
+   <elementGuidId>a07fa5dd-4850-4ab9-a0f6-039eb2a83165</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'LAPTOPS')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8ebd8187-28e9-4f6a-bd16-35c4335767e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>redirect('/category/' + breadCrumbCategoryName + '/' + product.categoryId)</value>
+      <webElementGuid>27922bc5-89d5-4025-be27-98f283e7b39b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>85ace222-a6b1-4456-9897-afc92ff732e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> LAPTOPS </value>
+      <webElementGuid>bf8c931b-5ab2-4bcb-89fb-a292b70ca472</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-scope&quot;]/div[@class=&quot;uiview ng-scope&quot;]/nav[@class=&quot;pages fixedImportant productImage ng-scope&quot;]/a[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>c3013c6d-f354-46a4-9c59-2e9cc76367dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'LAPTOPS')]</value>
+      <webElementGuid>a06e813f-85b9-4073-b784-c4a399d6ffae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HOME'])[1]/following::a[1]</value>
+      <webElementGuid>0523605a-b09d-4b09-9bd2-5c6e0dcd7882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEMO'])[1]/following::a[2]</value>
+      <webElementGuid>39b93ed0-9895-4800-905d-43fdc0347245</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HP CHROMEBOOK 14 G1(ES)'])[2]/preceding::a[1]</value>
+      <webElementGuid>ef81071a-b563-46ca-8018-c888c85021a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HP CHROMEBOOK 14 G1(ES)'])[3]/preceding::a[2]</value>
+      <webElementGuid>c22bd490-567e-4b63-a92c-945d19f95301</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LAPTOPS']/parent::*</value>
+      <webElementGuid>3776496e-73af-401f-b42a-232dd19c4d9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[24]</value>
+      <webElementGuid>dec71ad0-53d1-4972-9d05-bed5c8f89750</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/a[2]</value>
+      <webElementGuid>e24612ee-6921-4465-aafa-381fb54b8521</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = ' LAPTOPS ' or . = ' LAPTOPS ')]</value>
+      <webElementGuid>3bf2ea5c-55c1-48a7-901f-b4ea7dbfc663</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

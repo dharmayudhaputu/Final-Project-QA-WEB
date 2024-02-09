@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_SPEAKERS</name>
+   <tag></tag>
+   <elementGuidId>0fc4036d-b7c2-4d52-bab6-ba127dfe037d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'SPEAKERS')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e4066012-e26f-40da-afe7-f0079095b349</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>redirect('/category/' + breadCrumbCategoryName + '/' + product.categoryId)</value>
+      <webElementGuid>7d829b91-2faf-407a-9d2a-85e854167674</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>cd848f74-8ce0-4d8a-92bc-cd917a7ae599</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> SPEAKERS </value>
+      <webElementGuid>5a66b256-1cdd-4131-83bd-03c570e00773</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-scope&quot;]/div[@class=&quot;uiview ng-scope&quot;]/nav[@class=&quot;pages fixedImportant productImage ng-scope&quot;]/a[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>61c1957a-21e9-46ad-a974-f24d9ff7bc2d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'SPEAKERS')]</value>
+      <webElementGuid>f115603d-fc60-401a-af01-b7d645638afd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HOME'])[1]/following::a[1]</value>
+      <webElementGuid>968f78bb-417c-4e46-b68b-46cf2e018fff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEMO'])[1]/following::a[2]</value>
+      <webElementGuid>98a45fd1-bece-420c-8b58-4063162f09ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BOSE SOUNDLINK BLUETOOTH SPEAKER III'])[1]/preceding::a[1]</value>
+      <webElementGuid>23aa1b23-2f01-433d-af28-6a1ed612e52b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BOSE SOUNDLINK BLUETOOTH SPEAKER III'])[2]/preceding::a[2]</value>
+      <webElementGuid>3be42817-3dc9-42eb-b75c-34e33f2e3225</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SPEAKERS']/parent::*</value>
+      <webElementGuid>12aeb510-d9a2-40f3-b465-b54282ca55f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[30]</value>
+      <webElementGuid>77a3386b-16d5-4697-92b7-fe2374de483e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/a[2]</value>
+      <webElementGuid>07b23f59-e454-4d6b-8295-3be14cacbfec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = ' SPEAKERS ' or . = ' SPEAKERS ')]</value>
+      <webElementGuid>e0f8c766-1505-40d7-b06a-b614d1d5ef6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

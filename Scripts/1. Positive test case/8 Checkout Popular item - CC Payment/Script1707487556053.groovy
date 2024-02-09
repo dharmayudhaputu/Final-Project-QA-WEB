@@ -17,15 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'qawebtugas.keywordlogin.login'()
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_facebook'))
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
-WebUI.click(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_twitter'))
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/a_My account                        My orde_124641'))
 
-WebUI.click(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_linkedin'))
+WebUI.setText(findTestObject('Object Repository/fitur checkout 2/input_OR_username'), 'yudhatesting')
 
-WebUI.click(findTestObject('Object Repository/fitur sosmed/img_DEMO_go_up_btn'))
+WebUI.setEncryptedText(findTestObject('Object Repository/fitur checkout 2/input_Username_password'), 'VjyC/is+sZNhzZxZ8kSNJw==')
 
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/button_SIGN IN'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/label_View Details'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/button_ADD TO CART'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/a_LAPTOPS'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/a_3'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/button_CHECKOUT (3,785.97)'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/button_NEXT'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/img'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout 2/button_PAY NOW'))
+WebUI.delay(5)
 WebUI.closeBrowser()
 
