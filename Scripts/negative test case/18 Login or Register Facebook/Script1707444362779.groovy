@@ -21,10 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
-WebUI.click(findTestObject('Object Repository/Fitur register or login facebook/svg_CHECKOUT  (0.00)_menuUser'))
+WebUI.click(findTestObject('Object Repository/Fitur register or login facebook/a_CHECKOUT  (0.00)_hrefUserIcon'))
 
 WebUI.click(findTestObject('Object Repository/Fitur register or login facebook/span_SIGN IN WITH FACEBOOK'))
-WebUI.delay(5)
 
 WebUI.closeBrowser()
 

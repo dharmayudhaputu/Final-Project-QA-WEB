@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_WIRELESS TECHNOLOGY</name>
+   <tag></tag>
+   <elementGuidId>03d47a86-e1cd-4bcd-bfbb-973ad6a18218</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h4[@id='accordionAttrib3']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#accordionAttrib3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>d1c91e62-177c-4b98-a4e8-5992e7fd0fb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+      <webElementGuid>dd01e9de-2e71-4711-810e-a0abfda7b480</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>accordion roboto-regular arrowDown ng-binding</value>
+      <webElementGuid>a5398ad4-c662-4e41-8440-d76249cc4eba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>accordionAttrib3</value>
+      <webElementGuid>ced4e9b6-b1b8-43e8-8041-2fa1ba943aa1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>toggleColapse('accordionAttrib' + $index)</value>
+      <webElementGuid>dec2eed4-cbfa-4a2b-ae5a-ca05dba1f435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>930d598d-6184-41b3-9c19-6da02a00f3d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                        WIRELESS TECHNOLOGY
+                    </value>
+      <webElementGuid>fd76d0ad-16b6-430f-9322-c716aca33374</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordionAttrib3&quot;)</value>
+      <webElementGuid>84c7f7ea-bb8c-4b2d-a9a6-286a21160044</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h4[@id='accordionAttrib3']</value>
+      <webElementGuid>87700866-98e1-430c-b79d-7d7a2d056fb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mobileSlide']/ul/li[5]/h4</value>
+      <webElementGuid>b304a310-58a0-40c3-8920-37077905ec21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WEIGHT'])[1]/following::h4[1]</value>
+      <webElementGuid>33aa6e76-d8fe-493c-9425-532753110d79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logitech'])[1]/following::h4[2]</value>
+      <webElementGuid>b42bf761-bf93-4d5a-8a18-e9fcc094f562</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bluetooh®'])[1]/preceding::h4[1]</value>
+      <webElementGuid>fe2623e6-2e49-485a-8ee6-375bde887b80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bluetooth®'])[1]/preceding::h4[1]</value>
+      <webElementGuid>49bb5cfe-014b-4c56-b216-c31af8e6f6db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='WIRELESS TECHNOLOGY']/parent::*</value>
+      <webElementGuid>fdd00f62-140f-49ac-8188-a65c1a94dff5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/h4</value>
+      <webElementGuid>e068bdcf-d32e-45b1-ac80-ebf4dbfb1986</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[@href = 'javascript:void(0)' and @id = 'accordionAttrib3' and (text() = '
+                        WIRELESS TECHNOLOGY
+                    ' or . = '
+                        WIRELESS TECHNOLOGY
+                    ')]</value>
+      <webElementGuid>dc06d9a0-3793-4de7-b767-10a1dd4fb7c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

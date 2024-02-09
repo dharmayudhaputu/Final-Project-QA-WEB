@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_COLOR_productsColors414141</name>
+   <tag></tag>
+   <elementGuidId>ae20c39c-de18-4528-82a8-5a2d94feacd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='productsColors414141']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#productsColors414141</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0aaaa0bc-e28b-4091-a0ea-d92f252f90ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>BLACK</value>
+      <webElementGuid>8907cba7-a585-458b-ac83-7b87f34008a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>productColor </value>
+      <webElementGuid>bbdff668-7377-4844-bbc0-a801dcb325a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>productsColors414141</value>
+      <webElementGuid>e9451336-fbec-4695-8a18-a6f6d32a6002</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>includeProducts(color, 'COLOR'); toggleColorSelectedClass(color.code)</value>
+      <webElementGuid>767d25dc-eab8-4a9b-a065-fba2adc6c2d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-style</name>
+      <type>Main</type>
+      <value> color.code == 'FFFFFF' ?
+                              {'backgroundColor': '#' + color.code, 'border': 'solid 1px #9d9d9d' } :
+                              {'backgroundColor': '#' + color.code, 'border': 'solid 1px transparent'}</value>
+      <webElementGuid>90f817f0-4ef6-49bc-8caf-28fdbe505c2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;productsColors414141&quot;)</value>
+      <webElementGuid>20ea0718-37ee-4f8f-ad10-23b0fcbefccf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='productsColors414141']</value>
+      <webElementGuid>2683874d-690f-4ad3-b704-329a2de8bf63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mobileSlide']/ul/li[6]/div/div/a</value>
+      <webElementGuid>284823ec-5d31-41a3-aec6-3b35044c9802</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COLOR'])[1]/following::a[1]</value>
+      <webElementGuid>bb297141-5da7-45ce-8236-ce66067a6221</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bluetooth®'])[1]/following::a[1]</value>
+      <webElementGuid>de82d81b-3b25-45c1-8015-327d10a803cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOLD OUT'])[1]/preceding::a[8]</value>
+      <webElementGuid>952d4851-6068-47f4-907d-ee815b50c3e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SHOP NOW'])[1]/preceding::a[8]</value>
+      <webElementGuid>b1ecc2e8-fd22-4df9-85ae-f37e115f935f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/div/div/a</value>
+      <webElementGuid>780abc66-0f58-4d62-89bc-1922196e4e68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'BLACK' and @id = 'productsColors414141']</value>
+      <webElementGuid>9506878c-2f07-42ad-8bd0-54f7bfedea97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -21,25 +21,41 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now'))
+WebUI.click(findTestObject('Object Repository/Fitur Filter 2/div_SPEAKERS                        Shop Now'))
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/img_SHOP NOW_9'))
+def filterType = filtername // ganti filter ini sesuai dengan kebutuhan test
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/button_ADD TO CART'))
+switch (filterType) {
+    case 'WIRELESS TECHNOLOGY':
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/h4_WIRELESS TECHNOLOGY'))
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_LAPTOPS'))
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/input_WIRELESS TECHNOLOGY_wireless_technology_0'))
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/img_SHOP NOW_10'))
+        break
+    case 'COLOR':
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/h4_COLOR'))
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/button_ADD TO CART'))
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/a_COLOR_productsColors414141'))
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_LAPTOPS'))
+        break
+    case 'MANUFACTURER':
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/h4_MANUFACTURER'))
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_2'))
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/input_MANUFACTURER_manufacturer_0'))
 
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_REMOVE'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/fitur delete all chart/a_REMOVE'))
+        break
+    case 'COMPATIBILITY':
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/h4_COMPATIBILITY'))
+
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/label_Any device that has bluetooth enabled'))
+
+        WebUI.click(findTestObject('Object Repository/Fitur Filter 2/input_COMPATIBILITY_compatibility_0'))
+
+        break
+    default:
+        println('Invalid filter type')}
+
 WebUI.delay(5)
+
 WebUI.closeBrowser()
 

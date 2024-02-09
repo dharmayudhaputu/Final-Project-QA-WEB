@@ -61,6 +61,6 @@ WebUI.setText(findTestObject('Object Repository/Fitur Register/input_- Use maxim
 WebUI.click(findTestObject('Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450'))
 
 WebUI.click(findTestObject('Object Repository/Fitur Register/button_REGISTER'))
-
+WebUI.delay(5)
 WebUI.closeBrowser()
 

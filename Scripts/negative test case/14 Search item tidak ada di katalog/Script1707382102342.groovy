@@ -33,5 +33,7 @@ WebUI.setText(findTestObject('Object Repository/fitur gagal search/input_DEMO_mo
 
 WebUI.sendKeys(findTestObject('Object Repository/fitur gagal search/input_DEMO_mobile_search'), Keys.chord(Keys.ENTER))
 
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 

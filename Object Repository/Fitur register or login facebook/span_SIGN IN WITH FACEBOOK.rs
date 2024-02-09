@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a0c3ec09-fcaa-4ce0-a06d-4cf78c89def8</webElementGuid>
+      <webElementGuid>30389135-9ac5-444b-a344-b5e50a3a67e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>facebook ng-scope</value>
-      <webElementGuid>7af2b231-a914-4bd4-aa97-8c86e5d0d47a</webElementGuid>
+      <webElementGuid>a9a8ed9f-b202-47e2-bfa8-6f0dd5784c63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>translate</name>
       <type>Main</type>
       <value>FACEBOOK_SIGN_IN</value>
-      <webElementGuid>336d455d-9dd5-4c8f-9b00-5754b58b2740</webElementGuid>
+      <webElementGuid>52f3b360-fcf6-4ed9-af60-7a375b7b9f33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-ng-click</name>
       <type>Main</type>
       <value>singWithFacebook()</value>
-      <webElementGuid>e870ceb1-e66d-42d2-94f1-8ea2f9b6455d</webElementGuid>
+      <webElementGuid>cd602bac-53ac-41a6-908d-a354c93e5162</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SIGN IN WITH FACEBOOK</value>
-      <webElementGuid>c2dc6e7d-e794-4a81-8ad3-9b5e829c1a64</webElementGuid>
+      <webElementGuid>9f2cc2c0-30ac-44f5-afe5-23da7fd6704b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;ng-scope&quot;]/login-modal[1]/div[@class=&quot;PopUp&quot;]/div[1]/div[@class=&quot;login ng-scope&quot;]/span[@class=&quot;facebook ng-scope&quot;]</value>
-      <webElementGuid>0afdefc9-f6c0-4d1b-8950-635fb1c1ac76</webElementGuid>
+      <webElementGuid>62d8f5aa-8e7e-454b-9146-b54a3dde911b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/preceding::span[1]</value>
-      <webElementGuid>abc9bbd7-d3ae-4260-9864-f7a3967b8df4</webElementGuid>
+      <webElementGuid>426b511c-6684-400b-8f1d-93ebf95889a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::span[1]</value>
-      <webElementGuid>6fb12e61-58c4-4fbb-96aa-9cc7147ba6be</webElementGuid>
+      <webElementGuid>0aa63743-ed19-4a86-bd84-fa8418477ae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='SIGN IN WITH FACEBOOK']/parent::*</value>
-      <webElementGuid>c7d65119-6ec5-4276-bd50-a96a75e29c42</webElementGuid>
+      <webElementGuid>027f6eff-ba54-4574-bdf2-7a347834514a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>e446eeaa-54d2-460e-bd1b-934bf670f2ce</webElementGuid>
+      <webElementGuid>f74e9c98-6313-460a-8dbf-dbaff89e3c0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'SIGN IN WITH FACEBOOK' or . = 'SIGN IN WITH FACEBOOK')]</value>
-      <webElementGuid>41b0bd73-f41b-4ea7-9464-4df1abe5c2fc</webElementGuid>
+      <webElementGuid>c6d06519-971e-42ee-9094-65ac98d0d661</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
