@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_COLOR_productsColors55CDD5</name>
+   <tag></tag>
+   <elementGuidId>9bc23ecc-ab2d-4897-abf1-dedf140f3198</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='productsColors55CDD5']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#productsColors55CDD5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fb6f635d-4564-4fef-98d0-810aa8e26a81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>TURQUOISE</value>
+      <webElementGuid>e930cb35-7ae0-47d9-a2ff-b4af94be7250</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>productColor </value>
+      <webElementGuid>55ab0c9d-51d4-45e2-9459-904fa3a6e6de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>productsColors55CDD5</value>
+      <webElementGuid>feec6033-8d68-4a8a-9ba9-2848e49846eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>includeProducts(color, 'COLOR'); toggleColorSelectedClass(color.code)</value>
+      <webElementGuid>0f9b3328-99a6-4d80-b5aa-23cdf528de36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-style</name>
+      <type>Main</type>
+      <value> color.code == 'FFFFFF' ?
+                              {'backgroundColor': '#' + color.code, 'border': 'solid 1px #9d9d9d' } :
+                              {'backgroundColor': '#' + color.code, 'border': 'solid 1px transparent'}</value>
+      <webElementGuid>73e09fa8-4f6b-4f73-9825-54920ad99381</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;productsColors55CDD5&quot;)</value>
+      <webElementGuid>03ec9e73-f6fa-4315-b952-77292c3652ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='productsColors55CDD5']</value>
+      <webElementGuid>fcfe35ca-631c-4c9d-8d16-3c871c60c407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mobileSlide']/ul/li[6]/div/div[6]/a</value>
+      <webElementGuid>45428f4f-7717-4cb9-84d3-8dd0d01df498</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COLOR'])[1]/following::a[6]</value>
+      <webElementGuid>ffd884f9-f6fa-40ac-bb3e-e8b63f00676b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bluetooth®'])[1]/following::a[6]</value>
+      <webElementGuid>486ff1e1-9cdf-404f-84b9-27dd3c1bbee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOLD OUT'])[1]/preceding::a[3]</value>
+      <webElementGuid>5fdf6d45-36b6-4e2e-a8df-db585eb9122d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SHOP NOW'])[1]/preceding::a[3]</value>
+      <webElementGuid>81028e86-75e3-429c-86a7-13abb6c84740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/a</value>
+      <webElementGuid>cb1c9b26-6ace-4c38-942c-a595dbd4b509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'TURQUOISE' and @id = 'productsColors55CDD5']</value>
+      <webElementGuid>fc86bff4-1a62-4af2-9fc5-0c1f9fdec329</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
