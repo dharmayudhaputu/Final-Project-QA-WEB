@@ -17,3 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+
+WebUI.click(findTestObject('Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser'))
+
+WebUI.setText(findTestObject('Object Repository/Invalid filter/input_OR_username'), 'yudhatesting')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Invalid filter/input_Username_password'), 'VjyC/is+sZNhzZxZ8kSNJw==')
+
+WebUI.click(findTestObject('Object Repository/Invalid filter/button_SIGN IN'))
+
+WebUI.click(findTestObject('Object Repository/Invalid filter/div_SPEAKERS                        Shop Now'))
+
+WebUI.click(findTestObject('Object Repository/Invalid filter/h4_COLOR'))
+
+WebUI.click(findTestObject('Object Repository/Invalid filter/a_COLOR_productsColors55CDD5'))
+WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Invalid filter/h4_WEIGHT'))
+WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Invalid filter/input_WEIGHT_weight_1'))
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+
