@@ -17,3 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/svg_CHECKOUT  (0.00)_menuUser'))
+
+WebUI.setText(findTestObject('Object Repository/fitur gagal safepay payment/input_OR_username'), 'yudhatesting')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/fitur gagal safepay payment/input_Username_password'), 'VjyC/is+sZNhzZxZ8kSNJw==')
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/button_SIGN IN'))
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/div_TABLETS                        Shop Now'))
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/img_SHOP NOW_16'))
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/button_ADD TO CART'))
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/a_4'))
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/button_CHECKOUT (3,296.99)'))
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/button_NEXT'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/fitur gagal safepay payment/input__safepay_password'), 'aj9YhGxH1gRaOs7gChVLIg==')
+
+WebUI.click(findTestObject('Object Repository/fitur gagal safepay payment/sec-form_SafePay usernameSafePay username- _b44954'))
+WebUI.delay(5)
+
+
+WebUI.closeBrowser()
+
