@@ -29,7 +29,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/fitur contact us/sel
 WebUI.selectOptionByValue(findTestObject('Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'), 
     'object:123', true)
 
-WebUI.setText(findTestObject('Object Repository/fitur contact us/input__emailContactUs'), 'yudhatesting@gmail.com')
+WebUI.setText(findTestObject('Object Repository/fitur contact us/input__emailContactUs'), 'tesemail')
 
 WebUI.setText(findTestObject('Object Repository/fitur contact us/textarea__subjectTextareaContactUs'), 'i want to buy this laptop')
 

@@ -17,23 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//CustomKeywords.'qawebtugas.keywordlogin.login'()
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'), 
-    'object:60', true)
+WebUI.click(findTestObject('Object Repository/Fitur register or login facebook/svg_CHECKOUT  (0.00)_menuUser'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'), 
-    'object:123', true)
-
-WebUI.setText(findTestObject('Object Repository/fitur contact us/input__emailContactUs'), 'yudhatesting@gmail.com')
-
-WebUI.setText(findTestObject('Object Repository/fitur contact us/textarea__subjectTextareaContactUs'), 'i want to buy this laptop')
-
-WebUI.click(findTestObject('Object Repository/fitur contact us/button_SEND'))
+WebUI.click(findTestObject('Object Repository/Fitur register or login facebook/span_SIGN IN WITH FACEBOOK'))
 WebUI.delay(5)
 
 WebUI.closeBrowser()

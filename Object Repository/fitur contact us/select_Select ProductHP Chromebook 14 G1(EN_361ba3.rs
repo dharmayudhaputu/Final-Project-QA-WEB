@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select ProductHP Chromebook 14 G1(EN_361ba3</name>
+   <tag></tag>
+   <elementGuidId>002fe7f5-ee12-4f12-863d-02c952d9cefe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='productListboxContactUs']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;productListboxContactUs&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f48badbb-fec3-45b4-ad2c-312d1d8c440a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-init</name>
+      <type>Main</type>
+      <value>secModel = secSelectOptions[0]</value>
+      <webElementGuid>01aa754b-7905-4be3-81f9-98583b512e8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>productListboxContactUs</value>
+      <webElementGuid>5dd6de26-14a2-4470-827b-037efe275576</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>c463ead4-6214-43f1-a91a-4ff8f6c711e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>secModel</value>
+      <webElementGuid>04a447c8-f0c6-4122-a4d5-87af9c4fb5b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>c as c.productName for c in secSelectOptions</value>
+      <webElementGuid>7f045d9d-e13c-429d-94f1-3612835fcc29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-scope in-focus</value>
+      <webElementGuid>0686359b-a76f-4bfc-9839-3a3bc2782397</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select ProductHP Chromebook 14 G1(ENERGY STAR)HP Chromebook 14 G1(ES)HP ENVY - 17t Touch LaptopHP ENVY x360 - 15t LaptopHP Pavilion 15t Touch LaptopHP Pavilion 15z LaptopHP Pavilion 15z Touch LaptopHP Pavilion x360 - 11t Touch LaptopHP Spectre x360 - 13-4102dxHP Stream - 11-d020nr LaptopHP ZBook 17 G2 Mobile Workstation</value>
+      <webElementGuid>2616f211-a2df-482f-b855-c672ae4eaf81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;supportCover&quot;)/div[2]/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/div[@class=&quot;splitter&quot;]/div[@class=&quot;inputMargin&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/select[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope in-focus&quot;]</value>
+      <webElementGuid>5216f3bb-60bc-41d6-9297-6a97569a8c8a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='productListboxContactUs']</value>
+      <webElementGuid>4dff9ffb-97df-45b3-9d61-c0d1961be113</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='supportCover']/div[2]/sec-form/div/div/sec-view[2]/div/select</value>
+      <webElementGuid>38aa28b8-3919-40c7-a3d0-caaba9257a3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[2]/following::select[1]</value>
+      <webElementGuid>b6c72d02-82e1-46ea-a462-3d067f82a080</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CONTACT US'])[2]/following::select[2]</value>
+      <webElementGuid>7a1d836a-815d-4949-9cca-d6b521a9f5a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[2]/preceding::select[1]</value>
+      <webElementGuid>82849b47-ea5a-40b4-aa0c-5d8d54906825</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::select[1]</value>
+      <webElementGuid>db44d6be-cc69-46ba-942c-741843e03dc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//sec-view[2]/div/select</value>
+      <webElementGuid>a7964515-63a2-400e-afd9-404cb13b56e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'productListboxContactUs' and (text() = 'Select ProductHP Chromebook 14 G1(ENERGY STAR)HP Chromebook 14 G1(ES)HP ENVY - 17t Touch LaptopHP ENVY x360 - 15t LaptopHP Pavilion 15t Touch LaptopHP Pavilion 15z LaptopHP Pavilion 15z Touch LaptopHP Pavilion x360 - 11t Touch LaptopHP Spectre x360 - 13-4102dxHP Stream - 11-d020nr LaptopHP ZBook 17 G2 Mobile Workstation' or . = 'Select ProductHP Chromebook 14 G1(ENERGY STAR)HP Chromebook 14 G1(ES)HP ENVY - 17t Touch LaptopHP ENVY x360 - 15t LaptopHP Pavilion 15t Touch LaptopHP Pavilion 15z LaptopHP Pavilion 15z Touch LaptopHP Pavilion x360 - 11t Touch LaptopHP Spectre x360 - 13-4102dxHP Stream - 11-d020nr LaptopHP ZBook 17 G2 Mobile Workstation')]</value>
+      <webElementGuid>2b76b1ba-c048-4b5a-a5d1-ec3f44e6a198</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
