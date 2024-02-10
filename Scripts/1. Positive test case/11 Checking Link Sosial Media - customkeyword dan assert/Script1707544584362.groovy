@@ -19,13 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'qawebtugas.keywordlogin.login'()
 
+assert WebUI.verifyElementPresent(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_facebook'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+assert WebUI.verifyElementPresent(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_twitter'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+assert WebUI.verifyElementPresent(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_linkedin'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+assert WebUI.verifyElementPresent(findTestObject('Object Repository/fitur sosmed/img_DEMO_go_up_btn'), 10, FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_facebook'))
-
 WebUI.click(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_twitter'))
-
 WebUI.click(findTestObject('Object Repository/fitur sosmed/img_FOLLOW US_follow_linkedin'))
-
 WebUI.click(findTestObject('Object Repository/fitur sosmed/img_DEMO_go_up_btn'))
-
 WebUI.closeBrowser()
+
 

@@ -25,15 +25,15 @@ public class keywordlogin {
 	@Keyword
 	def static void login() {
 		WebUI.openBrowser('')
-		
+
 		WebUI.navigateToUrl('https://advantageonlineshopping.com/')
-		
+
 		WebUI.click(findTestObject('Object Repository/Fitur Search 2/svg_CHECKOUT  (0.00)_menuUser'))
-		
+
 		WebUI.setText(findTestObject('Object Repository/Fitur Search 2/input_OR_username'), 'yudhatesting')
-		
+
 		WebUI.setEncryptedText(findTestObject('Object Repository/Fitur Search 2/input_Username_password'), 'VjyC/is+sZNhzZxZ8kSNJw==')
-		
+
 		WebUI.click(findTestObject('Object Repository/Fitur Search 2/button_SIGN IN'))
 	}
 }
