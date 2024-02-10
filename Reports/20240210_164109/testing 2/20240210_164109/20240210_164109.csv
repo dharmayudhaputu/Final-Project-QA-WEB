@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testing 2,Chrome 121.0.0.0,,,10-02-2024 16:41:14,10-02-2024 16:41:50,36.567s,PASSED
+,,,,,,,
+Test Cases/1. Positive test case/8 Checkout Popular item - CC Payment,Chrome 121.0.0.0,,,10-02-2024 16:41:14,10-02-2024 16:41:50,36.375s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 16:41:14,10-02-2024 16:41:16,1.485s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 16:41:16,10-02-2024 16:41:18,2.485s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 2/a_My account                        My orde_124641""))",Chrome 121.0.0.0,,,10-02-2024 16:41:18,10-02-2024 16:41:22,3.871s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout 2/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,10-02-2024 16:41:22,10-02-2024 16:41:23,0.992s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur checkout 2/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,10-02-2024 16:41:23,10-02-2024 16:41:24,1.247s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 2/button_SIGN IN""))",Chrome 121.0.0.0,,,10-02-2024 16:41:24,10-02-2024 16:41:25,0.451s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/fitur checkout 2/label_View Details""), 10)",Chrome 121.0.0.0,,,10-02-2024 16:41:25,10-02-2024 16:41:26,1.062s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/fitur checkout 2/label_View Details""), 10))",Chrome 121.0.0.0,,,10-02-2024 16:41:26,10-02-2024 16:41:50,24.504s,PASSED

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testing 2" time="36.567" tests="1" failures="0" errors="0">
+   <testsuite name="testing 2" tests="1" failures="0" errors="0" time="36.567" skipped="0" timestamp="10-02-2024T16:41:14" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/testing 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240210_164109\\testing 2\\20240210_164109"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240210_164109\\testing 2\\20240210_164109\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="6793e4d6a4decf58f497a817c7d5d8ab"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/1. Positive test case/8 Checkout Popular item - CC Payment" time="36.375" classname="Test Cases/1. Positive test case/8 Checkout Popular item - CC Payment" status="PASSED">
+         <system-out><![CDATA[10-02-2024T16:41:14 - [TEST_CASE][PASSED] - Test Cases/1. Positive test case/8 Checkout Popular item - CC Payment: Test Cases/1. Positive test case/8 Checkout Popular item - CC Payment
+
+10-02-2024T16:41:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T16:41:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T16:41:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T16:41:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T16:41:16 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T16:41:18 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T16:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/a_My account                        My orde_124641")): Object: 'Object Repository/fitur checkout 2/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T16:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T16:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout 2/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 2/input_OR_username'
+
+10-02-2024T16:41:23 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 2/input_OR_username'
+
+10-02-2024T16:41:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur checkout 2/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur checkout 2/input_Username_password'
+
+10-02-2024T16:41:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur checkout 2/input_Username_password'
+
+10-02-2024T16:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_SIGN IN")): Object: 'Object Repository/fitur checkout 2/button_SIGN IN' is clicked on
+
+10-02-2024T16:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_SIGN IN' is clicked on
+
+10-02-2024T16:41:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/fitur checkout 2/label_View Details"), 10): Object 'Object Repository/fitur checkout 2/label_View Details' is present
+
+10-02-2024T16:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/fitur checkout 2/label_View Details' is present
+
+10-02-2024T16:41:26 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/fitur checkout 2/label_View Details"), 10)): null
+
+10-02-2024T16:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/fitur checkout 2/label_View Details' is present
+
+10-02-2024T16:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/label_View Details")): Object: 'Object Repository/fitur checkout 2/label_View Details' is clicked on
+
+10-02-2024T16:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/label_View Details' is clicked on
+
+10-02-2024T16:41:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_ADD TO CART")): Object: 'Object Repository/fitur checkout 2/button_ADD TO CART' is clicked on
+
+10-02-2024T16:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_ADD TO CART' is clicked on
+
+10-02-2024T16:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/a_LAPTOPS")): Object: 'Object Repository/fitur checkout 2/a_LAPTOPS' is clicked on
+
+10-02-2024T16:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/a_LAPTOPS' is clicked on
+
+10-02-2024T16:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/a_3")): Object: 'Object Repository/fitur checkout 2/a_3' is clicked on
+
+10-02-2024T16:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/a_3' is clicked on
+
+10-02-2024T16:41:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_CHECKOUT (3,785.97)")): Object: 'Object Repository/fitur checkout 2/button_CHECKOUT (3,785.97)' is clicked on
+
+10-02-2024T16:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_CHECKOUT (3,785.97)' is clicked on
+
+10-02-2024T16:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_NEXT")): Object: 'Object Repository/fitur checkout 2/button_NEXT' is clicked on
+
+10-02-2024T16:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_NEXT' is clicked on
+
+10-02-2024T16:41:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/img")): Object: 'Object Repository/fitur checkout 2/img' is clicked on
+
+10-02-2024T16:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/img' is clicked on
+
+10-02-2024T16:41:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_PAY NOW")): Object: 'Object Repository/fitur checkout 2/button_PAY NOW' is clicked on
+
+10-02-2024T16:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_PAY NOW' is clicked on
+
+10-02-2024T16:41:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T16:41:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T16:41:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T16:41:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-02-2024T16:41:14 - [TEST_SUITE][PASSED] - testing 2: Test Cases/1. Positive test case/8 Checkout Popular item - CC Payment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
