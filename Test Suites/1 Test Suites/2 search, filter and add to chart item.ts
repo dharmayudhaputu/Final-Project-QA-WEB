@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>3 Login user</name>
+   <name>2 search, filter and add to chart item</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,27 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4a4005a7-40a1-408f-909a-c3aee8b1969f</testSuiteGuid>
+   <testSuiteGuid>38979a01-df82-4612-935c-b20da9a9ba20</testSuiteGuid>
    <testCaseLink>
-      <guid>75b0f592-5fab-433c-9010-1b684948e3fb</guid>
+      <guid>6dc7c0b4-f75d-4611-aa95-a654d892242f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/3 login user (data driven)</testCaseId>
+      <testCaseId>Test Cases/1. Positive test case/5 Filter item (switch-case and data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>158eb7f4-4601-4c7a-8dbb-e7396765b662</id>
+         <id>ad239c3e-4278-4584-a69d-14a0a99c038d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/1 Data Login</testDataId>
+         <testDataId>Data Files/3 Data Filter</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>158eb7f4-4601-4c7a-8dbb-e7396765b662</testDataLinkId>
+         <testDataLinkId>ad239c3e-4278-4584-a69d-14a0a99c038d</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>805abada-c413-406e-815c-e3969c854ccd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>158eb7f4-4601-4c7a-8dbb-e7396765b662</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>1d0e53f7-8ff2-464f-ae7b-c8987d6d9ab6</variableId>
+         <value>filtername</value>
+         <variableId>cb2a85f2-e5b8-48b3-9189-d0f9225544bd</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
