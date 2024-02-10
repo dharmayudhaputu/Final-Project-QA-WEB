@@ -17,3 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/div_MICE                        Shop Now'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/img_SHOP NOW_29'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/button_ADD TO CART'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/a_MICE'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/a_1'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/button_CHECKOUT (9.99)'))
+
+WebUI.setText(findTestObject('Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284'), 
+    username)
+
+WebUI.setText(findTestObject('Object Repository/fitur checkout login/input_Username_passwordInOrderPayment'), password)
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/button_LOGIN'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/button_NEXT'))
+
+WebUI.click(findTestObject('Object Repository/fitur checkout login/button_PAY NOW'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

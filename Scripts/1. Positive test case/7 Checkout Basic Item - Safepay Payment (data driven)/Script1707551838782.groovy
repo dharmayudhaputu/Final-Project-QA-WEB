@@ -51,11 +51,17 @@ WebUI.click(findTestObject('Object Repository/fitur checkout 1/button_CHECKOUT (
 
 WebUI.click(findTestObject('Object Repository/fitur checkout 1/button_NEXT'))
 
-WebUI.setText(findTestObject('Object Repository/fitur checkout 1/input__safepay_username'), 'dharmayudhaputu')
+WebUI.setText(findTestObject('Object Repository/fitur checkout 1/input__safepay_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/fitur checkout 1/input__safepay_password'), 'VjyC/is+sZNhzZxZ8kSNJw==')
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/fitur checkout 1/input__safepay_password'), password)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/fitur checkout 1/button_PAY NOW'))
+
 WebUI.delay(5)
+
 WebUI.closeBrowser()
 

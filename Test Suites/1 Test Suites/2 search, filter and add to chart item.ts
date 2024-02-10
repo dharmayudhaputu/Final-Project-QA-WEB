@@ -90,4 +90,11 @@
          <variableId>2128ddcd-0ce4-4c3a-9b5d-f2f93267c6a6</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a188b719-0d7d-4240-8509-03f6a36975e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1. Positive test case/11 Checking Link Sosial Media - customkeyword dan assert</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
