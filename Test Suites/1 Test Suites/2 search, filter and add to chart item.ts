@@ -66,7 +66,7 @@
       <guid>d68f08c0-dca7-4ec9-ae09-2d24ce465102</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Positive test case/9 Contact Us</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/9 Contact Us (data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>859d26ff-b93c-45ee-9314-0f8cf7467661</id>
