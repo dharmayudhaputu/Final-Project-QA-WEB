@@ -1,0 +1,36 @@
+1
+00:00:00,001 --> 00:00:00,916
+1. openBrowser("")
+
+2
+00:00:00,917 --> 00:00:10,419
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:10,420 --> 00:00:16,381
+9. selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f"), "object:60", true)
+
+4
+00:00:16,382 --> 00:00:19,926
+13. selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3"), "object:123", true)
+
+5
+00:00:19,926 --> 00:00:21,057
+17. setText(findTestObject("Object Repository/fitur contact us/input__emailContactUs"), email)
+
+6
+00:00:21,065 --> 00:00:22,634
+21. setText(findTestObject("Object Repository/fitur contact us/textarea__subjectTextareaContactUs"), subject)
+
+7
+00:00:22,634 --> 00:00:23,127
+25. click(findTestObject("Object Repository/fitur contact us/button_SEND"))
+
+8
+00:00:23,127 --> 00:00:28,134
+29. delay(5)
+
+9
+00:00:28,135 --> 00:00:28,418
+33. closeBrowser()
+

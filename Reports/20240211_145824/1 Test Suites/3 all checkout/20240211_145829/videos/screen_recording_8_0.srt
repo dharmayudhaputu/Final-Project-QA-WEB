@@ -1,0 +1,72 @@
+1
+00:00:00,001 --> 00:00:00,661
+1. openBrowser("")
+
+2
+00:00:00,661 --> 00:00:03,108
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,110 --> 00:00:07,017
+9. click(findTestObject("Object Repository/fitur edit data address/a_My account                        My orde_124641"))
+
+4
+00:00:07,018 --> 00:00:08,024
+13. setText(findTestObject("Object Repository/fitur edit data address/input_OR_username"), "yudhatesting")
+
+5
+00:00:08,024 --> 00:00:09,189
+17. setEncryptedText(findTestObject("Object Repository/fitur edit data address/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+6
+00:00:09,189 --> 00:00:09,755
+21. click(findTestObject("Object Repository/fitur edit data address/button_SIGN IN"))
+
+7
+00:00:09,756 --> 00:00:11,974
+25. click(findTestObject("Object Repository/fitur edit data address/button_SEE OFFER"))
+
+8
+00:00:11,975 --> 00:00:16,167
+29. click(findTestObject("Object Repository/fitur edit data address/button_ADD TO CART"))
+
+9
+00:00:16,168 --> 00:00:17,930
+33. click(findTestObject("Object Repository/fitur edit data address/a_6"))
+
+10
+00:00:17,931 --> 00:00:19,479
+37. click(findTestObject("Object Repository/fitur edit data address/button_CHECKOUT (5,494.99)"))
+
+11
+00:00:19,480 --> 00:00:22,486
+41. click(findTestObject("Object Repository/fitur edit data address/a_Edit shipping details"))
+
+12
+00:00:22,486 --> 00:00:23,672
+45. setText(findTestObject("Object Repository/fitur edit data address/input_- Use maximum 25 character_address"), address)
+
+13
+00:00:23,672 --> 00:00:24,224
+49. click(findTestObject("Object Repository/fitur edit data address/label_State  Province  Region"))
+
+14
+00:00:24,225 --> 00:00:25,369
+53. setText(findTestObject("Object Repository/fitur edit data address/input_- Use maximum 10 character_state__pro_f620c3"), region)
+
+15
+00:00:25,369 --> 00:00:28,380
+57. delay(3)
+
+16
+00:00:28,381 --> 00:00:28,687
+61. click(findTestObject("Object Repository/fitur edit data address/button_NEXT"))
+
+17
+00:00:28,688 --> 00:00:30,659
+65. click(findTestObject("Object Repository/fitur edit data address/button_PAY NOW"))
+
+18
+00:00:30,659 --> 00:00:30,850
+69. closeBrowser()
+

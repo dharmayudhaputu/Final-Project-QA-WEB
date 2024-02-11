@@ -1,0 +1,64 @@
+1
+00:00:00,128 --> 00:00:01,064
+1. openBrowser("")
+
+2
+00:00:01,065 --> 00:00:03,731
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,731 --> 00:00:09,603
+9. click(findTestObject("Object Repository/fitur gagal safepay payment/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:09,604 --> 00:00:10,567
+13. setText(findTestObject("Object Repository/fitur gagal safepay payment/input_OR_username"), "yudhatesting")
+
+5
+00:00:10,567 --> 00:00:11,857
+17. setEncryptedText(findTestObject("Object Repository/fitur gagal safepay payment/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+6
+00:00:11,859 --> 00:00:12,367
+21. click(findTestObject("Object Repository/fitur gagal safepay payment/button_SIGN IN"))
+
+7
+00:00:12,368 --> 00:00:18,391
+25. click(findTestObject("Object Repository/fitur gagal safepay payment/div_TABLETS                        Shop Now"))
+
+8
+00:00:18,392 --> 00:00:20,543
+29. click(findTestObject("Object Repository/fitur gagal safepay payment/img_SHOP NOW_16"))
+
+9
+00:00:20,544 --> 00:00:27,629
+33. click(findTestObject("Object Repository/fitur gagal safepay payment/button_ADD TO CART"))
+
+10
+00:00:27,629 --> 00:00:30,262
+37. click(findTestObject("Object Repository/fitur gagal safepay payment/a_4"))
+
+11
+00:00:30,263 --> 00:00:32,264
+41. click(findTestObject("Object Repository/fitur gagal safepay payment/button_CHECKOUT (3,296.99)"))
+
+12
+00:00:32,265 --> 00:00:37,484
+45. click(findTestObject("Object Repository/fitur gagal safepay payment/button_NEXT"))
+
+13
+00:00:37,485 --> 00:00:38,205
+49. setEncryptedText(findTestObject("Object Repository/fitur gagal safepay payment/input__safepay_password"), "aj9YhGxH1gRaOs7gChVLIg==")
+
+14
+00:00:38,206 --> 00:00:39,136
+53. click(findTestObject("Object Repository/fitur gagal safepay payment/sec-form_SafePay usernameSafePay username- _b44954"))
+
+15
+00:00:39,137 --> 00:00:44,152
+57. delay(5)
+
+16
+00:00:44,152 --> 00:00:44,345
+61. closeBrowser()
+

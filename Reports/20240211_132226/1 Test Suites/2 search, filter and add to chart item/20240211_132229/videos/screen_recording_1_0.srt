@@ -1,0 +1,60 @@
+1
+00:00:00,270 --> 00:00:02,265
+1. openBrowser("")
+
+2
+00:00:02,276 --> 00:00:04,810
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:04,811 --> 00:00:10,751
+9. click(findTestObject("Object Repository/Fitur Search 2/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:10,752 --> 00:00:11,712
+13. setText(findTestObject("Object Repository/Fitur Search 2/input_OR_username"), "yudhatesting")
+
+5
+00:00:11,713 --> 00:00:12,966
+17. setEncryptedText(findTestObject("Object Repository/Fitur Search 2/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+6
+00:00:12,967 --> 00:00:13,552
+21. click(findTestObject("Object Repository/Fitur Search 2/button_SIGN IN"))
+
+7
+00:00:13,560 --> 00:00:13,564
+25. keyword = "tablet"
+
+8
+00:00:13,565 --> 00:00:19,111
+29. setText(findTestObject("Object Repository/Fitur Search 2/input_DEMO_mobile_search"), keyword)
+
+9
+00:00:19,112 --> 00:00:26,484
+33. sendKeys(findTestObject("Object Repository/Fitur Search 2/input_DEMO_mobile_search"), Keys.chord(ENTER))
+
+10
+00:00:26,484 --> 00:00:26,502
+37. if (!(keyword.equalsIgnoreCase("tablet")))
+
+11
+00:00:26,503 --> 00:00:29,728
+2. click(findTestObject("Object Repository/Fitur Search 2/img_SHOP NOW_16"))
+
+12
+00:00:29,729 --> 00:00:30,540
+6. click(findTestObject("Object Repository/Fitur Search 2/img"))
+
+13
+00:00:30,541 --> 00:00:30,884
+10. click(findTestObject("Object Repository/Fitur Search 2/img_1"))
+
+14
+00:00:30,885 --> 00:00:31,217
+14. click(findTestObject("Object Repository/Fitur Search 2/img_1_2"))
+
+15
+00:00:31,218 --> 00:00:31,452
+18. closeBrowser()
+

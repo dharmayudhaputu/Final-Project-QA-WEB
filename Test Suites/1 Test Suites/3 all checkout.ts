@@ -15,7 +15,7 @@
       <guid>fc597cda-911f-4805-8659-c2eec7ea5b69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/6 Checkout Basic Item - Safepay Payment (data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b8ea0fbc-a2bb-4055-9d43-964da83ccc1a</id>
@@ -43,14 +43,14 @@
       <guid>a8f9299f-97b9-4479-a78c-1e698eebeb93</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Positive test case/8 Checkout Popular item - CC Payment</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/7 Checkout Popular item - CC Payment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7b428343-8d30-4753-89d4-67ca966715fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Positive test case/9 Chekout tanpa login (data driven)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/8 Chekout tanpa login (data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b727bea3-dcb6-417c-8474-103c09f7166e</id>
@@ -78,7 +78,35 @@
       <guid>516df829-1a1f-43e1-bf58-2cabd2a781f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Positive test case/12 Edit Data Checkout</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/12 Edit Data Quantity Checkout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ebd9a2a-885b-4099-808a-81ec6273c05c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/1 Positive test case/11 Edit Data Personal Checkout (data driven)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4b96b287-3800-45c0-8ed0-9c578994bb9c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/12 Data Address</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4b96b287-3800-45c0-8ed0-9c578994bb9c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
+         <variableId>31289c5a-8256-4322-bf09-9c4e5f964418</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4b96b287-3800-45c0-8ed0-9c578994bb9c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>region</value>
+         <variableId>b8e4e181-c6a5-4181-b6a0-625ec517377b</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

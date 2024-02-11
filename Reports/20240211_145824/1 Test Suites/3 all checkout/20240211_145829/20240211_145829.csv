@@ -1,0 +1,173 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3 all checkout,Chrome 121.0.0.0,,,11-02-2024 15:04:58,11-02-2024 15:13:43,8m - 45.480s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/6 Checkout Basic Item - Safepay Payment (data driven),Chrome 121.0.0.0,,,11-02-2024 15:04:58,11-02-2024 15:05:59,1m - 0.777s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 15:04:58,11-02-2024 15:05:00,1.931s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 15:05:00,11-02-2024 15:05:03,2.452s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/a_My account                        My orde_124641""))",Chrome 121.0.0.0,,,11-02-2024 15:05:03,11-02-2024 15:05:06,3.927s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout 1/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 15:05:06,11-02-2024 15:05:07,0.956s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/label_Password""))",Chrome 121.0.0.0,,,11-02-2024 15:05:07,11-02-2024 15:05:09,1.121s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur checkout 1/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 15:05:09,11-02-2024 15:05:09,0.528s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 15:05:09,11-02-2024 15:05:10,0.569s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,11-02-2024 15:05:10,11-02-2024 15:05:16,6.517s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/img_SHOP NOW_20""))",Chrome 121.0.0.0,,,11-02-2024 15:05:16,11-02-2024 15:05:18,2.246s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:05:18,11-02-2024 15:05:27,8.443s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/a_SPEAKERS""))",Chrome 121.0.0.0,,,11-02-2024 15:05:27,11-02-2024 15:05:30,3.014s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,11-02-2024 15:05:30,11-02-2024 15:05:30,0.582s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:05:30,11-02-2024 15:05:31,0.548s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/a_SPEAKERS""))",Chrome 121.0.0.0,,,11-02-2024 15:05:31,11-02-2024 15:05:34,3.308s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/a_11""))",Chrome 121.0.0.0,,,11-02-2024 15:05:34,11-02-2024 15:05:35,0.557s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)""))",Chrome 121.0.0.0,,,11-02-2024 15:05:35,11-02-2024 15:05:38,3.094s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_NEXT""))",Chrome 121.0.0.0,,,11-02-2024 15:05:38,11-02-2024 15:05:43,4.710s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout 1/input__safepay_username""), username)",Chrome 121.0.0.0,,,11-02-2024 15:05:43,11-02-2024 15:05:44,1.177s,PASSED
+delay(3),Chrome 121.0.0.0,,,11-02-2024 15:05:44,11-02-2024 15:05:47,3.038s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout 1/input__safepay_password""), password)",Chrome 121.0.0.0,,,11-02-2024 15:05:47,11-02-2024 15:05:48,0.936s,PASSED
+delay(3),Chrome 121.0.0.0,,,11-02-2024 15:05:48,11-02-2024 15:05:51,3.014s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_PAY NOW""))",Chrome 121.0.0.0,,,11-02-2024 15:05:51,11-02-2024 15:05:51,0.352s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 15:05:51,11-02-2024 15:05:56,5.014s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 15:05:56,11-02-2024 15:05:56,0.238s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 15:05:59,11-02-2024 15:05:59,0.000s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/6 Checkout Basic Item - Safepay Payment (data driven),Chrome 121.0.0.0,,,11-02-2024 15:05:59,11-02-2024 15:06:59,1m - 0.905s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 15:05:59,11-02-2024 15:05:59,0.679s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 15:05:59,11-02-2024 15:06:02,2.492s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/a_My account                        My orde_124641""))",Chrome 121.0.0.0,,,11-02-2024 15:06:02,11-02-2024 15:06:06,4.231s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout 1/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 15:06:06,11-02-2024 15:06:07,0.923s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/label_Password""))",Chrome 121.0.0.0,,,11-02-2024 15:06:07,11-02-2024 15:06:08,1.109s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur checkout 1/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 15:06:08,11-02-2024 15:06:09,0.608s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 15:06:09,11-02-2024 15:06:09,0.561s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,11-02-2024 15:06:09,11-02-2024 15:06:21,11.369s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/img_SHOP NOW_20""))",Chrome 121.0.0.0,,,11-02-2024 15:06:21,11-02-2024 15:06:23,2.141s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:06:23,11-02-2024 15:06:28,4.860s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/a_SPEAKERS""))",Chrome 121.0.0.0,,,11-02-2024 15:06:28,11-02-2024 15:06:31,3.464s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/img_SHOP NOW_25""))",Chrome 121.0.0.0,,,11-02-2024 15:06:31,11-02-2024 15:06:32,0.582s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:06:32,11-02-2024 15:06:32,0.545s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/a_SPEAKERS""))",Chrome 121.0.0.0,,,11-02-2024 15:06:32,11-02-2024 15:06:35,3.195s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/a_11""))",Chrome 121.0.0.0,,,11-02-2024 15:06:35,11-02-2024 15:06:36,0.576s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)""))",Chrome 121.0.0.0,,,11-02-2024 15:06:36,11-02-2024 15:06:39,3.209s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_NEXT""))",Chrome 121.0.0.0,,,11-02-2024 15:06:39,11-02-2024 15:06:44,4.614s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout 1/input__safepay_username""), username)",Chrome 121.0.0.0,,,11-02-2024 15:06:44,11-02-2024 15:06:45,1.172s,PASSED
+delay(3),Chrome 121.0.0.0,,,11-02-2024 15:06:45,11-02-2024 15:06:48,3.009s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout 1/input__safepay_password""), password)",Chrome 121.0.0.0,,,11-02-2024 15:06:48,11-02-2024 15:06:49,0.913s,PASSED
+delay(3),Chrome 121.0.0.0,,,11-02-2024 15:06:49,11-02-2024 15:06:52,3.016s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 1/button_PAY NOW""))",Chrome 121.0.0.0,,,11-02-2024 15:06:52,11-02-2024 15:06:52,0.336s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 15:06:52,11-02-2024 15:06:57,5.004s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 15:06:57,11-02-2024 15:06:57,0.197s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 15:06:59,11-02-2024 15:06:59,0.001s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/7 Checkout Popular item - CC Payment,Chrome 121.0.0.0,,,11-02-2024 15:06:59,11-02-2024 15:07:50,50.668s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 15:07:00,11-02-2024 15:07:00,0.682s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 15:07:00,11-02-2024 15:07:03,2.458s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 2/a_My account                        My orde_124641""))",Chrome 121.0.0.0,,,11-02-2024 15:07:03,11-02-2024 15:07:06,3.822s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout 2/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 15:07:06,11-02-2024 15:07:08,1.034s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur checkout 2/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 15:07:08,11-02-2024 15:07:09,1.183s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout 2/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 15:07:09,11-02-2024 15:07:09,0.454s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/fitur checkout 2/label_View Details""), 10)",Chrome 121.0.0.0,,,11-02-2024 15:07:09,11-02-2024 15:07:26,17.352s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/fitur checkout 2/label_View Details""), 10))",Chrome 121.0.0.0,,,11-02-2024 15:07:27,11-02-2024 15:07:48,21.523s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 15:07:50,11-02-2024 15:07:50,0.000s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/8 Chekout tanpa login (data driven),Chrome 121.0.0.0,,,11-02-2024 15:07:50,11-02-2024 15:08:21,30.749s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 15:07:50,11-02-2024 15:07:51,0.675s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 15:07:51,11-02-2024 15:07:53,2.505s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/div_MICE                        Shop Now""))",Chrome 121.0.0.0,,,11-02-2024 15:07:53,11-02-2024 15:07:58,4.185s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/img_SHOP NOW_29""))",Chrome 121.0.0.0,,,11-02-2024 15:07:58,11-02-2024 15:08:00,2.637s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:08:00,11-02-2024 15:08:03,2.996s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/a_MICE""))",Chrome 121.0.0.0,,,11-02-2024 15:08:03,11-02-2024 15:08:04,0.716s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/a_1""))",Chrome 121.0.0.0,,,11-02-2024 15:08:04,11-02-2024 15:08:04,0.555s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_CHECKOUT (9.99)""))",Chrome 121.0.0.0,,,11-02-2024 15:08:04,11-02-2024 15:08:05,0.811s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284""), username)",Chrome 121.0.0.0,,,11-02-2024 15:08:05,11-02-2024 15:08:07,1.911s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout login/input_Username_passwordInOrderPayment""), password)",Chrome 121.0.0.0,,,11-02-2024 15:08:07,11-02-2024 15:08:09,1.411s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_LOGIN""))",Chrome 121.0.0.0,,,11-02-2024 15:08:09,11-02-2024 15:08:09,0.563s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_NEXT""))",Chrome 121.0.0.0,,,11-02-2024 15:08:09,11-02-2024 15:08:13,3.881s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_PAY NOW""))",Chrome 121.0.0.0,,,11-02-2024 15:08:13,11-02-2024 15:08:14,0.557s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 15:08:14,11-02-2024 15:08:19,5.013s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 15:08:19,11-02-2024 15:08:19,0.188s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 15:08:21,11-02-2024 15:08:21,0.001s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/8 Chekout tanpa login (data driven),Chrome 121.0.0.0,,,11-02-2024 15:08:21,11-02-2024 15:08:55,34.543s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 15:08:21,11-02-2024 15:08:22,0.621s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 15:08:22,11-02-2024 15:08:24,2.627s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/div_MICE                        Shop Now""))",Chrome 121.0.0.0,,,11-02-2024 15:08:24,11-02-2024 15:08:28,4.173s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/img_SHOP NOW_29""))",Chrome 121.0.0.0,,,11-02-2024 15:08:28,11-02-2024 15:08:32,3.421s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:08:32,11-02-2024 15:08:39,7.280s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/a_MICE""))",Chrome 121.0.0.0,,,11-02-2024 15:08:39,11-02-2024 15:08:40,0.697s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/a_1""))",Chrome 121.0.0.0,,,11-02-2024 15:08:40,11-02-2024 15:08:40,0.570s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_CHECKOUT (9.99)""))",Chrome 121.0.0.0,,,11-02-2024 15:08:40,11-02-2024 15:08:41,0.767s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284""), username)",Chrome 121.0.0.0,,,11-02-2024 15:08:41,11-02-2024 15:08:42,1.237s,PASSED
+"setText(findTestObject(""Object Repository/fitur checkout login/input_Username_passwordInOrderPayment""), password)",Chrome 121.0.0.0,,,11-02-2024 15:08:42,11-02-2024 15:08:44,1.416s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_LOGIN""))",Chrome 121.0.0.0,,,11-02-2024 15:08:44,11-02-2024 15:08:44,0.557s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_NEXT""))",Chrome 121.0.0.0,,,11-02-2024 15:08:44,11-02-2024 15:08:48,3.326s,PASSED
+"click(findTestObject(""Object Repository/fitur checkout login/button_PAY NOW""))",Chrome 121.0.0.0,,,11-02-2024 15:08:48,11-02-2024 15:08:48,0.551s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 15:08:48,11-02-2024 15:08:53,5.010s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 15:08:53,11-02-2024 15:08:53,0.196s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 15:08:55,11-02-2024 15:08:55,0.000s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/12 Edit Data Quantity Checkout,Chrome 121.0.0.0,,,11-02-2024 15:11:43,11-02-2024 15:12:36,53.301s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 15:11:43,11-02-2024 15:11:44,0.830s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 15:11:44,11-02-2024 15:11:47,2.781s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/a_My account                        My orde_124641""))",Chrome 121.0.0.0,,,11-02-2024 15:11:47,11-02-2024 15:11:51,3.934s,PASSED
+"setText(findTestObject(""Object Repository/fiutr edit checkout/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 15:11:51,11-02-2024 15:11:52,0.888s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fiutr edit checkout/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 15:11:52,11-02-2024 15:11:53,1.192s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 15:11:53,11-02-2024 15:11:53,0.550s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/div_LAPTOPS                        Shop Now""))",Chrome 121.0.0.0,,,11-02-2024 15:11:53,11-02-2024 15:11:56,3.205s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/img_SHOP NOW_9""))",Chrome 121.0.0.0,,,11-02-2024 15:11:56,11-02-2024 15:12:00,3.561s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:12:00,11-02-2024 15:12:10,9.780s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/a_LAPTOPS""))",Chrome 121.0.0.0,,,11-02-2024 15:12:10,11-02-2024 15:12:12,1.936s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/img_SHOP NOW_10""))",Chrome 121.0.0.0,,,11-02-2024 15:12:12,11-02-2024 15:12:12,0.581s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:12:12,11-02-2024 15:12:13,0.529s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/a_LAPTOPS""))",Chrome 121.0.0.0,,,11-02-2024 15:12:13,11-02-2024 15:12:15,2.123s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/a_2""))",Chrome 121.0.0.0,,,11-02-2024 15:12:15,11-02-2024 15:12:16,0.551s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/a_EDIT""))",Chrome 121.0.0.0,,,11-02-2024 15:12:16,11-02-2024 15:12:17,1.934s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/div_Quantity_plus""))",Chrome 121.0.0.0,,,11-02-2024 15:12:17,11-02-2024 15:12:18,0.553s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:12:18,11-02-2024 15:12:18,0.409s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/a_EDIT_1""))",Chrome 121.0.0.0,,,11-02-2024 15:12:18,11-02-2024 15:12:21,2.868s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/div_Quantity_plus""))",Chrome 121.0.0.0,,,11-02-2024 15:12:21,11-02-2024 15:12:22,0.538s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:12:22,11-02-2024 15:12:22,0.317s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/button_CHECKOUT (3,123.96)""))",Chrome 121.0.0.0,,,11-02-2024 15:12:22,11-02-2024 15:12:25,2.869s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/button_NEXT""))",Chrome 121.0.0.0,,,11-02-2024 15:12:25,11-02-2024 15:12:29,3.496s,PASSED
+"click(findTestObject(""Object Repository/fiutr edit checkout/button_PAY NOW""))",Chrome 121.0.0.0,,,11-02-2024 15:12:29,11-02-2024 15:12:29,0.562s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 15:12:29,11-02-2024 15:12:34,5.012s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 15:12:34,11-02-2024 15:12:34,0.190s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 15:12:36,11-02-2024 15:12:36,0.000s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/11 Edit Data Personal Checkout (data driven),Chrome 121.0.0.0,,,11-02-2024 15:12:36,11-02-2024 15:13:10,33.708s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 15:12:36,11-02-2024 15:12:37,0.759s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 15:12:37,11-02-2024 15:12:40,2.452s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/a_My account                        My orde_124641""))",Chrome 121.0.0.0,,,11-02-2024 15:12:40,11-02-2024 15:12:44,3.890s,PASSED
+"setText(findTestObject(""Object Repository/fitur edit data address/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 15:12:44,11-02-2024 15:12:45,0.987s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur edit data address/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 15:12:45,11-02-2024 15:12:46,1.173s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 15:12:46,11-02-2024 15:12:46,0.543s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_SEE OFFER""))",Chrome 121.0.0.0,,,11-02-2024 15:12:46,11-02-2024 15:12:47,1.111s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:12:47,11-02-2024 15:12:51,3.548s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/a_6""))",Chrome 121.0.0.0,,,11-02-2024 15:12:51,11-02-2024 15:12:55,4.079s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_CHECKOUT (5,494.99)""))",Chrome 121.0.0.0,,,11-02-2024 15:12:55,11-02-2024 15:12:57,1.550s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/a_Edit shipping details""))",Chrome 121.0.0.0,,,11-02-2024 15:12:57,11-02-2024 15:13:00,3.150s,PASSED
+"setText(findTestObject(""Object Repository/fitur edit data address/input_- Use maximum 25 character_address""), address)",Chrome 121.0.0.0,,,11-02-2024 15:13:00,11-02-2024 15:13:01,1.197s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/label_State  Province  Region""))",Chrome 121.0.0.0,,,11-02-2024 15:13:01,11-02-2024 15:13:01,0.567s,PASSED
+"setText(findTestObject(""Object Repository/fitur edit data address/input_- Use maximum 10 character_state__pro_f620c3""), region)",Chrome 121.0.0.0,,,11-02-2024 15:13:01,11-02-2024 15:13:03,1.106s,PASSED
+delay(3),Chrome 121.0.0.0,,,11-02-2024 15:13:03,11-02-2024 15:13:06,3.005s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_NEXT""))",Chrome 121.0.0.0,,,11-02-2024 15:13:06,11-02-2024 15:13:06,0.340s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_PAY NOW""))",Chrome 121.0.0.0,,,11-02-2024 15:13:06,11-02-2024 15:13:08,1.976s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 15:13:08,11-02-2024 15:13:08,0.188s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 15:13:10,11-02-2024 15:13:10,0.000s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/11 Edit Data Personal Checkout (data driven),Chrome 121.0.0.0,,,11-02-2024 15:13:10,11-02-2024 15:13:43,32.877s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 15:13:10,11-02-2024 15:13:11,0.661s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 15:13:11,11-02-2024 15:13:13,2.448s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/a_My account                        My orde_124641""))",Chrome 121.0.0.0,,,11-02-2024 15:13:13,11-02-2024 15:13:17,3.907s,PASSED
+"setText(findTestObject(""Object Repository/fitur edit data address/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 15:13:17,11-02-2024 15:13:18,1.006s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur edit data address/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 15:13:18,11-02-2024 15:13:19,1.164s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 15:13:19,11-02-2024 15:13:20,0.566s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_SEE OFFER""))",Chrome 121.0.0.0,,,11-02-2024 15:13:20,11-02-2024 15:13:22,2.219s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 15:13:22,11-02-2024 15:13:26,4.193s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/a_6""))",Chrome 121.0.0.0,,,11-02-2024 15:13:26,11-02-2024 15:13:28,1.762s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_CHECKOUT (5,494.99)""))",Chrome 121.0.0.0,,,11-02-2024 15:13:28,11-02-2024 15:13:30,1.549s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/a_Edit shipping details""))",Chrome 121.0.0.0,,,11-02-2024 15:13:30,11-02-2024 15:13:33,3.006s,PASSED
+"setText(findTestObject(""Object Repository/fitur edit data address/input_- Use maximum 25 character_address""), address)",Chrome 121.0.0.0,,,11-02-2024 15:13:33,11-02-2024 15:13:34,1.186s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/label_State  Province  Region""))",Chrome 121.0.0.0,,,11-02-2024 15:13:34,11-02-2024 15:13:34,0.553s,PASSED
+"setText(findTestObject(""Object Repository/fitur edit data address/input_- Use maximum 10 character_state__pro_f620c3""), region)",Chrome 121.0.0.0,,,11-02-2024 15:13:34,11-02-2024 15:13:36,1.143s,PASSED
+delay(3),Chrome 121.0.0.0,,,11-02-2024 15:13:36,11-02-2024 15:13:39,3.011s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_NEXT""))",Chrome 121.0.0.0,,,11-02-2024 15:13:39,11-02-2024 15:13:39,0.307s,PASSED
+"click(findTestObject(""Object Repository/fitur edit data address/button_PAY NOW""))",Chrome 121.0.0.0,,,11-02-2024 15:13:39,11-02-2024 15:13:41,1.972s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 15:13:41,11-02-2024 15:13:41,0.190s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 15:13:43,11-02-2024 15:13:43,0.001s,PASSED

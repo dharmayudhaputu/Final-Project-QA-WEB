@@ -1,0 +1,72 @@
+1
+00:00:00,039 --> 00:00:00,716
+1. openBrowser("")
+
+2
+00:00:00,716 --> 00:00:03,236
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,236 --> 00:00:07,258
+9. click(findTestObject("Object Repository/fitur checkout 2/a_My account                        My orde_124641"))
+
+4
+00:00:07,259 --> 00:00:08,153
+13. setText(findTestObject("Object Repository/fitur checkout 2/input_OR_username"), "yudhatesting")
+
+5
+00:00:08,153 --> 00:00:09,310
+17. setEncryptedText(findTestObject("Object Repository/fitur checkout 2/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+6
+00:00:09,310 --> 00:00:09,880
+21. click(findTestObject("Object Repository/fitur checkout 2/button_SIGN IN"))
+
+7
+00:00:09,881 --> 00:00:10,957
+25. verifyElementPresent(findTestObject("Object Repository/fitur checkout 2/label_View Details"), 10)
+
+8
+00:00:10,958 --> 00:00:11,240
+29. if (verifyElementPresent(findTestObject("Object Repository/fitur checkout 2/label_View Details"), 10))
+
+9
+00:00:11,241 --> 00:00:11,581
+1. click(findTestObject("Object Repository/fitur checkout 2/label_View Details"))
+
+10
+00:00:11,582 --> 00:00:14,789
+5. click(findTestObject("Object Repository/fitur checkout 2/button_ADD TO CART"))
+
+11
+00:00:14,790 --> 00:00:18,100
+9. click(findTestObject("Object Repository/fitur checkout 2/a_LAPTOPS"))
+
+12
+00:00:18,101 --> 00:00:19,633
+13. click(findTestObject("Object Repository/fitur checkout 2/a_3"))
+
+13
+00:00:19,634 --> 00:00:27,761
+17. click(findTestObject("Object Repository/fitur checkout 2/button_CHECKOUT (3,785.97)"))
+
+14
+00:00:27,762 --> 00:00:30,731
+21. click(findTestObject("Object Repository/fitur checkout 2/button_NEXT"))
+
+15
+00:00:30,732 --> 00:00:31,296
+25. click(findTestObject("Object Repository/fitur checkout 2/img"))
+
+16
+00:00:31,296 --> 00:00:31,853
+29. click(findTestObject("Object Repository/fitur checkout 2/button_PAY NOW"))
+
+17
+00:00:31,853 --> 00:00:36,864
+33. delay(5)
+
+18
+00:00:36,864 --> 00:00:37,088
+37. closeBrowser()
+

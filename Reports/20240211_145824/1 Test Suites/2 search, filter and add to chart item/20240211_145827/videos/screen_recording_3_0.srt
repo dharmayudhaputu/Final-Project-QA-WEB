@@ -1,0 +1,40 @@
+1
+00:00:00,002 --> 00:00:00,674
+1. openBrowser("")
+
+2
+00:00:00,676 --> 00:00:03,161
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,162 --> 00:00:07,255
+9. click(findTestObject("Object Repository/Fitur Filter 2/div_SPEAKERS                        Shop Now"))
+
+4
+00:00:07,256 --> 00:00:07,258
+13. filterType = filtername
+
+5
+00:00:07,259 --> 00:00:07,262
+17. switch (filterType)
+
+6
+00:00:07,263 --> 00:00:09,807
+2. click(findTestObject("Object Repository/Fitur Filter 2/h4_COLOR"))
+
+7
+00:00:09,807 --> 00:00:10,346
+6. click(findTestObject("Object Repository/Fitur Filter 2/a_COLOR_productsColors414141"))
+
+8
+00:00:10,347 --> 00:00:10,348
+10. break
+
+9
+00:00:10,349 --> 00:00:15,366
+21. delay(5)
+
+10
+00:00:15,366 --> 00:00:15,574
+25. closeBrowser()
+

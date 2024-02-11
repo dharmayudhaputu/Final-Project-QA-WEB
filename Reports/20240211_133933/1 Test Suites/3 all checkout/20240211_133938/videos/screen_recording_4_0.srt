@@ -1,0 +1,60 @@
+1
+00:00:00,047 --> 00:00:00,701
+1. openBrowser("")
+
+2
+00:00:00,701 --> 00:00:03,458
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,459 --> 00:00:07,553
+9. click(findTestObject("Object Repository/fitur checkout login/div_MICE                        Shop Now"))
+
+4
+00:00:07,554 --> 00:00:09,984
+13. click(findTestObject("Object Repository/fitur checkout login/img_SHOP NOW_29"))
+
+5
+00:00:09,985 --> 00:00:12,771
+17. click(findTestObject("Object Repository/fitur checkout login/button_ADD TO CART"))
+
+6
+00:00:12,773 --> 00:00:13,479
+21. click(findTestObject("Object Repository/fitur checkout login/a_MICE"))
+
+7
+00:00:13,480 --> 00:00:13,946
+25. click(findTestObject("Object Repository/fitur checkout login/a_1"))
+
+8
+00:00:13,947 --> 00:00:14,746
+29. click(findTestObject("Object Repository/fitur checkout login/button_CHECKOUT (9.99)"))
+
+9
+00:00:14,747 --> 00:00:17,976
+33. setText(findTestObject("Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284"), username)
+
+10
+00:00:17,977 --> 00:00:19,419
+37. setText(findTestObject("Object Repository/fitur checkout login/input_Username_passwordInOrderPayment"), password)
+
+11
+00:00:19,419 --> 00:00:19,994
+41. click(findTestObject("Object Repository/fitur checkout login/button_LOGIN"))
+
+12
+00:00:19,995 --> 00:00:23,155
+45. click(findTestObject("Object Repository/fitur checkout login/button_NEXT"))
+
+13
+00:00:23,156 --> 00:00:23,711
+49. click(findTestObject("Object Repository/fitur checkout login/button_PAY NOW"))
+
+14
+00:00:23,712 --> 00:00:28,719
+53. delay(5)
+
+15
+00:00:28,719 --> 00:00:28,927
+57. closeBrowser()
+

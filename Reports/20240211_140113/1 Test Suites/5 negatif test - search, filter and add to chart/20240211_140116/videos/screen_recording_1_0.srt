@@ -1,0 +1,60 @@
+1
+00:00:00,254 --> 00:00:02,215
+1. openBrowser("")
+
+2
+00:00:02,222 --> 00:00:04,758
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:04,759 --> 00:00:08,644
+9. click(findTestObject("Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:08,645 --> 00:00:09,576
+13. setText(findTestObject("Object Repository/Invalid filter/input_OR_username"), "yudhatesting")
+
+5
+00:00:09,576 --> 00:00:10,783
+17. setEncryptedText(findTestObject("Object Repository/Invalid filter/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+6
+00:00:10,784 --> 00:00:11,354
+21. click(findTestObject("Object Repository/Invalid filter/button_SIGN IN"))
+
+7
+00:00:11,362 --> 00:00:16,656
+25. click(findTestObject("Object Repository/Invalid filter/div_SPEAKERS                        Shop Now"))
+
+8
+00:00:16,657 --> 00:00:18,871
+29. click(findTestObject("Object Repository/Invalid filter/h4_COLOR"))
+
+9
+00:00:18,872 --> 00:00:19,320
+33. click(findTestObject("Object Repository/Invalid filter/a_COLOR_productsColors55CDD5"))
+
+10
+00:00:19,320 --> 00:00:22,355
+37. delay(3)
+
+11
+00:00:22,355 --> 00:00:22,691
+41. click(findTestObject("Object Repository/Invalid filter/h4_WEIGHT"))
+
+12
+00:00:22,692 --> 00:00:25,704
+45. delay(3)
+
+13
+00:00:25,704 --> 00:00:26,062
+49. click(findTestObject("Object Repository/Invalid filter/input_WEIGHT_weight_1"))
+
+14
+00:00:26,063 --> 00:00:31,071
+53. delay(5)
+
+15
+00:00:31,071 --> 00:00:31,281
+57. closeBrowser()
+

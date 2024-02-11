@@ -1,0 +1,40 @@
+1
+00:00:00,001 --> 00:00:00,671
+1. openBrowser("")
+
+2
+00:00:00,672 --> 00:00:03,163
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,164 --> 00:00:07,052
+9. click(findTestObject("Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:07,053 --> 00:00:07,957
+13. setText(findTestObject("Object Repository/fitur gagal search/input_OR_username"), "yudhatesting")
+
+5
+00:00:07,958 --> 00:00:09,133
+17. setEncryptedText(findTestObject("Object Repository/fitur gagal search/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+6
+00:00:09,134 --> 00:00:09,688
+21. click(findTestObject("Object Repository/fitur gagal search/button_SIGN IN"))
+
+7
+00:00:09,696 --> 00:00:19,838
+25. setText(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), keyword)
+
+8
+00:00:19,838 --> 00:00:30,051
+29. sendKeys(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), Keys.chord(ENTER))
+
+9
+00:00:30,051 --> 00:00:35,055
+33. delay(5)
+
+10
+00:00:35,056 --> 00:00:35,245
+37. closeBrowser()
+

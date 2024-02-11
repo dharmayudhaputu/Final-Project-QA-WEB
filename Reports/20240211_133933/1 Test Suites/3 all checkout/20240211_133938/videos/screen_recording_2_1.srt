@@ -1,0 +1,96 @@
+1
+00:00:00,001 --> 00:00:00,879
+1. openBrowser("")
+
+2
+00:00:00,880 --> 00:00:03,453
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,454 --> 00:00:07,335
+9. click(findTestObject("Object Repository/fitur checkout 1/a_My account                        My orde_124641"))
+
+4
+00:00:07,336 --> 00:00:08,353
+13. setText(findTestObject("Object Repository/fitur checkout 1/input_OR_username"), "yudhatesting")
+
+5
+00:00:08,353 --> 00:00:09,454
+17. click(findTestObject("Object Repository/fitur checkout 1/label_Password"))
+
+6
+00:00:09,454 --> 00:00:10,039
+21. setEncryptedText(findTestObject("Object Repository/fitur checkout 1/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+7
+00:00:10,047 --> 00:00:10,589
+25. click(findTestObject("Object Repository/fitur checkout 1/button_SIGN IN"))
+
+8
+00:00:10,590 --> 00:00:11,772
+29. click(findTestObject("Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now"))
+
+9
+00:00:11,772 --> 00:00:14,315
+33. click(findTestObject("Object Repository/fitur checkout 1/img_SHOP NOW_20"))
+
+10
+00:00:14,316 --> 00:00:26,525
+37. click(findTestObject("Object Repository/fitur checkout 1/button_ADD TO CART"))
+
+11
+00:00:26,526 --> 00:00:28,418
+41. click(findTestObject("Object Repository/fitur checkout 1/a_SPEAKERS"))
+
+12
+00:00:28,418 --> 00:00:29,009
+45. click(findTestObject("Object Repository/fitur checkout 1/img_SHOP NOW_25"))
+
+13
+00:00:29,010 --> 00:00:29,456
+49. click(findTestObject("Object Repository/fitur checkout 1/button_ADD TO CART"))
+
+14
+00:00:29,456 --> 00:00:31,672
+53. click(findTestObject("Object Repository/fitur checkout 1/a_SPEAKERS"))
+
+15
+00:00:31,673 --> 00:00:32,243
+57. click(findTestObject("Object Repository/fitur checkout 1/a_11"))
+
+16
+00:00:32,244 --> 00:00:34,119
+61. click(findTestObject("Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)"))
+
+17
+00:00:34,119 --> 00:00:37,662
+65. click(findTestObject("Object Repository/fitur checkout 1/button_NEXT"))
+
+18
+00:00:37,662 --> 00:00:38,818
+69. setText(findTestObject("Object Repository/fitur checkout 1/input__safepay_username"), username)
+
+19
+00:00:38,819 --> 00:00:41,827
+73. delay(3)
+
+20
+00:00:41,828 --> 00:00:42,743
+77. setText(findTestObject("Object Repository/fitur checkout 1/input__safepay_password"), password)
+
+21
+00:00:42,744 --> 00:00:45,747
+81. delay(3)
+
+22
+00:00:45,748 --> 00:00:46,084
+85. click(findTestObject("Object Repository/fitur checkout 1/button_PAY NOW"))
+
+23
+00:00:46,085 --> 00:00:51,091
+89. delay(5)
+
+24
+00:00:51,092 --> 00:00:51,296
+93. closeBrowser()
+

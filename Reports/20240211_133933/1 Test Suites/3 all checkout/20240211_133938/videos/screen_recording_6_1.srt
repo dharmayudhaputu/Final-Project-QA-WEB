@@ -1,0 +1,100 @@
+1
+00:00:00,001 --> 00:00:00,849
+1. openBrowser("")
+
+2
+00:00:00,850 --> 00:00:03,340
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,340 --> 00:00:07,160
+9. click(findTestObject("Object Repository/fiutr edit checkout/a_My account                        My orde_124641"))
+
+4
+00:00:07,161 --> 00:00:08,171
+13. setText(findTestObject("Object Repository/fiutr edit checkout/input_OR_username"), "yudhatesting")
+
+5
+00:00:08,171 --> 00:00:09,327
+17. setEncryptedText(findTestObject("Object Repository/fiutr edit checkout/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+6
+00:00:09,328 --> 00:00:09,894
+21. click(findTestObject("Object Repository/fiutr edit checkout/button_SIGN IN"))
+
+7
+00:00:09,895 --> 00:00:11,016
+25. click(findTestObject("Object Repository/fiutr edit checkout/div_LAPTOPS                        Shop Now"))
+
+8
+00:00:11,017 --> 00:00:13,817
+29. click(findTestObject("Object Repository/fiutr edit checkout/img_SHOP NOW_9"))
+
+9
+00:00:13,818 --> 00:00:24,878
+33. click(findTestObject("Object Repository/fiutr edit checkout/button_ADD TO CART"))
+
+10
+00:00:24,879 --> 00:00:26,675
+37. click(findTestObject("Object Repository/fiutr edit checkout/a_LAPTOPS"))
+
+11
+00:00:26,676 --> 00:00:27,246
+41. click(findTestObject("Object Repository/fiutr edit checkout/img_SHOP NOW_10"))
+
+12
+00:00:27,246 --> 00:00:27,793
+45. click(findTestObject("Object Repository/fiutr edit checkout/button_ADD TO CART"))
+
+13
+00:00:27,794 --> 00:00:29,905
+49. click(findTestObject("Object Repository/fiutr edit checkout/a_LAPTOPS"))
+
+14
+00:00:29,905 --> 00:00:30,401
+53. click(findTestObject("Object Repository/fiutr edit checkout/a_2"))
+
+15
+00:00:30,402 --> 00:00:32,310
+57. click(findTestObject("Object Repository/fiutr edit checkout/a_EDIT"))
+
+16
+00:00:32,312 --> 00:00:32,854
+61. click(findTestObject("Object Repository/fiutr edit checkout/div_Quantity_plus"))
+
+17
+00:00:32,855 --> 00:00:33,178
+65. click(findTestObject("Object Repository/fiutr edit checkout/button_ADD TO CART"))
+
+18
+00:00:33,179 --> 00:00:36,040
+69. click(findTestObject("Object Repository/fiutr edit checkout/a_EDIT_1"))
+
+19
+00:00:36,041 --> 00:00:36,578
+73. click(findTestObject("Object Repository/fiutr edit checkout/div_Quantity_plus"))
+
+20
+00:00:36,578 --> 00:00:36,889
+77. click(findTestObject("Object Repository/fiutr edit checkout/button_ADD TO CART"))
+
+21
+00:00:36,890 --> 00:00:39,748
+81. click(findTestObject("Object Repository/fiutr edit checkout/button_CHECKOUT (3,123.96)"))
+
+22
+00:00:39,749 --> 00:00:43,896
+85. click(findTestObject("Object Repository/fiutr edit checkout/button_NEXT"))
+
+23
+00:00:43,897 --> 00:00:44,450
+89. click(findTestObject("Object Repository/fiutr edit checkout/button_PAY NOW"))
+
+24
+00:00:44,450 --> 00:00:49,462
+93. delay(5)
+
+25
+00:00:49,462 --> 00:00:49,649
+97. closeBrowser()
+

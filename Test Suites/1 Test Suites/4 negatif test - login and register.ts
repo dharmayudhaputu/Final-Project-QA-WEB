@@ -23,18 +23,34 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/2 negative test case/14 Gagal login (data driven)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ca3680b9-f202-47d2-874f-b1e9dd929ee6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/8 data gagal login</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ca3680b9-f202-47d2-874f-b1e9dd929ee6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
          <variableId>6dfcd068-e3a6-40b4-a1fe-b12097b05171</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>ca3680b9-f202-47d2-874f-b1e9dd929ee6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>f29057d4-b0da-439f-8b98-8de283888b1a</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>540fc3e5-8cd7-45ee-a5fe-d9b6aefdcb4e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/2 negative test case/22 Login or Register Facebook</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

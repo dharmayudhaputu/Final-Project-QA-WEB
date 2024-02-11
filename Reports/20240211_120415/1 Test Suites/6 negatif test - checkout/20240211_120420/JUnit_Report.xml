@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="6 negatif test - checkout" time="153.062" tests="4" failures="0" errors="0">
+   <testsuite name="6 negatif test - checkout" tests="4" failures="0" errors="0" time="153.062" skipped="0" timestamp="11-02-2024T12:09:12" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suites/6 negatif test - checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_120415\\1 Test Suites\\6 negatif test - checkout\\20240211_120420"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_120415\\1 Test Suites\\6 negatif test - checkout\\20240211_120420\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="4b922d8993e464bdb8b66f5fff198e5f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/2 negative test case/17 gagal checkout (data driven)" time="24.24" classname="Test Cases/2 negative test case/17 gagal checkout (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:09:12 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/17 gagal checkout (data driven): Test Cases/2 negative test case/17 gagal checkout (data driven)
+
+11-02-2024T12:09:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:09:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:09:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:09:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:09:14 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:09:16 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_MICE                        Shop Now")): Object: 'Object Repository/Fitur gagal checkout/div_MICE                        Shop Now' is clicked on
+
+11-02-2024T12:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_MICE                        Shop Now' is clicked on
+
+11-02-2024T12:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/img_SHOP NOW_29")): Object: 'Object Repository/Fitur gagal checkout/img_SHOP NOW_29' is clicked on
+
+11-02-2024T12:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/img_SHOP NOW_29' is clicked on
+
+11-02-2024T12:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus")): Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T12:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T12:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus")): Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T12:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T12:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_ADD TO CART")): Object: 'Object Repository/Fitur gagal checkout/button_ADD TO CART' is clicked on
+
+11-02-2024T12:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_ADD TO CART' is clicked on
+
+11-02-2024T12:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/a_3")): Object: 'Object Repository/Fitur gagal checkout/a_3' is clicked on
+
+11-02-2024T12:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/a_3' is clicked on
+
+11-02-2024T12:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)")): Object: 'Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)' is clicked on
+
+11-02-2024T12:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)' is clicked on
+
+11-02-2024T12:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284"), username): Text 'yudhatesting' is set on object 'Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'
+
+11-02-2024T12:09:29 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'
+
+11-02-2024T12:09:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment"), password): Text '12345678' is set on object 'Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'
+
+11-02-2024T12:09:30 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'
+
+11-02-2024T12:09:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_LOGIN")): Object: 'Object Repository/Fitur gagal checkout/button_LOGIN' is clicked on
+
+11-02-2024T12:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_LOGIN' is clicked on
+
+11-02-2024T12:09:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:09:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:09:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:09:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/17 gagal checkout (data driven)" time="23.644" classname="Test Cases/2 negative test case/17 gagal checkout (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:09:36 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/17 gagal checkout (data driven): Test Cases/2 negative test case/17 gagal checkout (data driven)
+
+11-02-2024T12:09:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:09:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:09:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:09:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:09:37 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:09:39 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:09:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_MICE                        Shop Now")): Object: 'Object Repository/Fitur gagal checkout/div_MICE                        Shop Now' is clicked on
+
+11-02-2024T12:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_MICE                        Shop Now' is clicked on
+
+11-02-2024T12:09:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/img_SHOP NOW_29")): Object: 'Object Repository/Fitur gagal checkout/img_SHOP NOW_29' is clicked on
+
+11-02-2024T12:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/img_SHOP NOW_29' is clicked on
+
+11-02-2024T12:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus")): Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T12:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T12:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus")): Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T12:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T12:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_ADD TO CART")): Object: 'Object Repository/Fitur gagal checkout/button_ADD TO CART' is clicked on
+
+11-02-2024T12:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_ADD TO CART' is clicked on
+
+11-02-2024T12:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/a_3")): Object: 'Object Repository/Fitur gagal checkout/a_3' is clicked on
+
+11-02-2024T12:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/a_3' is clicked on
+
+11-02-2024T12:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)")): Object: 'Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)' is clicked on
+
+11-02-2024T12:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)' is clicked on
+
+11-02-2024T12:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284"), username): Text 'yudhatesting2' is set on object 'Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'
+
+11-02-2024T12:09:53 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'
+
+11-02-2024T12:09:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment"), password): Text '12345678' is set on object 'Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'
+
+11-02-2024T12:09:54 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'
+
+11-02-2024T12:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_LOGIN")): Object: 'Object Repository/Fitur gagal checkout/button_LOGIN' is clicked on
+
+11-02-2024T12:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_LOGIN' is clicked on
+
+11-02-2024T12:09:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:10:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:10:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:10:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/20 invalid CC payment method" time="63.709" classname="Test Cases/2 negative test case/20 invalid CC payment method" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:10:00 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/20 invalid CC payment method: Test Cases/2 negative test case/20 invalid CC payment method
+
+11-02-2024T12:10:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:10:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:10:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:10:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:10:01 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:10:04 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath")): Object: 'Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath' is clicked on
+
+11-02-2024T12:10:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //path[@id = 'menuUserSVGPath']'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-02-2024T12:10:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath'. Try using Self-healing.
+
+11-02-2024T12:10:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath' was broken. Propose an alternative one: '//*[@id = 'menuUserSVGPath']'.
+
+11-02-2024T12:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath' is clicked on
+
+11-02-2024T12:10:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid CC Payment Method/input_OR_username"), "yudhatesting2"): Text 'yudhatesting2' is set on object 'Object Repository/invalid CC Payment Method/input_OR_username'
+
+11-02-2024T12:10:36 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/invalid CC Payment Method/input_OR_username'
+
+11-02-2024T12:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid CC Payment Method/input_Username_password"), "Dharmayudha2"): Text 'Dharmayudha2' is set on object 'Object Repository/invalid CC Payment Method/input_Username_password'
+
+11-02-2024T12:10:38 - [MESSAGE][PASSED] - Text 'Dharmayudha2' is set on object 'Object Repository/invalid CC Payment Method/input_Username_password'
+
+11-02-2024T12:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/button_SIGN IN")): Object: 'Object Repository/invalid CC Payment Method/button_SIGN IN' is clicked on
+
+11-02-2024T12:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/button_SIGN IN' is clicked on
+
+11-02-2024T12:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now")): Object: 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now' is clicked on
+
+11-02-2024T12:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now' is clicked on
+
+11-02-2024T12:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/img_SHOP NOW_16")): Object: 'Object Repository/invalid CC Payment Method/img_SHOP NOW_16' is clicked on
+
+11-02-2024T12:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/img_SHOP NOW_16' is clicked on
+
+11-02-2024T12:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/button_ADD TO CART")): Object: 'Object Repository/invalid CC Payment Method/button_ADD TO CART' is clicked on
+
+11-02-2024T12:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/button_ADD TO CART' is clicked on
+
+11-02-2024T12:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/a_2")): Object: 'Object Repository/invalid CC Payment Method/a_2' is clicked on
+
+11-02-2024T12:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/a_2' is clicked on
+
+11-02-2024T12:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/button_CHECKOUT (1,278.99)")): Object: 'Object Repository/invalid CC Payment Method/button_CHECKOUT (1,278.99)' is clicked on
+
+11-02-2024T12:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/button_CHECKOUT (1,278.99)' is clicked on
+
+11-02-2024T12:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/button_NEXT")): Object: 'Object Repository/invalid CC Payment Method/button_NEXT' is clicked on
+
+11-02-2024T12:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/button_NEXT' is clicked on
+
+11-02-2024T12:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/img")): Object: 'Object Repository/invalid CC Payment Method/img' is clicked on
+
+11-02-2024T12:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/img' is clicked on
+
+11-02-2024T12:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid CC Payment Method/input__card_number"), "1234 5678 9002"): Text '1234 5678 9002' is set on object 'Object Repository/invalid CC Payment Method/input__card_number'
+
+11-02-2024T12:10:53 - [MESSAGE][PASSED] - Text '1234 5678 9002' is set on object 'Object Repository/invalid CC Payment Method/input__card_number'
+
+11-02-2024T12:10:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/label_Cardholder name")): Object: 'Object Repository/invalid CC Payment Method/label_Cardholder name' is clicked on
+
+11-02-2024T12:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/label_Cardholder name' is clicked on
+
+11-02-2024T12:10:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid CC Payment Method/input__cardholder_name"), "dharmayudhaputu"): Text 'dharmayudhaputu' is set on object 'Object Repository/invalid CC Payment Method/input__cardholder_name'
+
+11-02-2024T12:10:54 - [MESSAGE][PASSED] - Text 'dharmayudhaputu' is set on object 'Object Repository/invalid CC Payment Method/input__cardholder_name'
+
+11-02-2024T12:10:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/label_CVV number")): Object: 'Object Repository/invalid CC Payment Method/label_CVV number' is clicked on
+
+11-02-2024T12:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/label_CVV number' is clicked on
+
+11-02-2024T12:10:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid CC Payment Method/input__cvv_number"), "2"): Text '2' is set on object 'Object Repository/invalid CC Payment Method/input__cvv_number'
+
+11-02-2024T12:10:56 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/invalid CC Payment Method/input__cvv_number'
+
+11-02-2024T12:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/div_1. SHIPPING DETAILS         2. PAYMENT _93ea38")): Object: 'Object Repository/invalid CC Payment Method/div_1. SHIPPING DETAILS         2. PAYMENT _93ea38' is clicked on
+
+11-02-2024T12:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/div_1. SHIPPING DETAILS         2. PAYMENT _93ea38' is clicked on
+
+11-02-2024T12:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid CC Payment Method/input__card_number"), "1234 5678 900"): Text '1234 5678 900' is set on object 'Object Repository/invalid CC Payment Method/input__card_number'
+
+11-02-2024T12:10:58 - [MESSAGE][PASSED] - Text '1234 5678 900' is set on object 'Object Repository/invalid CC Payment Method/input__card_number'
+
+11-02-2024T12:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/div_1. SHIPPING DETAILS         2. PAYMENT _93ea38_1")): Object: 'Object Repository/invalid CC Payment Method/div_1. SHIPPING DETAILS         2. PAYMENT _93ea38_1' is clicked on
+
+11-02-2024T12:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/div_1. SHIPPING DETAILS         2. PAYMENT _93ea38_1' is clicked on
+
+11-02-2024T12:10:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:11:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:11:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:11:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/21 invalid safepay payment method" time="41.256" classname="Test Cases/2 negative test case/21 invalid safepay payment method" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:11:04 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/21 invalid safepay payment method: Test Cases/2 negative test case/21 invalid safepay payment method
+
+11-02-2024T12:11:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:11:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:11:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:11:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:11:04 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:11:07 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/fitur gagal safepay payment/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:11:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal safepay payment/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur gagal safepay payment/input_OR_username'
+
+11-02-2024T12:11:12 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur gagal safepay payment/input_OR_username'
+
+11-02-2024T12:11:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal safepay payment/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur gagal safepay payment/input_Username_password'
+
+11-02-2024T12:11:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal safepay payment/input_Username_password'
+
+11-02-2024T12:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/button_SIGN IN")): Object: 'Object Repository/fitur gagal safepay payment/button_SIGN IN' is clicked on
+
+11-02-2024T12:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/button_SIGN IN' is clicked on
+
+11-02-2024T12:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/div_TABLETS                        Shop Now")): Object: 'Object Repository/fitur gagal safepay payment/div_TABLETS                        Shop Now' is clicked on
+
+11-02-2024T12:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/div_TABLETS                        Shop Now' is clicked on
+
+11-02-2024T12:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/img_SHOP NOW_16")): Object: 'Object Repository/fitur gagal safepay payment/img_SHOP NOW_16' is clicked on
+
+11-02-2024T12:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/img_SHOP NOW_16' is clicked on
+
+11-02-2024T12:11:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/button_ADD TO CART")): Object: 'Object Repository/fitur gagal safepay payment/button_ADD TO CART' is clicked on
+
+11-02-2024T12:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/button_ADD TO CART' is clicked on
+
+11-02-2024T12:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/a_4")): Object: 'Object Repository/fitur gagal safepay payment/a_4' is clicked on
+
+11-02-2024T12:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/a_4' is clicked on
+
+11-02-2024T12:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/button_CHECKOUT (3,296.99)")): Object: 'Object Repository/fitur gagal safepay payment/button_CHECKOUT (3,296.99)' is clicked on
+
+11-02-2024T12:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/button_CHECKOUT (3,296.99)' is clicked on
+
+11-02-2024T12:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/button_NEXT")): Object: 'Object Repository/fitur gagal safepay payment/button_NEXT' is clicked on
+
+11-02-2024T12:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/button_NEXT' is clicked on
+
+11-02-2024T12:11:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal safepay payment/input__safepay_password"), "aj9YhGxH1gRaOs7gChVLIg=="): Text ****** has been set on object 'Object Repository/fitur gagal safepay payment/input__safepay_password'
+
+11-02-2024T12:11:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal safepay payment/input__safepay_password'
+
+11-02-2024T12:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/sec-form_SafePay usernameSafePay username- _b44954")): Object: 'Object Repository/fitur gagal safepay payment/sec-form_SafePay usernameSafePay username- _b44954' is clicked on
+
+11-02-2024T12:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/sec-form_SafePay usernameSafePay username- _b44954' is clicked on
+
+11-02-2024T12:11:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:11:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:11:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:11:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2024T12:09:12 - [TEST_SUITE][PASSED] - 6 negatif test - checkout: Test Cases/2 negative test case/21 invalid safepay payment method]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

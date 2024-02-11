@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+4 negatif test - login and register,Chrome 121.0.0.0,,,11-02-2024 14:33:55,11-02-2024 14:35:19,1m - 24.058s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/13 create account dengan username sama,Chrome 121.0.0.0,,,11-02-2024 14:33:55,11-02-2024 14:34:33,37.984s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 14:33:55,11-02-2024 14:33:57,1.971s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 14:33:57,11-02-2024 14:34:00,2.670s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,11-02-2024 14:34:00,11-02-2024 14:34:06,5.793s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,11-02-2024 14:34:06,11-02-2024 14:34:06,0.653s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__usernameRegisterPage""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 14:34:06,11-02-2024 14:34:08,1.477s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Email""))",Chrome 121.0.0.0,,,11-02-2024 14:34:08,11-02-2024 14:34:08,0.482s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__emailRegisterPage""), ""yudhatesting@gmail.com"")",Chrome 121.0.0.0,,,11-02-2024 14:34:08,11-02-2024 14:34:10,1.248s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__passwordRegisterPage""), ""Dharmayudha1"")",Chrome 121.0.0.0,,,11-02-2024 14:34:10,11-02-2024 14:34:11,1.160s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Confirm password""))",Chrome 121.0.0.0,,,11-02-2024 14:34:11,11-02-2024 14:34:11,0.562s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__confirm_passwordRegisterPage""), ""Dharmayudha1"")",Chrome 121.0.0.0,,,11-02-2024 14:34:11,11-02-2024 14:34:13,1.159s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage""), ""Dharma"")",Chrome 121.0.0.0,,,11-02-2024 14:34:13,11-02-2024 14:34:14,1.159s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Last Name""))",Chrome 121.0.0.0,,,11-02-2024 14:34:14,11-02-2024 14:34:14,0.498s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033""), ""Yudha"")",Chrome 121.0.0.0,,,11-02-2024 14:34:14,11-02-2024 14:34:15,1.112s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a""), ""081353081122"")",Chrome 121.0.0.0,,,11-02-2024 14:34:15,11-02-2024 14:34:16,1.172s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a""), ""object:153"", true)",Chrome 121.0.0.0,,,11-02-2024 14:34:16,11-02-2024 14:34:20,3.455s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_Country_cityRegisterPage""), ""Jakarta"")",Chrome 121.0.0.0,,,11-02-2024 14:34:20,11-02-2024 14:34:21,0.650s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3""), ""Jalan Medan Merdeka No 5 Jakarta"")",Chrome 121.0.0.0,,,11-02-2024 14:34:21,11-02-2024 14:34:22,1.199s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_State  Province  Region""))",Chrome 121.0.0.0,,,11-02-2024 14:34:22,11-02-2024 14:34:22,0.473s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54""), ""Jakarta"")",Chrome 121.0.0.0,,,11-02-2024 14:34:22,11-02-2024 14:34:23,1.191s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f""), ""80582"")",Chrome 121.0.0.0,,,11-02-2024 14:34:23,11-02-2024 14:34:25,1.126s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,11-02-2024 14:34:25,11-02-2024 14:34:25,0.496s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/button_REGISTER""))",Chrome 121.0.0.0,,,11-02-2024 14:34:25,11-02-2024 14:34:26,0.585s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 14:34:26,11-02-2024 14:34:31,5.044s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 14:34:31,11-02-2024 14:34:31,0.219s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 14:34:33,11-02-2024 14:34:33,0.001s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/14 Gagal login (data driven),Chrome 121.0.0.0,,,11-02-2024 14:34:33,11-02-2024 14:34:50,17.471s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 14:34:33,11-02-2024 14:34:34,0.761s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 14:34:34,11-02-2024 14:34:36,2.543s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,11-02-2024 14:34:36,11-02-2024 14:34:40,4.014s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_OR_username""), username)",Chrome 121.0.0.0,,,11-02-2024 14:34:40,11-02-2024 14:34:41,0.915s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_Username_password""), password)",Chrome 121.0.0.0,,,11-02-2024 14:34:41,11-02-2024 14:34:43,1.469s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 14:34:43,11-02-2024 14:34:43,0.462s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 14:34:43,11-02-2024 14:34:48,5.012s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 14:34:48,11-02-2024 14:34:48,0.205s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 14:34:50,11-02-2024 14:34:50,0.001s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/14 Gagal login (data driven),Chrome 121.0.0.0,,,11-02-2024 14:34:50,11-02-2024 14:35:08,17.303s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 14:34:50,11-02-2024 14:34:51,0.732s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 14:34:51,11-02-2024 14:34:54,2.477s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,11-02-2024 14:34:54,11-02-2024 14:34:58,3.870s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_OR_username""), username)",Chrome 121.0.0.0,,,11-02-2024 14:34:58,11-02-2024 14:34:59,1.017s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_Username_password""), password)",Chrome 121.0.0.0,,,11-02-2024 14:34:59,11-02-2024 14:35:00,1.413s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 14:35:00,11-02-2024 14:35:01,0.562s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 14:35:01,11-02-2024 14:35:06,5.005s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 14:35:06,11-02-2024 14:35:06,0.189s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 14:35:08,11-02-2024 14:35:08,0.001s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/22 Login or Register Facebook,Chrome 121.0.0.0,,,11-02-2024 14:35:08,11-02-2024 14:35:19,11.096s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 14:35:08,11-02-2024 14:35:09,0.686s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 14:35:09,11-02-2024 14:35:11,2.497s,PASSED
+"click(findTestObject(""Object Repository/Fitur register or login facebook/a_CHECKOUT  (0.00)_hrefUserIcon""))",Chrome 121.0.0.0,,,11-02-2024 14:35:11,11-02-2024 14:35:17,5.629s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 14:35:17,11-02-2024 14:35:17,0.208s,PASSED
+Video,Chrome 121.0.0.0,,,11-02-2024 14:35:19,11-02-2024 14:35:19,0.000s,PASSED

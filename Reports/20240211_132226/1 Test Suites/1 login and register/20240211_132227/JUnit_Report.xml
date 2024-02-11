@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 login and register" time="120.653" tests="4" failures="0" errors="0">
+   <testsuite name="1 login and register" tests="4" failures="0" errors="0" time="120.653" skipped="0" timestamp="11-02-2024T13:22:39" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suites/1 login and register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_132226\\1 Test Suites\\1 login and register\\20240211_132227"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_132226\\1 Test Suites\\1 login and register\\20240211_132227\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="f4c39c824ae472ba2200d97f760be0ad"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/1 Positive test case/1 Create Account (data driven)" time="33.65" classname="Test Cases/1 Positive test case/1 Create Account (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T13:22:39 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/1 Create Account (data driven): Test Cases/1 Positive test case/1 Create Account (data driven)
+
+11-02-2024T13:22:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T13:22:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T13:22:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T13:22:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T13:22:42 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T13:22:45 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T13:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T13:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T13:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Fitur Register/a_CREATE NEW ACCOUNT' is clicked on
+
+11-02-2024T13:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/a_CREATE NEW ACCOUNT' is clicked on
+
+11-02-2024T13:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__usernameRegisterPage"), username): Text 'yudhatesting2' is set on object 'Object Repository/Fitur Register/input__usernameRegisterPage'
+
+11-02-2024T13:22:53 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/Fitur Register/input__usernameRegisterPage'
+
+11-02-2024T13:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Email")): Object: 'Object Repository/Fitur Register/label_Email' is clicked on
+
+11-02-2024T13:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Email' is clicked on
+
+11-02-2024T13:22:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__emailRegisterPage"), email): Text 'yudhatesting2@gmail.com' is set on object 'Object Repository/Fitur Register/input__emailRegisterPage'
+
+11-02-2024T13:22:55 - [MESSAGE][PASSED] - Text 'yudhatesting2@gmail.com' is set on object 'Object Repository/Fitur Register/input__emailRegisterPage'
+
+11-02-2024T13:22:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__passwordRegisterPage"), password): Text 'Dharmayudha2' is set on object 'Object Repository/Fitur Register/input__passwordRegisterPage'
+
+11-02-2024T13:22:56 - [MESSAGE][PASSED] - Text 'Dharmayudha2' is set on object 'Object Repository/Fitur Register/input__passwordRegisterPage'
+
+11-02-2024T13:22:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Confirm password")): Object: 'Object Repository/Fitur Register/label_Confirm password' is clicked on
+
+11-02-2024T13:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Confirm password' is clicked on
+
+11-02-2024T13:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__confirm_passwordRegisterPage"), confirmpassword): Text 'Dharmayudha2' is set on object 'Object Repository/Fitur Register/input__confirm_passwordRegisterPage'
+
+11-02-2024T13:22:58 - [MESSAGE][PASSED] - Text 'Dharmayudha2' is set on object 'Object Repository/Fitur Register/input__confirm_passwordRegisterPage'
+
+11-02-2024T13:22:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage"), firstname): Text 'Dharma' is set on object 'Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+11-02-2024T13:22:59 - [MESSAGE][PASSED] - Text 'Dharma' is set on object 'Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+11-02-2024T13:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Last Name")): Object: 'Object Repository/Fitur Register/label_Last Name' is clicked on
+
+11-02-2024T13:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Last Name' is clicked on
+
+11-02-2024T13:22:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033"), lastname): Text 'Yudha' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'
+
+11-02-2024T13:23:00 - [MESSAGE][PASSED] - Text 'Yudha' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'
+
+11-02-2024T13:23:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a"), phone): Text '81353081122' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'
+
+11-02-2024T13:23:02 - [MESSAGE][PASSED] - Text '81353081122' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'
+
+11-02-2024T13:23:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:153", true): All options with value 'object:153' are selected in object 'Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+11-02-2024T13:23:05 - [MESSAGE][PASSED] - All options with value 'object:153' are selected in object 'Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+11-02-2024T13:23:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_Country_cityRegisterPage"), city): Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_Country_cityRegisterPage'
+
+11-02-2024T13:23:06 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_Country_cityRegisterPage'
+
+11-02-2024T13:23:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3"), address): Text 'Jalan Medan Merdeka 02 Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'
+
+11-02-2024T13:23:07 - [MESSAGE][PASSED] - Text 'Jalan Medan Merdeka 02 Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'
+
+11-02-2024T13:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_State  Province  Region")): Object: 'Object Repository/Fitur Register/label_State  Province  Region' is clicked on
+
+11-02-2024T13:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_State  Province  Region' is clicked on
+
+11-02-2024T13:23:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54"), state): Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'
+
+11-02-2024T13:23:09 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'
+
+11-02-2024T13:23:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f"), postalcode): Text '80582' is set on object 'Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'
+
+11-02-2024T13:23:10 - [MESSAGE][PASSED] - Text '80582' is set on object 'Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'
+
+11-02-2024T13:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+11-02-2024T13:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+11-02-2024T13:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/button_REGISTER")): Object: 'Object Repository/Fitur Register/button_REGISTER' is clicked on
+
+11-02-2024T13:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/button_REGISTER' is clicked on
+
+11-02-2024T13:23:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/1 Positive test case/1 Create Account (data driven)' .
+
+11-02-2024T13:23:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/1 Positive test case/1 Create Account (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1 Positive test case/1 Create Account (data driven)" time="31.208" classname="Test Cases/1 Positive test case/1 Create Account (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T13:23:13 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/1 Create Account (data driven): Test Cases/1 Positive test case/1 Create Account (data driven)
+
+11-02-2024T13:23:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T13:23:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-02-2024T13:23:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T13:23:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T13:23:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T13:23:14 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T13:23:17 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T13:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T13:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T13:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Fitur Register/a_CREATE NEW ACCOUNT' is clicked on
+
+11-02-2024T13:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/a_CREATE NEW ACCOUNT' is clicked on
+
+11-02-2024T13:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__usernameRegisterPage"), username): Text 'yudhatesting3' is set on object 'Object Repository/Fitur Register/input__usernameRegisterPage'
+
+11-02-2024T13:23:25 - [MESSAGE][PASSED] - Text 'yudhatesting3' is set on object 'Object Repository/Fitur Register/input__usernameRegisterPage'
+
+11-02-2024T13:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Email")): Object: 'Object Repository/Fitur Register/label_Email' is clicked on
+
+11-02-2024T13:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Email' is clicked on
+
+11-02-2024T13:23:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__emailRegisterPage"), email): Text 'yudhatesting3@gmail.com' is set on object 'Object Repository/Fitur Register/input__emailRegisterPage'
+
+11-02-2024T13:23:26 - [MESSAGE][PASSED] - Text 'yudhatesting3@gmail.com' is set on object 'Object Repository/Fitur Register/input__emailRegisterPage'
+
+11-02-2024T13:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__passwordRegisterPage"), password): Text 'Dharmayudha3' is set on object 'Object Repository/Fitur Register/input__passwordRegisterPage'
+
+11-02-2024T13:23:28 - [MESSAGE][PASSED] - Text 'Dharmayudha3' is set on object 'Object Repository/Fitur Register/input__passwordRegisterPage'
+
+11-02-2024T13:23:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Confirm password")): Object: 'Object Repository/Fitur Register/label_Confirm password' is clicked on
+
+11-02-2024T13:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Confirm password' is clicked on
+
+11-02-2024T13:23:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__confirm_passwordRegisterPage"), confirmpassword): Text 'Dharmayudha3' is set on object 'Object Repository/Fitur Register/input__confirm_passwordRegisterPage'
+
+11-02-2024T13:23:29 - [MESSAGE][PASSED] - Text 'Dharmayudha3' is set on object 'Object Repository/Fitur Register/input__confirm_passwordRegisterPage'
+
+11-02-2024T13:23:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage"), firstname): Text 'Dharma' is set on object 'Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+11-02-2024T13:23:30 - [MESSAGE][PASSED] - Text 'Dharma' is set on object 'Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+11-02-2024T13:23:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Last Name")): Object: 'Object Repository/Fitur Register/label_Last Name' is clicked on
+
+11-02-2024T13:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Last Name' is clicked on
+
+11-02-2024T13:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033"), lastname): Text 'Yudha' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'
+
+11-02-2024T13:23:32 - [MESSAGE][PASSED] - Text 'Yudha' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'
+
+11-02-2024T13:23:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a"), phone): Text '81353081122' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'
+
+11-02-2024T13:23:33 - [MESSAGE][PASSED] - Text '81353081122' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'
+
+11-02-2024T13:23:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:153", true): All options with value 'object:153' are selected in object 'Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+11-02-2024T13:23:36 - [MESSAGE][PASSED] - All options with value 'object:153' are selected in object 'Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+11-02-2024T13:23:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_Country_cityRegisterPage"), city): Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_Country_cityRegisterPage'
+
+11-02-2024T13:23:37 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_Country_cityRegisterPage'
+
+11-02-2024T13:23:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3"), address): Text 'Jalan Medan Merdeka 03 Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'
+
+11-02-2024T13:23:38 - [MESSAGE][PASSED] - Text 'Jalan Medan Merdeka 03 Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'
+
+11-02-2024T13:23:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_State  Province  Region")): Object: 'Object Repository/Fitur Register/label_State  Province  Region' is clicked on
+
+11-02-2024T13:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_State  Province  Region' is clicked on
+
+11-02-2024T13:23:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54"), state): Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'
+
+11-02-2024T13:23:40 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'
+
+11-02-2024T13:23:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f"), postalcode): Text '80582' is set on object 'Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'
+
+11-02-2024T13:23:41 - [MESSAGE][PASSED] - Text '80582' is set on object 'Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'
+
+11-02-2024T13:23:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+11-02-2024T13:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+11-02-2024T13:23:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/button_REGISTER")): Object: 'Object Repository/Fitur Register/button_REGISTER' is clicked on
+
+11-02-2024T13:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/button_REGISTER' is clicked on
+
+11-02-2024T13:23:44 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/1 Positive test case/1 Create Account (data driven)' .
+
+11-02-2024T13:23:44 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/1 Positive test case/1 Create Account (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1 Positive test case/2 login user (data driven)" time="19.317" classname="Test Cases/1 Positive test case/2 login user (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T13:23:44 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/2 login user (data driven): Test Cases/1 Positive test case/2 login user (data driven)
+
+11-02-2024T13:23:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T13:23:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-02-2024T13:23:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T13:23:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T13:23:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T13:23:46 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T13:23:48 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T13:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T13:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T13:23:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Login User/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/Fitur Login User/input_OR_username'
+
+11-02-2024T13:23:53 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/Fitur Login User/input_OR_username'
+
+11-02-2024T13:23:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Login User/input_Username_password"), "Dharmayudha1"): Text 'Dharmayudha1' is set on object 'Object Repository/Fitur Login User/input_Username_password'
+
+11-02-2024T13:23:54 - [MESSAGE][PASSED] - Text 'Dharmayudha1' is set on object 'Object Repository/Fitur Login User/input_Username_password'
+
+11-02-2024T13:23:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/button_SIGN IN")): Object: 'Object Repository/Fitur Login User/button_SIGN IN' is clicked on
+
+11-02-2024T13:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/button_SIGN IN' is clicked on
+
+11-02-2024T13:23:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/button_SEE OFFER")): Object: 'Object Repository/Fitur Login User/button_SEE OFFER' is clicked on
+
+11-02-2024T13:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/button_SEE OFFER' is clicked on
+
+11-02-2024T13:23:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T13:24:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T13:24:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T13:24:02 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T13:24:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/1 Positive test case/2 login user (data driven)' .
+
+11-02-2024T13:24:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/1 Positive test case/2 login user (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1 Positive test case/2 login user (data driven)" time="35.898" classname="Test Cases/1 Positive test case/2 login user (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T13:24:04 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/2 login user (data driven): Test Cases/1 Positive test case/2 login user (data driven)
+
+11-02-2024T13:24:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T13:24:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T13:24:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T13:24:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T13:24:04 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T13:24:07 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T13:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T13:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T13:24:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Login User/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/Fitur Login User/input_OR_username'
+
+11-02-2024T13:24:13 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/Fitur Login User/input_OR_username'
+
+11-02-2024T13:24:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Login User/input_Username_password"), "Dharmayudha1"): Text 'Dharmayudha1' is set on object 'Object Repository/Fitur Login User/input_Username_password'
+
+11-02-2024T13:24:15 - [MESSAGE][PASSED] - Text 'Dharmayudha1' is set on object 'Object Repository/Fitur Login User/input_Username_password'
+
+11-02-2024T13:24:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/button_SIGN IN")): Object: 'Object Repository/Fitur Login User/button_SIGN IN' is clicked on
+
+11-02-2024T13:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/button_SIGN IN' is clicked on
+
+11-02-2024T13:24:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/button_SEE OFFER")): Object: 'Object Repository/Fitur Login User/button_SEE OFFER' is clicked on
+
+11-02-2024T13:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/button_SEE OFFER' is clicked on
+
+11-02-2024T13:24:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T13:24:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T13:24:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T13:24:37 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T13:24:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/1 Positive test case/2 login user (data driven)' .
+
+11-02-2024T13:24:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/1 Positive test case/2 login user (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2024T13:22:39 - [TEST_SUITE][PASSED] - 1 login and register: Test Cases/1 Positive test case/2 login user (data driven)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

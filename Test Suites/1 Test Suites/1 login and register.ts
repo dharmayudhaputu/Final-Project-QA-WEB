@@ -15,7 +15,7 @@
       <guid>f47117eb-4fc0-44be-bba7-5c17c7efd24a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Positive test case/2 Create Account (data driven)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/1 Create Account (data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e8b5c6cf-85d2-4853-90ea-c6fa02a413b3</id>
@@ -97,7 +97,7 @@
       <guid>acd55113-e36c-49da-8e63-6a24458b8283</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Positive test case/3 login user (data driven)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/2 login user (data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>66543d48-841f-48c4-ab2a-acfe74d967d1</id>

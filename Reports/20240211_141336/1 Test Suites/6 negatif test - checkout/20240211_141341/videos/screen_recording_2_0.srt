@@ -1,0 +1,56 @@
+1
+00:00:00,005 --> 00:00:01,352
+1. openBrowser("")
+
+2
+00:00:01,353 --> 00:00:04,244
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:04,246 --> 00:00:09,123
+9. click(findTestObject("Object Repository/Fitur gagal checkout/div_MICE                        Shop Now"))
+
+4
+00:00:09,124 --> 00:00:11,652
+13. click(findTestObject("Object Repository/Fitur gagal checkout/img_SHOP NOW_29"))
+
+5
+00:00:11,653 --> 00:00:32,047
+17. click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus"))
+
+6
+00:00:32,049 --> 00:00:32,465
+21. click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus"))
+
+7
+00:00:32,468 --> 00:00:32,972
+25. click(findTestObject("Object Repository/Fitur gagal checkout/button_ADD TO CART"))
+
+8
+00:00:32,973 --> 00:00:33,650
+29. click(findTestObject("Object Repository/Fitur gagal checkout/a_3"))
+
+9
+00:00:33,652 --> 00:00:34,523
+33. click(findTestObject("Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)"))
+
+10
+00:00:34,523 --> 00:00:35,835
+37. setText(findTestObject("Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284"), username)
+
+11
+00:00:35,836 --> 00:00:37,368
+41. setText(findTestObject("Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment"), password)
+
+12
+00:00:37,369 --> 00:00:37,958
+45. click(findTestObject("Object Repository/Fitur gagal checkout/button_LOGIN"))
+
+13
+00:00:37,959 --> 00:00:42,969
+49. delay(5)
+
+14
+00:00:42,970 --> 00:00:43,270
+53. closeBrowser()
+

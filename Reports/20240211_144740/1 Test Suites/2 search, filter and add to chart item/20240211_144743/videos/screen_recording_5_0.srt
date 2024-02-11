@@ -1,0 +1,44 @@
+1
+00:00:00,002 --> 00:00:01,564
+1. openBrowser("")
+
+2
+00:00:01,565 --> 00:00:04,385
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:04,386 --> 00:00:09,375
+9. click(findTestObject("Object Repository/Fitur Filter 2/div_SPEAKERS                        Shop Now"))
+
+4
+00:00:09,378 --> 00:00:09,383
+13. filterType = filtername
+
+5
+00:00:09,384 --> 00:00:09,394
+17. switch (filterType)
+
+6
+00:00:09,397 --> 00:00:24,533
+2. click(findTestObject("Object Repository/Fitur Filter 2/h4_COMPATIBILITY"))
+
+7
+00:00:24,534 --> 00:00:25,057
+6. click(findTestObject("Object Repository/Fitur Filter 2/label_Any device that has bluetooth enabled"))
+
+8
+00:00:25,058 --> 00:00:25,583
+10. click(findTestObject("Object Repository/Fitur Filter 2/input_COMPATIBILITY_compatibility_0"))
+
+9
+00:00:25,585 --> 00:00:25,587
+14. break
+
+10
+00:00:25,589 --> 00:00:30,601
+21. delay(5)
+
+11
+00:00:30,602 --> 00:00:30,824
+25. closeBrowser()
+

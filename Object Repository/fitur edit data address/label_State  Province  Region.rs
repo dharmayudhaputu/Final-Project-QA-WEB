@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_State  Province  Region</name>
+   <tag></tag>
+   <elementGuidId>6311b4eb-2d78-4472-a225-fcdecbe263e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='userDetailsEditMode']/sec-form/div[5]/sec-view/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>ae8a067a-fcab-4a4d-ae86-5ef040a60f6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>labelClicked()</value>
+      <webElementGuid>ffd9785b-1d15-4c94-9273-c453c643e227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-mouseout</name>
+      <type>Main</type>
+      <value>labelOut()</value>
+      <webElementGuid>d174deef-dec2-40df-b127-4cf7a79024ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>State / Province / Region</value>
+      <webElementGuid>e1d1e535-fcee-498a-92c7-741c7da7fe8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;userDetailsEditMode&quot;)/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/div[@class=&quot;spliter&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/label[1]</value>
+      <webElementGuid>c3c1c56f-5378-4613-9011-b081ca934eeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='userDetailsEditMode']/sec-form/div[5]/sec-view/div/label</value>
+      <webElementGuid>5692c12c-f922-43ea-adfc-7c323bd79f76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- Use maximum 10 character'])[1]/following::label[1]</value>
+      <webElementGuid>99beb6b0-405e-4ef1-9d9c-07367fa4c8b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Postal Code'])[2]/following::label[1]</value>
+      <webElementGuid>039545fe-0dec-4ede-877a-4382730ddc3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- Use maximum 10 character'])[2]/preceding::label[1]</value>
+      <webElementGuid>f3245762-c2bd-4025-9dd0-7ab6378117a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save changes in profile for future use'])[1]/preceding::label[1]</value>
+      <webElementGuid>bcc62d3b-f353-44e5-8402-9556db49fd95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/sec-view/div/label</value>
+      <webElementGuid>a914f91b-e688-4964-8789-f08d81695d35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'State / Province / Region' or . = 'State / Province / Region')]</value>
+      <webElementGuid>7f12d2f1-85b3-4158-9d2a-5cd708f8a903</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

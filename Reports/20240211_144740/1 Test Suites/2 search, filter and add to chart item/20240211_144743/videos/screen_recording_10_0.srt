@@ -1,0 +1,40 @@
+1
+00:00:00,082 --> 00:00:10,192
+1. qawebtugas.keywordlogin.login()
+
+2
+00:00:10,192 --> 00:00:11,304
+5. assert verifyElementPresent(findTestObject("Object Repository/fitur sosmed/img_FOLLOW US_follow_facebook"), 10, CONTINUE_ON_FAILURE)
+
+3
+00:00:11,304 --> 00:00:11,613
+9. assert verifyElementPresent(findTestObject("Object Repository/fitur sosmed/img_FOLLOW US_follow_twitter"), 10, CONTINUE_ON_FAILURE)
+
+4
+00:00:11,614 --> 00:00:11,939
+13. assert verifyElementPresent(findTestObject("Object Repository/fitur sosmed/img_FOLLOW US_follow_linkedin"), 10, CONTINUE_ON_FAILURE)
+
+5
+00:00:11,939 --> 00:00:12,245
+17. assert verifyElementPresent(findTestObject("Object Repository/fitur sosmed/img_DEMO_go_up_btn"), 10, CONTINUE_ON_FAILURE)
+
+6
+00:00:12,247 --> 00:00:12,774
+21. click(findTestObject("Object Repository/fitur sosmed/img_FOLLOW US_follow_facebook"))
+
+7
+00:00:12,775 --> 00:00:14,505
+25. click(findTestObject("Object Repository/fitur sosmed/img_FOLLOW US_follow_twitter"))
+
+8
+00:00:14,506 --> 00:00:16,852
+29. click(findTestObject("Object Repository/fitur sosmed/img_FOLLOW US_follow_linkedin"))
+
+9
+00:00:16,854 --> 00:00:18,526
+33. click(findTestObject("Object Repository/fitur sosmed/img_DEMO_go_up_btn"))
+
+10
+00:00:18,527 --> 00:00:19,055
+37. closeBrowser()
+

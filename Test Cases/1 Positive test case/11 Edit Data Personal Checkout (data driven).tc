@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11 Edit Data Personal Checkout (data driven)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74faa1b1-cd85-4e71-952e-78284f81e16d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31289c5a-8256-4322-bf09-9c4e5f964418</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b8e4e181-c6a5-4181-b6a0-625ec517377b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('12 Data Address')</defaultValue>
+      <description></description>
+      <id>31289c5a-8256-4322-bf09-9c4e5f964418</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('12 Data Address')</defaultValue>
+      <description></description>
+      <id>b8e4e181-c6a5-4181-b6a0-625ec517377b</id>
+      <masked>false</masked>
+      <name>region</name>
+   </variable>
+</TestCaseEntity>

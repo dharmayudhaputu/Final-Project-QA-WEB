@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="5 negatif test - search, filter and add to chart" time="180.701" tests="7" failures="0" errors="0">
+   <testsuite name="5 negatif test - search, filter and add to chart" tests="7" failures="0" errors="0" time="180.701" skipped="0" timestamp="11-02-2024T12:06:01" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suites/5 negatif test - search, filter and add to chart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_120415\\1 Test Suites\\5 negatif test - search, filter and add to chart\\20240211_120418"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_120415\\1 Test Suites\\5 negatif test - search, filter and add to chart\\20240211_120418\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="31cf25337814e667484d3ca73b621afc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/2 negative test case/16 invalid filter item" time="30.942" classname="Test Cases/2 negative test case/16 invalid filter item" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:06:01 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/16 invalid filter item: Test Cases/2 negative test case/16 invalid filter item
+
+11-02-2024T12:06:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:06:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:06:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:06:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:06:03 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:06:05 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:06:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:06:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Invalid filter/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/Invalid filter/input_OR_username'
+
+11-02-2024T12:06:10 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/Invalid filter/input_OR_username'
+
+11-02-2024T12:06:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Invalid filter/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/Invalid filter/input_Username_password'
+
+11-02-2024T12:06:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Invalid filter/input_Username_password'
+
+11-02-2024T12:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/button_SIGN IN")): Object: 'Object Repository/Invalid filter/button_SIGN IN' is clicked on
+
+11-02-2024T12:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/button_SIGN IN' is clicked on
+
+11-02-2024T12:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/div_SPEAKERS                        Shop Now")): Object: 'Object Repository/Invalid filter/div_SPEAKERS                        Shop Now' is clicked on
+
+11-02-2024T12:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/div_SPEAKERS                        Shop Now' is clicked on
+
+11-02-2024T12:06:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/h4_COLOR")): Object: 'Object Repository/Invalid filter/h4_COLOR' is clicked on
+
+11-02-2024T12:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/h4_COLOR' is clicked on
+
+11-02-2024T12:06:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/a_COLOR_productsColors55CDD5")): Object: 'Object Repository/Invalid filter/a_COLOR_productsColors55CDD5' is clicked on
+
+11-02-2024T12:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/a_COLOR_productsColors55CDD5' is clicked on
+
+11-02-2024T12:06:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+11-02-2024T12:06:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2024T12:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/h4_WEIGHT")): Object: 'Object Repository/Invalid filter/h4_WEIGHT' is clicked on
+
+11-02-2024T12:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/h4_WEIGHT' is clicked on
+
+11-02-2024T12:06:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+11-02-2024T12:06:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2024T12:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/input_WEIGHT_weight_1")): Object: 'Object Repository/Invalid filter/input_WEIGHT_weight_1' is clicked on
+
+11-02-2024T12:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/input_WEIGHT_weight_1' is clicked on
+
+11-02-2024T12:06:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:06:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:06:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:06:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/15 delete all item di chart" time="24.623" classname="Test Cases/2 negative test case/15 delete all item di chart" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:06:32 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/15 delete all item di chart: Test Cases/2 negative test case/15 delete all item di chart
+
+11-02-2024T12:06:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:06:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:06:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:06:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:06:33 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:06:35 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now")): Object: 'Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now' is clicked on
+
+11-02-2024T12:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now' is clicked on
+
+11-02-2024T12:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/img_SHOP NOW_9")): Object: 'Object Repository/fitur delete all chart/img_SHOP NOW_9' is clicked on
+
+11-02-2024T12:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/img_SHOP NOW_9' is clicked on
+
+11-02-2024T12:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/button_ADD TO CART")): Object: 'Object Repository/fitur delete all chart/button_ADD TO CART' is clicked on
+
+11-02-2024T12:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/button_ADD TO CART' is clicked on
+
+11-02-2024T12:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_LAPTOPS")): Object: 'Object Repository/fitur delete all chart/a_LAPTOPS' is clicked on
+
+11-02-2024T12:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_LAPTOPS' is clicked on
+
+11-02-2024T12:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/img_SHOP NOW_10")): Object: 'Object Repository/fitur delete all chart/img_SHOP NOW_10' is clicked on
+
+11-02-2024T12:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/img_SHOP NOW_10' is clicked on
+
+11-02-2024T12:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/button_ADD TO CART")): Object: 'Object Repository/fitur delete all chart/button_ADD TO CART' is clicked on
+
+11-02-2024T12:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/button_ADD TO CART' is clicked on
+
+11-02-2024T12:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_LAPTOPS")): Object: 'Object Repository/fitur delete all chart/a_LAPTOPS' is clicked on
+
+11-02-2024T12:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_LAPTOPS' is clicked on
+
+11-02-2024T12:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_2")): Object: 'Object Repository/fitur delete all chart/a_2' is clicked on
+
+11-02-2024T12:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_2' is clicked on
+
+11-02-2024T12:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_REMOVE")): Object: 'Object Repository/fitur delete all chart/a_REMOVE' is clicked on
+
+11-02-2024T12:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_REMOVE' is clicked on
+
+11-02-2024T12:06:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2024T12:06:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2024T12:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_REMOVE")): Object: 'Object Repository/fitur delete all chart/a_REMOVE' is clicked on
+
+11-02-2024T12:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_REMOVE' is clicked on
+
+11-02-2024T12:06:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:06:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:06:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:06:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" time="28.33" classname="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:06:57 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven): Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)
+
+11-02-2024T12:06:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:06:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:06:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:06:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:06:57 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:07:00 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:07:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T12:07:06 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T12:07:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal search/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T12:07:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T12:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/button_SIGN IN")): Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T12:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T12:07:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), keyword): Text 'naruto' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:07:12 - [MESSAGE][PASSED] - Text 'naruto' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:07:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:07:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:07:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:07:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:07:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:07:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" time="32.101" classname="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:07:25 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven): Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)
+
+11-02-2024T12:07:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:07:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:07:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:07:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:07:26 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:07:28 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:07:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T12:07:33 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T12:07:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal search/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T12:07:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T12:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/button_SIGN IN")): Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T12:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T12:07:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), keyword): Text 'one piece' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:07:41 - [MESSAGE][PASSED] - Text 'one piece' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:07:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:07:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:07:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:07:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:07:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" time="28.275" classname="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:07:57 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven): Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)
+
+11-02-2024T12:07:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:07:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:07:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:07:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:07:58 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:08:00 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T12:08:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T12:08:07 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T12:08:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal search/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T12:08:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T12:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/button_SIGN IN")): Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T12:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T12:08:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), keyword): Text 'bleach' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:08:12 - [MESSAGE][PASSED] - Text 'bleach' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:08:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:08:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T12:08:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:08:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:08:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:08:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" time="18.06" classname="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:08:25 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven): Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)
+
+11-02-2024T12:08:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:08:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:08:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:08:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:08:26 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:08:28 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:08:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f"), "object:60", true): All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+11-02-2024T12:08:33 - [MESSAGE][PASSED] - All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+11-02-2024T12:08:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3"), "object:123", true): All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+11-02-2024T12:08:35 - [MESSAGE][PASSED] - All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+11-02-2024T12:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/input__emailContactUs"), email): Text 'yudhatesting' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+11-02-2024T12:08:36 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+11-02-2024T12:08:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/textarea__subjectTextareaContactUs"), subject): Text 'this product so cool!' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+11-02-2024T12:08:38 - [MESSAGE][PASSED] - Text 'this product so cool!' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+11-02-2024T12:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur contact us/button_SEND")): Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+11-02-2024T12:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+11-02-2024T12:08:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:08:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:08:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:08:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" time="18.092" classname="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T12:08:43 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven): Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)
+
+11-02-2024T12:08:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T12:08:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T12:08:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T12:08:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T12:08:44 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:08:47 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T12:08:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f"), "object:60", true): All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+11-02-2024T12:08:51 - [MESSAGE][PASSED] - All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+11-02-2024T12:08:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3"), "object:123", true): All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+11-02-2024T12:08:53 - [MESSAGE][PASSED] - All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+11-02-2024T12:08:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/input__emailContactUs"), email): Text 'yudhatesting2' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+11-02-2024T12:08:54 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+11-02-2024T12:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/textarea__subjectTextareaContactUs"), subject): Text 'I want to buy this product' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+11-02-2024T12:08:56 - [MESSAGE][PASSED] - Text 'I want to buy this product' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+11-02-2024T12:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur contact us/button_SEND")): Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+11-02-2024T12:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+11-02-2024T12:08:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T12:09:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T12:09:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T12:09:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2024T12:06:01 - [TEST_SUITE][PASSED] - 5 negatif test - search, filter and add to chart: Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

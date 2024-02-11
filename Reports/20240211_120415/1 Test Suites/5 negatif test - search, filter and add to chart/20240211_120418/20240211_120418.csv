@@ -1,0 +1,94 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+"5 negatif test - search, filter and add to chart",Chrome 121.0.0.0,,,11-02-2024 12:06:01,11-02-2024 12:09:01,3m - 0.701s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/16 invalid filter item,Chrome 121.0.0.0,,,11-02-2024 12:06:01,11-02-2024 12:06:32,30.942s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 12:06:01,11-02-2024 12:06:03,1.712s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 12:06:03,11-02-2024 12:06:05,2.466s,PASSED
+"click(findTestObject(""Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,11-02-2024 12:06:05,11-02-2024 12:06:09,3.895s,PASSED
+"setText(findTestObject(""Object Repository/Invalid filter/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 12:06:09,11-02-2024 12:06:10,0.889s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Invalid filter/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 12:06:10,11-02-2024 12:06:11,1.212s,PASSED
+"click(findTestObject(""Object Repository/Invalid filter/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 12:06:11,11-02-2024 12:06:12,0.543s,PASSED
+"click(findTestObject(""Object Repository/Invalid filter/div_SPEAKERS                        Shop Now""))",Chrome 121.0.0.0,,,11-02-2024 12:06:12,11-02-2024 12:06:17,4.644s,PASSED
+"click(findTestObject(""Object Repository/Invalid filter/h4_COLOR""))",Chrome 121.0.0.0,,,11-02-2024 12:06:17,11-02-2024 12:06:19,2.992s,PASSED
+"click(findTestObject(""Object Repository/Invalid filter/a_COLOR_productsColors55CDD5""))",Chrome 121.0.0.0,,,11-02-2024 12:06:19,11-02-2024 12:06:20,0.329s,PASSED
+delay(3),Chrome 121.0.0.0,,,11-02-2024 12:06:20,11-02-2024 12:06:23,3.036s,PASSED
+"click(findTestObject(""Object Repository/Invalid filter/h4_WEIGHT""))",Chrome 121.0.0.0,,,11-02-2024 12:06:23,11-02-2024 12:06:23,0.364s,PASSED
+delay(3),Chrome 121.0.0.0,,,11-02-2024 12:06:23,11-02-2024 12:06:26,3.019s,PASSED
+"click(findTestObject(""Object Repository/Invalid filter/input_WEIGHT_weight_1""))",Chrome 121.0.0.0,,,11-02-2024 12:06:26,11-02-2024 12:06:27,0.390s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 12:06:27,11-02-2024 12:06:32,5.012s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 12:06:32,11-02-2024 12:06:32,0.217s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/15 delete all item di chart,Chrome 121.0.0.0,,,11-02-2024 12:06:32,11-02-2024 12:06:56,24.623s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 12:06:32,11-02-2024 12:06:33,0.660s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 12:06:33,11-02-2024 12:06:35,2.468s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now""))",Chrome 121.0.0.0,,,11-02-2024 12:06:35,11-02-2024 12:06:39,4.079s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/img_SHOP NOW_9""))",Chrome 121.0.0.0,,,11-02-2024 12:06:39,11-02-2024 12:06:42,2.430s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 12:06:42,11-02-2024 12:06:44,2.907s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/a_LAPTOPS""))",Chrome 121.0.0.0,,,11-02-2024 12:06:44,11-02-2024 12:06:45,0.679s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/img_SHOP NOW_10""))",Chrome 121.0.0.0,,,11-02-2024 12:06:45,11-02-2024 12:06:46,0.557s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/button_ADD TO CART""))",Chrome 121.0.0.0,,,11-02-2024 12:06:46,11-02-2024 12:06:46,0.542s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/a_LAPTOPS""))",Chrome 121.0.0.0,,,11-02-2024 12:06:46,11-02-2024 12:06:47,0.583s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/a_2""))",Chrome 121.0.0.0,,,11-02-2024 12:06:47,11-02-2024 12:06:47,0.571s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/a_REMOVE""))",Chrome 121.0.0.0,,,11-02-2024 12:06:47,11-02-2024 12:06:49,1.521s,PASSED
+delay(2),Chrome 121.0.0.0,,,11-02-2024 12:06:49,11-02-2024 12:06:51,2.008s,PASSED
+"click(findTestObject(""Object Repository/fitur delete all chart/a_REMOVE""))",Chrome 121.0.0.0,,,11-02-2024 12:06:51,11-02-2024 12:06:51,0.303s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 12:06:51,11-02-2024 12:06:56,5.020s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 12:06:56,11-02-2024 12:06:56,0.219s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven),Chrome 121.0.0.0,,,11-02-2024 12:06:57,11-02-2024 12:07:25,28.330s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 12:06:57,11-02-2024 12:06:57,0.637s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 12:06:57,11-02-2024 12:07:00,2.500s,PASSED
+"click(findTestObject(""Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,11-02-2024 12:07:00,11-02-2024 12:07:05,5.582s,PASSED
+"setText(findTestObject(""Object Repository/fitur gagal search/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 12:07:05,11-02-2024 12:07:06,0.987s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur gagal search/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 12:07:06,11-02-2024 12:07:07,1.176s,PASSED
+"click(findTestObject(""Object Repository/fitur gagal search/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 12:07:07,11-02-2024 12:07:08,0.542s,PASSED
+"setText(findTestObject(""Object Repository/fitur gagal search/input_DEMO_mobile_search""), keyword)",Chrome 121.0.0.0,,,11-02-2024 12:07:08,11-02-2024 12:07:12,4.006s,PASSED
+"sendKeys(findTestObject(""Object Repository/fitur gagal search/input_DEMO_mobile_search""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,11-02-2024 12:07:12,11-02-2024 12:07:20,7.585s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 12:07:20,11-02-2024 12:07:25,5.016s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 12:07:25,11-02-2024 12:07:25,0.202s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven),Chrome 121.0.0.0,,,11-02-2024 12:07:25,11-02-2024 12:07:57,32.101s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 12:07:25,11-02-2024 12:07:26,0.758s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 12:07:26,11-02-2024 12:07:28,2.524s,PASSED
+"click(findTestObject(""Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,11-02-2024 12:07:28,11-02-2024 12:07:32,4.037s,PASSED
+"setText(findTestObject(""Object Repository/fitur gagal search/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 12:07:32,11-02-2024 12:07:33,0.965s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur gagal search/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 12:07:33,11-02-2024 12:07:34,1.141s,PASSED
+"click(findTestObject(""Object Repository/fitur gagal search/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 12:07:34,11-02-2024 12:07:35,0.539s,PASSED
+"setText(findTestObject(""Object Repository/fitur gagal search/input_DEMO_mobile_search""), keyword)",Chrome 121.0.0.0,,,11-02-2024 12:07:35,11-02-2024 12:07:41,6.016s,PASSED
+"sendKeys(findTestObject(""Object Repository/fitur gagal search/input_DEMO_mobile_search""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,11-02-2024 12:07:41,11-02-2024 12:07:52,10.917s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 12:07:52,11-02-2024 12:07:57,5.015s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 12:07:57,11-02-2024 12:07:57,0.171s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven),Chrome 121.0.0.0,,,11-02-2024 12:07:57,11-02-2024 12:08:25,28.275s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 12:07:57,11-02-2024 12:07:58,0.655s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 12:07:58,11-02-2024 12:08:00,2.438s,PASSED
+"click(findTestObject(""Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,11-02-2024 12:08:00,11-02-2024 12:08:06,5.881s,PASSED
+"setText(findTestObject(""Object Repository/fitur gagal search/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,11-02-2024 12:08:06,11-02-2024 12:08:07,1.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/fitur gagal search/input_Username_password""), ""VjyC/is+sZNhzZxZ8kSNJw=="")",Chrome 121.0.0.0,,,11-02-2024 12:08:07,11-02-2024 12:08:08,1.144s,PASSED
+"click(findTestObject(""Object Repository/fitur gagal search/button_SIGN IN""))",Chrome 121.0.0.0,,,11-02-2024 12:08:08,11-02-2024 12:08:09,0.541s,PASSED
+"setText(findTestObject(""Object Repository/fitur gagal search/input_DEMO_mobile_search""), keyword)",Chrome 121.0.0.0,,,11-02-2024 12:08:09,11-02-2024 12:08:12,3.703s,PASSED
+"sendKeys(findTestObject(""Object Repository/fitur gagal search/input_DEMO_mobile_search""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,11-02-2024 12:08:12,11-02-2024 12:08:20,7.711s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 12:08:20,11-02-2024 12:08:25,5.006s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 12:08:25,11-02-2024 12:08:25,0.176s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven),Chrome 121.0.0.0,,,11-02-2024 12:08:25,11-02-2024 12:08:43,18.060s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 12:08:25,11-02-2024 12:08:26,0.664s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 12:08:26,11-02-2024 12:08:28,2.458s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f""), ""object:60"", true)",Chrome 121.0.0.0,,,11-02-2024 12:08:28,11-02-2024 12:08:33,4.826s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3""), ""object:123"", true)",Chrome 121.0.0.0,,,11-02-2024 12:08:33,11-02-2024 12:08:35,1.760s,PASSED
+"setText(findTestObject(""Object Repository/fitur contact us/input__emailContactUs""), email)",Chrome 121.0.0.0,,,11-02-2024 12:08:35,11-02-2024 12:08:36,1.087s,PASSED
+"setText(findTestObject(""Object Repository/fitur contact us/textarea__subjectTextareaContactUs""), subject)",Chrome 121.0.0.0,,,11-02-2024 12:08:36,11-02-2024 12:08:38,1.472s,PASSED
+"click(findTestObject(""Object Repository/fitur contact us/button_SEND""))",Chrome 121.0.0.0,,,11-02-2024 12:08:38,11-02-2024 12:08:38,0.529s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 12:08:38,11-02-2024 12:08:43,5.015s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 12:08:43,11-02-2024 12:08:43,0.187s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven),Chrome 121.0.0.0,,,11-02-2024 12:08:43,11-02-2024 12:09:01,18.092s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 12:08:43,11-02-2024 12:08:44,0.668s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,11-02-2024 12:08:44,11-02-2024 12:08:47,2.541s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f""), ""object:60"", true)",Chrome 121.0.0.0,,,11-02-2024 12:08:47,11-02-2024 12:08:51,4.801s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3""), ""object:123"", true)",Chrome 121.0.0.0,,,11-02-2024 12:08:51,11-02-2024 12:08:53,1.905s,PASSED
+"setText(findTestObject(""Object Repository/fitur contact us/input__emailContactUs""), email)",Chrome 121.0.0.0,,,11-02-2024 12:08:53,11-02-2024 12:08:54,1.082s,PASSED
+"setText(findTestObject(""Object Repository/fitur contact us/textarea__subjectTextareaContactUs""), subject)",Chrome 121.0.0.0,,,11-02-2024 12:08:54,11-02-2024 12:08:56,1.440s,PASSED
+"click(findTestObject(""Object Repository/fitur contact us/button_SEND""))",Chrome 121.0.0.0,,,11-02-2024 12:08:56,11-02-2024 12:08:56,0.446s,PASSED
+delay(5),Chrome 121.0.0.0,,,11-02-2024 12:08:56,11-02-2024 12:09:01,5.003s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 12:09:01,11-02-2024 12:09:01,0.190s,PASSED

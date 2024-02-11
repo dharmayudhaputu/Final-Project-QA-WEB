@@ -1,0 +1,36 @@
+1
+00:00:00,036 --> 00:00:00,726
+1. openBrowser("")
+
+2
+00:00:00,727 --> 00:00:03,199
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,200 --> 00:00:08,798
+9. click(findTestObject("Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:08,799 --> 00:00:09,699
+13. setText(findTestObject("Object Repository/Fitur Login User/input_OR_username"), "yudhatesting")
+
+5
+00:00:09,699 --> 00:00:11,159
+17. setText(findTestObject("Object Repository/Fitur Login User/input_Username_password"), "Dharmayudha1")
+
+6
+00:00:11,160 --> 00:00:11,627
+21. click(findTestObject("Object Repository/Fitur Login User/button_SIGN IN"))
+
+7
+00:00:11,636 --> 00:00:15,623
+25. click(findTestObject("Object Repository/Fitur Login User/button_SEE OFFER"))
+
+8
+00:00:15,624 --> 00:00:20,644
+29. delay(5)
+
+9
+00:00:20,644 --> 00:00:20,835
+33. closeBrowser()
+

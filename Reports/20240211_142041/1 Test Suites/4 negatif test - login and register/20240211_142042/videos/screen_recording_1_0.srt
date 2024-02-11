@@ -1,0 +1,96 @@
+1
+00:00:00,351 --> 00:00:04,109
+1. openBrowser("")
+
+2
+00:00:04,124 --> 00:00:07,246
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:07,248 --> 00:00:11,738
+9. click(findTestObject("Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:11,740 --> 00:00:12,983
+13. click(findTestObject("Object Repository/Fitur Register/a_CREATE NEW ACCOUNT"))
+
+5
+00:00:12,985 --> 00:00:14,920
+17. setText(findTestObject("Object Repository/Fitur Register/input__usernameRegisterPage"), "yudhatesting")
+
+6
+00:00:14,922 --> 00:00:15,556
+21. click(findTestObject("Object Repository/Fitur Register/label_Email"))
+
+7
+00:00:15,559 --> 00:00:17,555
+25. setText(findTestObject("Object Repository/Fitur Register/input__emailRegisterPage"), "yudhatesting@gmail.com")
+
+8
+00:00:17,558 --> 00:00:18,964
+29. setText(findTestObject("Object Repository/Fitur Register/input__passwordRegisterPage"), "Dharmayudha1")
+
+9
+00:00:18,965 --> 00:00:20,197
+33. click(findTestObject("Object Repository/Fitur Register/label_Confirm password"))
+
+10
+00:00:20,198 --> 00:00:21,399
+37. setText(findTestObject("Object Repository/Fitur Register/input__confirm_passwordRegisterPage"), "Dharmayudha1")
+
+11
+00:00:21,400 --> 00:00:22,817
+41. setText(findTestObject("Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage"), "Dharma")
+
+12
+00:00:22,818 --> 00:00:23,567
+45. click(findTestObject("Object Repository/Fitur Register/label_Last Name"))
+
+13
+00:00:23,570 --> 00:00:24,813
+49. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033"), "Yudha")
+
+14
+00:00:24,814 --> 00:00:26,164
+53. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a"), "081353081122")
+
+15
+00:00:26,165 --> 00:00:33,404
+57. selectOptionByValue(findTestObject("Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:153", true)
+
+16
+00:00:33,404 --> 00:00:34,965
+61. setText(findTestObject("Object Repository/Fitur Register/input_Country_cityRegisterPage"), "Jakarta")
+
+17
+00:00:34,967 --> 00:00:37,398
+65. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3"), "Jalan Medan Merdeka No 5 Jakarta")
+
+18
+00:00:37,399 --> 00:00:38,581
+69. click(findTestObject("Object Repository/Fitur Register/label_State  Province  Region"))
+
+19
+00:00:38,582 --> 00:00:39,779
+73. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54"), "Jakarta")
+
+20
+00:00:39,780 --> 00:00:40,989
+77. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f"), "80582")
+
+21
+00:00:40,991 --> 00:00:41,655
+81. click(findTestObject("Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450"))
+
+22
+00:00:41,656 --> 00:00:42,178
+85. click(findTestObject("Object Repository/Fitur Register/button_REGISTER"))
+
+23
+00:00:42,179 --> 00:00:47,211
+89. delay(5)
+
+24
+00:00:47,212 --> 00:00:47,588
+93. closeBrowser()
+

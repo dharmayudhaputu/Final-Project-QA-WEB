@@ -1,0 +1,64 @@
+1
+00:00:00,001 --> 00:00:00,794
+1. openBrowser("")
+
+2
+00:00:00,797 --> 00:00:08,747
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:08,748 --> 00:00:13,075
+9. click(findTestObject("Object Repository/fitur add to chart/a_My account                        My orde_124641"))
+
+4
+00:00:13,076 --> 00:00:14,094
+13. setText(findTestObject("Object Repository/fitur add to chart/input_OR_username"), "yudhatesting")
+
+5
+00:00:14,095 --> 00:00:15,369
+17. setEncryptedText(findTestObject("Object Repository/fitur add to chart/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw==")
+
+6
+00:00:15,372 --> 00:00:15,932
+21. click(findTestObject("Object Repository/fitur add to chart/button_SIGN IN"))
+
+7
+00:00:15,933 --> 00:00:19,901
+25. click(findTestObject("Object Repository/fitur add to chart/div_LAPTOPS                        Shop Now"))
+
+8
+00:00:19,902 --> 00:00:19,904
+29. laptopType = datalaptop
+
+9
+00:00:19,905 --> 00:00:19,911
+33. switch (laptopType)
+
+10
+00:00:19,912 --> 00:00:22,160
+2. click(findTestObject("Object Repository/fitur add to chart/img_SHOP NOW_10"))
+
+11
+00:00:22,161 --> 00:00:24,627
+6. click(findTestObject("Object Repository/fitur add to chart/button_ADD TO CART"))
+
+12
+00:00:24,628 --> 00:00:26,501
+10. click(findTestObject("Object Repository/fitur add to chart/a_LAPTOPS"))
+
+13
+00:00:26,502 --> 00:00:26,508
+14. break
+
+14
+00:00:26,510 --> 00:00:27,044
+37. click(findTestObject("Object Repository/fitur add to chart/a_3"))
+
+15
+00:00:27,045 --> 00:00:32,048
+41. delay(5)
+
+16
+00:00:32,049 --> 00:00:32,344
+45. closeBrowser()
+

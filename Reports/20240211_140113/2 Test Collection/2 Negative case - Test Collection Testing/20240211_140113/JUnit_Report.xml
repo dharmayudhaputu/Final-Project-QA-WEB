@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="2 Negative case - Test Collection Testing" time="484.797" tests="15" failures="1" errors="0">
+   <testsuite name="4 negatif test - login and register" tests="4" failures="0" errors="0" time="88.683" skipped="0" timestamp="11-02-2024T14:01:26" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suites/4 negatif test - login and register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_140113\\1 Test Suites\\4 negatif test - login and register\\20240211_140114"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_140113\\1 Test Suites\\4 negatif test - login and register\\20240211_140114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="560262780d4fa2a089546497684071d1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/2 negative test case/13 create account dengan username sama" time="38.101" classname="Test Cases/2 negative test case/13 create account dengan username sama" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:01:26 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/13 create account dengan username sama: Test Cases/2 negative test case/13 create account dengan username sama
+
+11-02-2024T14:01:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:01:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:01:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:01:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:01:28 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:01:31 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Fitur Register/a_CREATE NEW ACCOUNT' is clicked on
+
+11-02-2024T14:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/a_CREATE NEW ACCOUNT' is clicked on
+
+11-02-2024T14:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__usernameRegisterPage"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/Fitur Register/input__usernameRegisterPage'
+
+11-02-2024T14:01:39 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/Fitur Register/input__usernameRegisterPage'
+
+11-02-2024T14:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Email")): Object: 'Object Repository/Fitur Register/label_Email' is clicked on
+
+11-02-2024T14:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Email' is clicked on
+
+11-02-2024T14:01:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__emailRegisterPage"), "yudhatesting@gmail.com"): Text 'yudhatesting@gmail.com' is set on object 'Object Repository/Fitur Register/input__emailRegisterPage'
+
+11-02-2024T14:01:41 - [MESSAGE][PASSED] - Text 'yudhatesting@gmail.com' is set on object 'Object Repository/Fitur Register/input__emailRegisterPage'
+
+11-02-2024T14:01:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__passwordRegisterPage"), "Dharmayudha1"): Text 'Dharmayudha1' is set on object 'Object Repository/Fitur Register/input__passwordRegisterPage'
+
+11-02-2024T14:01:42 - [MESSAGE][PASSED] - Text 'Dharmayudha1' is set on object 'Object Repository/Fitur Register/input__passwordRegisterPage'
+
+11-02-2024T14:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Confirm password")): Object: 'Object Repository/Fitur Register/label_Confirm password' is clicked on
+
+11-02-2024T14:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Confirm password' is clicked on
+
+11-02-2024T14:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input__confirm_passwordRegisterPage"), "Dharmayudha1"): Text 'Dharmayudha1' is set on object 'Object Repository/Fitur Register/input__confirm_passwordRegisterPage'
+
+11-02-2024T14:01:44 - [MESSAGE][PASSED] - Text 'Dharmayudha1' is set on object 'Object Repository/Fitur Register/input__confirm_passwordRegisterPage'
+
+11-02-2024T14:01:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage"), "Dharma"): Text 'Dharma' is set on object 'Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+11-02-2024T14:01:45 - [MESSAGE][PASSED] - Text 'Dharma' is set on object 'Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+11-02-2024T14:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_Last Name")): Object: 'Object Repository/Fitur Register/label_Last Name' is clicked on
+
+11-02-2024T14:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_Last Name' is clicked on
+
+11-02-2024T14:01:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033"), "Yudha"): Text 'Yudha' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'
+
+11-02-2024T14:01:47 - [MESSAGE][PASSED] - Text 'Yudha' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033'
+
+11-02-2024T14:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a"), "081353081122"): Text '081353081122' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'
+
+11-02-2024T14:01:48 - [MESSAGE][PASSED] - Text '081353081122' is set on object 'Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a'
+
+11-02-2024T14:01:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:153", true): All options with value 'object:153' are selected in object 'Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+11-02-2024T14:01:51 - [MESSAGE][PASSED] - All options with value 'object:153' are selected in object 'Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+11-02-2024T14:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_Country_cityRegisterPage"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_Country_cityRegisterPage'
+
+11-02-2024T14:01:52 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_Country_cityRegisterPage'
+
+11-02-2024T14:01:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3"), "Jalan Medan Merdeka No 5 Jakarta"): Text 'Jalan Medan Merdeka No 5 Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'
+
+11-02-2024T14:01:53 - [MESSAGE][PASSED] - Text 'Jalan Medan Merdeka No 5 Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3'
+
+11-02-2024T14:01:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/label_State  Province  Region")): Object: 'Object Repository/Fitur Register/label_State  Province  Region' is clicked on
+
+11-02-2024T14:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/label_State  Province  Region' is clicked on
+
+11-02-2024T14:01:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'
+
+11-02-2024T14:01:55 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54'
+
+11-02-2024T14:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f"), "80582"): Text '80582' is set on object 'Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'
+
+11-02-2024T14:01:56 - [MESSAGE][PASSED] - Text '80582' is set on object 'Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f'
+
+11-02-2024T14:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+11-02-2024T14:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+11-02-2024T14:01:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Register/button_REGISTER")): Object: 'Object Repository/Fitur Register/button_REGISTER' is clicked on
+
+11-02-2024T14:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Register/button_REGISTER' is clicked on
+
+11-02-2024T14:01:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:02:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:02:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:02:02 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:02:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/13 create account dengan username sama' .
+
+11-02-2024T14:02:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/13 create account dengan username sama' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/14 Gagal login (data driven)" time="19.371" classname="Test Cases/2 negative test case/14 Gagal login (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:02:04 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/14 Gagal login (data driven): Test Cases/2 negative test case/14 Gagal login (data driven)
+
+11-02-2024T14:02:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:02:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:02:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:02:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:02:05 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:02:08 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:02:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Login User/input_OR_username"), username): Text 'yudhatesting' is set on object 'Object Repository/Fitur Login User/input_OR_username'
+
+11-02-2024T14:02:14 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/Fitur Login User/input_OR_username'
+
+11-02-2024T14:02:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Login User/input_Username_password"), password): Text '12345678' is set on object 'Object Repository/Fitur Login User/input_Username_password'
+
+11-02-2024T14:02:16 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Fitur Login User/input_Username_password'
+
+11-02-2024T14:02:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/button_SIGN IN")): Object: 'Object Repository/Fitur Login User/button_SIGN IN' is clicked on
+
+11-02-2024T14:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/button_SIGN IN' is clicked on
+
+11-02-2024T14:02:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:02:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:02:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:02:22 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:02:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/14 Gagal login (data driven)' .
+
+11-02-2024T14:02:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/14 Gagal login (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/14 Gagal login (data driven)" time="19.212" classname="Test Cases/2 negative test case/14 Gagal login (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:02:24 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/14 Gagal login (data driven): Test Cases/2 negative test case/14 Gagal login (data driven)
+
+11-02-2024T14:02:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:02:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:02:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:02:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:02:24 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:02:27 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:02:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Login User/input_OR_username"), username): Text 'yudhatesting2' is set on object 'Object Repository/Fitur Login User/input_OR_username'
+
+11-02-2024T14:02:34 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/Fitur Login User/input_OR_username'
+
+11-02-2024T14:02:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur Login User/input_Username_password"), password): Text '12345678' is set on object 'Object Repository/Fitur Login User/input_Username_password'
+
+11-02-2024T14:02:35 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Fitur Login User/input_Username_password'
+
+11-02-2024T14:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur Login User/button_SIGN IN")): Object: 'Object Repository/Fitur Login User/button_SIGN IN' is clicked on
+
+11-02-2024T14:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur Login User/button_SIGN IN' is clicked on
+
+11-02-2024T14:02:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:02:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:02:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:02:41 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:02:43 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/14 Gagal login (data driven)' .
+
+11-02-2024T14:02:43 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/14 Gagal login (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/22 Login or Register Facebook" time="11.774" classname="Test Cases/2 negative test case/22 Login or Register Facebook" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:02:43 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/22 Login or Register Facebook: Test Cases/2 negative test case/22 Login or Register Facebook
+
+11-02-2024T14:02:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:02:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:02:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:02:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:02:44 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:02:46 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:02:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur register or login facebook/a_CHECKOUT  (0.00)_hrefUserIcon")): Object: 'Object Repository/Fitur register or login facebook/a_CHECKOUT  (0.00)_hrefUserIcon' is clicked on
+
+11-02-2024T14:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur register or login facebook/a_CHECKOUT  (0.00)_hrefUserIcon' is clicked on
+
+11-02-2024T14:02:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur register or login facebook/span_SIGN IN WITH FACEBOOK")): Object: 'Object Repository/Fitur register or login facebook/span_SIGN IN WITH FACEBOOK' is clicked on
+
+11-02-2024T14:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur register or login facebook/span_SIGN IN WITH FACEBOOK' is clicked on
+
+11-02-2024T14:02:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:02:53 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:02:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/22 Login or Register Facebook' .
+
+11-02-2024T14:02:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/22 Login or Register Facebook' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2024T14:01:26 - [TEST_SUITE][PASSED] - 4 negatif test - login and register: Test Cases/2 negative test case/22 Login or Register Facebook]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="5 negatif test - search, filter and add to chart" tests="7" failures="0" errors="0" time="194.738" skipped="0" timestamp="11-02-2024T14:03:05" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suites/5 negatif test - search, filter and add to chart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_140113\\1 Test Suites\\5 negatif test - search, filter and add to chart\\20240211_140116"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_140113\\1 Test Suites\\5 negatif test - search, filter and add to chart\\20240211_140116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="fc3a45dc5f2f328ecb9ef23d45e7509d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/2 negative test case/16 invalid filter item" time="33.496" classname="Test Cases/2 negative test case/16 invalid filter item" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:03:06 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/16 invalid filter item: Test Cases/2 negative test case/16 invalid filter item
+
+11-02-2024T14:03:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:03:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:03:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:03:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:03:08 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:03:11 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:03:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:03:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Invalid filter/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/Invalid filter/input_OR_username'
+
+11-02-2024T14:03:15 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/Invalid filter/input_OR_username'
+
+11-02-2024T14:03:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Invalid filter/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/Invalid filter/input_Username_password'
+
+11-02-2024T14:03:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Invalid filter/input_Username_password'
+
+11-02-2024T14:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/button_SIGN IN")): Object: 'Object Repository/Invalid filter/button_SIGN IN' is clicked on
+
+11-02-2024T14:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/button_SIGN IN' is clicked on
+
+11-02-2024T14:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/div_SPEAKERS                        Shop Now")): Object: 'Object Repository/Invalid filter/div_SPEAKERS                        Shop Now' is clicked on
+
+11-02-2024T14:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/div_SPEAKERS                        Shop Now' is clicked on
+
+11-02-2024T14:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/h4_COLOR")): Object: 'Object Repository/Invalid filter/h4_COLOR' is clicked on
+
+11-02-2024T14:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/h4_COLOR' is clicked on
+
+11-02-2024T14:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/a_COLOR_productsColors55CDD5")): Object: 'Object Repository/Invalid filter/a_COLOR_productsColors55CDD5' is clicked on
+
+11-02-2024T14:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/a_COLOR_productsColors55CDD5' is clicked on
+
+11-02-2024T14:03:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+11-02-2024T14:03:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2024T14:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/h4_WEIGHT")): Object: 'Object Repository/Invalid filter/h4_WEIGHT' is clicked on
+
+11-02-2024T14:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/h4_WEIGHT' is clicked on
+
+11-02-2024T14:03:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+11-02-2024T14:03:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2024T14:03:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invalid filter/input_WEIGHT_weight_1")): Object: 'Object Repository/Invalid filter/input_WEIGHT_weight_1' is clicked on
+
+11-02-2024T14:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Invalid filter/input_WEIGHT_weight_1' is clicked on
+
+11-02-2024T14:03:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:03:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:03:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:03:37 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:03:39 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/16 invalid filter item' .
+
+11-02-2024T14:03:39 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/16 invalid filter item' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/15 delete all item di chart" time="25.551" classname="Test Cases/2 negative test case/15 delete all item di chart" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:03:39 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/15 delete all item di chart: Test Cases/2 negative test case/15 delete all item di chart
+
+11-02-2024T14:03:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:03:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:03:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:03:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:03:40 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:03:42 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now")): Object: 'Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now' is clicked on
+
+11-02-2024T14:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/div_LAPTOPS                        Shop Now' is clicked on
+
+11-02-2024T14:03:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/img_SHOP NOW_9")): Object: 'Object Repository/fitur delete all chart/img_SHOP NOW_9' is clicked on
+
+11-02-2024T14:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/img_SHOP NOW_9' is clicked on
+
+11-02-2024T14:03:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/button_ADD TO CART")): Object: 'Object Repository/fitur delete all chart/button_ADD TO CART' is clicked on
+
+11-02-2024T14:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/button_ADD TO CART' is clicked on
+
+11-02-2024T14:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_LAPTOPS")): Object: 'Object Repository/fitur delete all chart/a_LAPTOPS' is clicked on
+
+11-02-2024T14:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_LAPTOPS' is clicked on
+
+11-02-2024T14:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/img_SHOP NOW_10")): Object: 'Object Repository/fitur delete all chart/img_SHOP NOW_10' is clicked on
+
+11-02-2024T14:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/img_SHOP NOW_10' is clicked on
+
+11-02-2024T14:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/button_ADD TO CART")): Object: 'Object Repository/fitur delete all chart/button_ADD TO CART' is clicked on
+
+11-02-2024T14:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/button_ADD TO CART' is clicked on
+
+11-02-2024T14:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_LAPTOPS")): Object: 'Object Repository/fitur delete all chart/a_LAPTOPS' is clicked on
+
+11-02-2024T14:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_LAPTOPS' is clicked on
+
+11-02-2024T14:03:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_2")): Object: 'Object Repository/fitur delete all chart/a_2' is clicked on
+
+11-02-2024T14:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_2' is clicked on
+
+11-02-2024T14:03:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_REMOVE")): Object: 'Object Repository/fitur delete all chart/a_REMOVE' is clicked on
+
+11-02-2024T14:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_REMOVE' is clicked on
+
+11-02-2024T14:03:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2024T14:03:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2024T14:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur delete all chart/a_REMOVE")): Object: 'Object Repository/fitur delete all chart/a_REMOVE' is clicked on
+
+11-02-2024T14:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur delete all chart/a_REMOVE' is clicked on
+
+11-02-2024T14:03:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:04:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:04:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:04:03 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:04:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/15 delete all item di chart' .
+
+11-02-2024T14:04:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/15 delete all item di chart' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" time="33.035" classname="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:04:05 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven): Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)
+
+11-02-2024T14:04:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:04:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:04:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:04:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:04:05 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:04:08 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T14:04:15 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T14:04:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal search/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T14:04:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T14:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/button_SIGN IN")): Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T14:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T14:04:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), keyword): Text 'naruto' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:04:23 - [MESSAGE][PASSED] - Text 'naruto' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:04:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:04:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:04:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:04:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:04:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:04:36 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:04:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)' .
+
+11-02-2024T14:04:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" time="30.679" classname="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:04:38 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven): Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)
+
+11-02-2024T14:04:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:04:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:04:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:04:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:04:38 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:04:41 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:04:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T14:04:46 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T14:04:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal search/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T14:04:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T14:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/button_SIGN IN")): Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T14:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T14:04:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), keyword): Text 'one piece' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:04:50 - [MESSAGE][PASSED] - Text 'one piece' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:04:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:05:01 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:05:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:05:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:05:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:05:06 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:05:08 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)' .
+
+11-02-2024T14:05:08 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" time="30.723" classname="Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:05:08 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven): Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)
+
+11-02-2024T14:05:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:05:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:05:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:05:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:05:09 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:05:12 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:05:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:05:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T14:05:17 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur gagal search/input_OR_username'
+
+11-02-2024T14:05:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal search/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T14:05:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal search/input_Username_password'
+
+11-02-2024T14:05:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal search/button_SIGN IN")): Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T14:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal search/button_SIGN IN' is clicked on
+
+11-02-2024T14:05:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), keyword): Text 'bleach' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:05:25 - [MESSAGE][PASSED] - Text 'bleach' is set on object 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:05:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/fitur gagal search/input_DEMO_mobile_search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:05:32 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/fitur gagal search/input_DEMO_mobile_search'
+
+11-02-2024T14:05:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:05:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:05:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:05:37 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:05:39 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)' .
+
+11-02-2024T14:05:39 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/19 Search item tidak ada di katalog (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" time="20.42" classname="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:05:39 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven): Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)
+
+11-02-2024T14:05:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:05:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:05:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:05:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:05:40 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:05:42 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:05:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f"), "object:60", true): All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+11-02-2024T14:05:47 - [MESSAGE][PASSED] - All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+11-02-2024T14:05:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3"), "object:123", true): All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+11-02-2024T14:05:49 - [MESSAGE][PASSED] - All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+11-02-2024T14:05:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/input__emailContactUs"), email): Text 'yudhatesting' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+11-02-2024T14:05:50 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+11-02-2024T14:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/textarea__subjectTextareaContactUs"), subject): Text 'this product so cool!' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+11-02-2024T14:05:52 - [MESSAGE][PASSED] - Text 'this product so cool!' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+11-02-2024T14:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur contact us/button_SEND")): Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+11-02-2024T14:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+11-02-2024T14:05:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:05:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:05:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:05:57 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:06:00 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)' .
+
+11-02-2024T14:06:00 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" time="20.576" classname="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:06:00 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven): Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)
+
+11-02-2024T14:06:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:06:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:06:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:06:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:06:00 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:06:03 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:06:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f"), "object:60", true): All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+11-02-2024T14:06:08 - [MESSAGE][PASSED] - All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+11-02-2024T14:06:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3"), "object:123", true): All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+11-02-2024T14:06:10 - [MESSAGE][PASSED] - All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+11-02-2024T14:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/input__emailContactUs"), email): Text 'yudhatesting2' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+11-02-2024T14:06:11 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+11-02-2024T14:06:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/textarea__subjectTextareaContactUs"), subject): Text 'I want to buy this product' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+11-02-2024T14:06:12 - [MESSAGE][PASSED] - Text 'I want to buy this product' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+11-02-2024T14:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur contact us/button_SEND")): Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+11-02-2024T14:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+11-02-2024T14:06:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:06:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:06:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:06:18 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:06:20 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)' .
+
+11-02-2024T14:06:20 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2024T14:03:05 - [TEST_SUITE][PASSED] - 5 negatif test - search, filter and add to chart: Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="6 negatif test - checkout" tests="4" failures="1" errors="0" time="172.711" skipped="0" timestamp="11-02-2024T14:06:31" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suites/6 negatif test - checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_140113\\1 Test Suites\\6 negatif test - checkout\\20240211_140118"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_140113\\1 Test Suites\\6 negatif test - checkout\\20240211_140118\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_140113\\1 Test Suites\\6 negatif test - checkout\\20240211_140118\\1707631715992.png"/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="a3014b7fff67db3f748638856463cd0e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/2 negative test case/17 gagal checkout (data driven)" time="26.914" classname="Test Cases/2 negative test case/17 gagal checkout (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:06:31 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/17 gagal checkout (data driven): Test Cases/2 negative test case/17 gagal checkout (data driven)
+
+11-02-2024T14:06:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:06:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:06:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:06:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:06:33 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:06:36 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_MICE                        Shop Now")): Object: 'Object Repository/Fitur gagal checkout/div_MICE                        Shop Now' is clicked on
+
+11-02-2024T14:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_MICE                        Shop Now' is clicked on
+
+11-02-2024T14:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/img_SHOP NOW_29")): Object: 'Object Repository/Fitur gagal checkout/img_SHOP NOW_29' is clicked on
+
+11-02-2024T14:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/img_SHOP NOW_29' is clicked on
+
+11-02-2024T14:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus")): Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T14:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T14:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus")): Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T14:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T14:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_ADD TO CART")): Object: 'Object Repository/Fitur gagal checkout/button_ADD TO CART' is clicked on
+
+11-02-2024T14:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_ADD TO CART' is clicked on
+
+11-02-2024T14:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/a_3")): Object: 'Object Repository/Fitur gagal checkout/a_3' is clicked on
+
+11-02-2024T14:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/a_3' is clicked on
+
+11-02-2024T14:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)")): Object: 'Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)' is clicked on
+
+11-02-2024T14:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)' is clicked on
+
+11-02-2024T14:06:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284"), username): Text 'yudhatesting' is set on object 'Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'
+
+11-02-2024T14:06:49 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'
+
+11-02-2024T14:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment"), password): Text '12345678' is set on object 'Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'
+
+11-02-2024T14:06:50 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'
+
+11-02-2024T14:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_LOGIN")): Object: 'Object Repository/Fitur gagal checkout/button_LOGIN' is clicked on
+
+11-02-2024T14:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_LOGIN' is clicked on
+
+11-02-2024T14:06:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:06:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:06:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:06:56 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:06:58 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/17 gagal checkout (data driven)' .
+
+11-02-2024T14:06:58 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/17 gagal checkout (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/17 gagal checkout (data driven)" time="26.506" classname="Test Cases/2 negative test case/17 gagal checkout (data driven)" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:06:58 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/17 gagal checkout (data driven): Test Cases/2 negative test case/17 gagal checkout (data driven)
+
+11-02-2024T14:06:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:06:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:06:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:06:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:06:59 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:07:01 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_MICE                        Shop Now")): Object: 'Object Repository/Fitur gagal checkout/div_MICE                        Shop Now' is clicked on
+
+11-02-2024T14:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_MICE                        Shop Now' is clicked on
+
+11-02-2024T14:07:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/img_SHOP NOW_29")): Object: 'Object Repository/Fitur gagal checkout/img_SHOP NOW_29' is clicked on
+
+11-02-2024T14:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/img_SHOP NOW_29' is clicked on
+
+11-02-2024T14:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus")): Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T14:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T14:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/div_Quantity_plus")): Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T14:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/div_Quantity_plus' is clicked on
+
+11-02-2024T14:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_ADD TO CART")): Object: 'Object Repository/Fitur gagal checkout/button_ADD TO CART' is clicked on
+
+11-02-2024T14:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_ADD TO CART' is clicked on
+
+11-02-2024T14:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/a_3")): Object: 'Object Repository/Fitur gagal checkout/a_3' is clicked on
+
+11-02-2024T14:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/a_3' is clicked on
+
+11-02-2024T14:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)")): Object: 'Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)' is clicked on
+
+11-02-2024T14:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_CHECKOUT (29.97)' is clicked on
+
+11-02-2024T14:07:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284"), username): Text 'yudhatesting2' is set on object 'Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'
+
+11-02-2024T14:07:15 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/Fitur gagal checkout/input_Already have an account_usernameInOrd_818284'
+
+11-02-2024T14:07:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment"), password): Text '12345678' is set on object 'Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'
+
+11-02-2024T14:07:17 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Fitur gagal checkout/input_Username_passwordInOrderPayment'
+
+11-02-2024T14:07:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Fitur gagal checkout/button_LOGIN")): Object: 'Object Repository/Fitur gagal checkout/button_LOGIN' is clicked on
+
+11-02-2024T14:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Fitur gagal checkout/button_LOGIN' is clicked on
+
+11-02-2024T14:07:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:07:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:07:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:07:22 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:07:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/17 gagal checkout (data driven)' .
+
+11-02-2024T14:07:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/17 gagal checkout (data driven)' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/20 invalid CC payment method" time="73.369" classname="Test Cases/2 negative test case/20 invalid CC payment method" status="FAILED">
+         <failure type="FAILED" message="Test Cases/2 negative test case/20 invalid CC payment method FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at 20 invalid CC payment method.run(20 invalid CC payment method:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707631278935.run(TempTestSuite1707631278935.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div id=&quot;tabletsImg&quot; aria-label=&quot;TabletsCategory&quot; ng-click=&quot;redirect('/category/' + categories[2].categoryName + '/' + categories[2].categoryId)&quot; role=&quot;link&quot; href=&quot;javascript:void(0)&quot; a-sec-back-img=&quot;tablets&quot; class=&quot;categoryCell&quot; style=&quot;background-image: url(&amp;quot;catalog/fetchImage?image_id=tablets&amp;quot;);&quot;>...&lt;/div> is not clickable at point (519, 215). Other element would receive the click: &lt;div class=&quot;inputContainer ng-scope&quot;>...&lt;/div>&#xa;  (Session info: chrome=121.0.6167.161)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'LAPTOP-DI70DTOM', ip: '192.168.0.151', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:17811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: b7ed7a4066ae6350f96bcefbb2044a1a&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[11-02-2024T14:07:25 - [TEST_CASE][FAILED] - Test Cases/2 negative test case/20 invalid CC payment method: Test Cases/2 negative test case/20 invalid CC payment method FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at 20 invalid CC payment method.run(20 invalid CC payment method:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707631278935.run(TempTestSuite1707631278935.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="tabletsImg" aria-label="TabletsCategory" ng-click="redirect('/category/' + categories[2].categoryName + '/' + categories[2].categoryId)" role="link" href="javascript:void(0)" a-sec-back-img="tablets" class="categoryCell" style="background-image: url(&quot;catalog/fetchImage?image_id=tablets&quot;);">...</div> is not clickable at point (519, 215). Other element would receive the click: <div class="inputContainer ng-scope">...</div>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '192.168.0.151', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:17811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7ed7a4066ae6350f96bcefbb2044a1a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+11-02-2024T14:07:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:07:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:07:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:07:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:07:25 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:07:28 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath")): Object: 'Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath' is clicked on
+
+11-02-2024T14:07:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //path[@id = 'menuUserSVGPath']'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-02-2024T14:07:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath'. Try using Self-healing.
+
+11-02-2024T14:07:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath' was broken. Propose an alternative one: '//*[@id = 'menuUserSVGPath']'.
+
+11-02-2024T14:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/path_CHECKOUT  (0.00)_menuUserSVGPath' is clicked on
+
+11-02-2024T14:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid CC Payment Method/input_OR_username"), "yudhatesting2"): Text 'yudhatesting2' is set on object 'Object Repository/invalid CC Payment Method/input_OR_username'
+
+11-02-2024T14:08:00 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/invalid CC Payment Method/input_OR_username'
+
+11-02-2024T14:08:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid CC Payment Method/input_Username_password"), "Dharmayudha2"): Text 'Dharmayudha2' is set on object 'Object Repository/invalid CC Payment Method/input_Username_password'
+
+11-02-2024T14:08:02 - [MESSAGE][PASSED] - Text 'Dharmayudha2' is set on object 'Object Repository/invalid CC Payment Method/input_Username_password'
+
+11-02-2024T14:08:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid CC Payment Method/button_SIGN IN")): Object: 'Object Repository/invalid CC Payment Method/button_SIGN IN' is clicked on
+
+11-02-2024T14:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid CC Payment Method/button_SIGN IN' is clicked on
+
+11-02-2024T14:08:02 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now")): Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at 20 invalid CC payment method.run(20 invalid CC payment method:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707631278935.run(TempTestSuite1707631278935.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="tabletsImg" aria-label="TabletsCategory" ng-click="redirect('/category/' + categories[2].categoryName + '/' + categories[2].categoryId)" role="link" href="javascript:void(0)" a-sec-back-img="tablets" class="categoryCell" style="background-image: url(&quot;catalog/fetchImage?image_id=tablets&quot;);">...</div> is not clickable at point (519, 215). Other element would receive the click: <div class="inputContainer ng-scope">...</div>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '192.168.0.151', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:17811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7ed7a4066ae6350f96bcefbb2044a1a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707564507161.run(Script1707564507161.groovy:32)
+	... 15 more
+)
+
+11-02-2024T14:08:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at 20 invalid CC payment method.run(20 invalid CC payment method:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707631278935.run(TempTestSuite1707631278935.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="tabletsImg" aria-label="TabletsCategory" ng-click="redirect('/category/' + categories[2].categoryName + '/' + categories[2].categoryId)" role="link" href="javascript:void(0)" a-sec-back-img="tablets" class="categoryCell" style="background-image: url(&quot;catalog/fetchImage?image_id=tablets&quot;);">...</div> is not clickable at point (519, 215). Other element would receive the click: <div class="inputContainer ng-scope">...</div>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '192.168.0.151', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:17811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7ed7a4066ae6350f96bcefbb2044a1a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1707564507161.run(Script1707564507161.groovy:32)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240211_140113\\1 Test Suites\\6 negatif test - checkout\\20240211_140118\\1707631715992.png]]]]></system-out>
+         <system-err><![CDATA[11-02-2024T14:07:25 - [TEST_CASE][FAILED] - Test Cases/2 negative test case/20 invalid CC payment method: Test Cases/2 negative test case/20 invalid CC payment method FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at 20 invalid CC payment method.run(20 invalid CC payment method:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707631278935.run(TempTestSuite1707631278935.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="tabletsImg" aria-label="TabletsCategory" ng-click="redirect('/category/' + categories[2].categoryName + '/' + categories[2].categoryId)" role="link" href="javascript:void(0)" a-sec-back-img="tablets" class="categoryCell" style="background-image: url(&quot;catalog/fetchImage?image_id=tablets&quot;);">...</div> is not clickable at point (519, 215). Other element would receive the click: <div class="inputContainer ng-scope">...</div>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '192.168.0.151', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:17811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7ed7a4066ae6350f96bcefbb2044a1a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/21 invalid safepay payment method" time="45.688" classname="Test Cases/2 negative test case/21 invalid safepay payment method" status="PASSED">
+         <system-out><![CDATA[11-02-2024T14:08:38 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/21 invalid safepay payment method: Test Cases/2 negative test case/21 invalid safepay payment method
+
+11-02-2024T14:08:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-02-2024T14:08:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+11-02-2024T14:08:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-02-2024T14:08:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-02-2024T14:08:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-02-2024T14:08:39 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:08:42 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+11-02-2024T14:08:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/fitur gagal safepay payment/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+11-02-2024T14:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur gagal safepay payment/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur gagal safepay payment/input_OR_username'
+
+11-02-2024T14:08:48 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur gagal safepay payment/input_OR_username'
+
+11-02-2024T14:08:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal safepay payment/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur gagal safepay payment/input_Username_password'
+
+11-02-2024T14:08:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal safepay payment/input_Username_password'
+
+11-02-2024T14:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/button_SIGN IN")): Object: 'Object Repository/fitur gagal safepay payment/button_SIGN IN' is clicked on
+
+11-02-2024T14:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/button_SIGN IN' is clicked on
+
+11-02-2024T14:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/div_TABLETS                        Shop Now")): Object: 'Object Repository/fitur gagal safepay payment/div_TABLETS                        Shop Now' is clicked on
+
+11-02-2024T14:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/div_TABLETS                        Shop Now' is clicked on
+
+11-02-2024T14:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/img_SHOP NOW_16")): Object: 'Object Repository/fitur gagal safepay payment/img_SHOP NOW_16' is clicked on
+
+11-02-2024T14:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/img_SHOP NOW_16' is clicked on
+
+11-02-2024T14:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/button_ADD TO CART")): Object: 'Object Repository/fitur gagal safepay payment/button_ADD TO CART' is clicked on
+
+11-02-2024T14:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/button_ADD TO CART' is clicked on
+
+11-02-2024T14:09:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/a_4")): Object: 'Object Repository/fitur gagal safepay payment/a_4' is clicked on
+
+11-02-2024T14:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/a_4' is clicked on
+
+11-02-2024T14:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/button_CHECKOUT (3,296.99)")): Object: 'Object Repository/fitur gagal safepay payment/button_CHECKOUT (3,296.99)' is clicked on
+
+11-02-2024T14:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/button_CHECKOUT (3,296.99)' is clicked on
+
+11-02-2024T14:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/button_NEXT")): Object: 'Object Repository/fitur gagal safepay payment/button_NEXT' is clicked on
+
+11-02-2024T14:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/button_NEXT' is clicked on
+
+11-02-2024T14:09:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur gagal safepay payment/input__safepay_password"), "aj9YhGxH1gRaOs7gChVLIg=="): Text ****** has been set on object 'Object Repository/fitur gagal safepay payment/input__safepay_password'
+
+11-02-2024T14:09:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur gagal safepay payment/input__safepay_password'
+
+11-02-2024T14:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur gagal safepay payment/sec-form_SafePay usernameSafePay username- _b44954")): Object: 'Object Repository/fitur gagal safepay payment/sec-form_SafePay usernameSafePay username- _b44954' is clicked on
+
+11-02-2024T14:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur gagal safepay payment/sec-form_SafePay usernameSafePay username- _b44954' is clicked on
+
+11-02-2024T14:09:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2024T14:09:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2024T14:09:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2024T14:09:22 - [MESSAGE][PASSED] - Browser is closed
+
+11-02-2024T14:09:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 negative test case/21 invalid safepay payment method' .
+
+11-02-2024T14:09:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 negative test case/21 invalid safepay payment method' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2024T14:06:31 - [TEST_SUITE][FAILED] - 6 negatif test - checkout: Test Cases/2 negative test case/20 invalid CC payment method FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at 20 invalid CC payment method.run(20 invalid CC payment method:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707631278935.run(TempTestSuite1707631278935.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="tabletsImg" aria-label="TabletsCategory" ng-click="redirect('/category/' + categories[2].categoryName + '/' + categories[2].categoryId)" role="link" href="javascript:void(0)" a-sec-back-img="tablets" class="categoryCell" style="background-image: url(&quot;catalog/fetchImage?image_id=tablets&quot;);">...</div> is not clickable at point (519, 215). Other element would receive the click: <div class="inputContainer ng-scope">...</div>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '192.168.0.151', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:17811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7ed7a4066ae6350f96bcefbb2044a1a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[11-02-2024T14:06:31 - [TEST_SUITE][FAILED] - 6 negatif test - checkout: Test Cases/2 negative test case/20 invalid CC payment method FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/invalid CC Payment Method/div_TABLETS                        Shop Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at 20 invalid CC payment method.run(20 invalid CC payment method:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707631278935.run(TempTestSuite1707631278935.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="tabletsImg" aria-label="TabletsCategory" ng-click="redirect('/category/' + categories[2].categoryName + '/' + categories[2].categoryId)" role="link" href="javascript:void(0)" a-sec-back-img="tablets" class="categoryCell" style="background-image: url(&quot;catalog/fetchImage?image_id=tablets&quot;);">...</div> is not clickable at point (519, 215). Other element would receive the click: <div class="inputContainer ng-scope">...</div>
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-DI70DTOM', ip: '192.168.0.151', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:17811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7ed7a4066ae6350f96bcefbb2044a1a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

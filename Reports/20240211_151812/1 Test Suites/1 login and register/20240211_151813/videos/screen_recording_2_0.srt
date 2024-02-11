@@ -1,0 +1,100 @@
+1
+00:00:00,001 --> 00:00:00,666
+1. openBrowser("")
+
+2
+00:00:00,667 --> 00:00:03,230
+5. navigateToUrl("https://advantageonlineshopping.com/")
+
+3
+00:00:03,230 --> 00:00:07,083
+9. click(findTestObject("Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:07,084 --> 00:00:10,093
+13. delay(3)
+
+5
+00:00:10,094 --> 00:00:10,428
+17. click(findTestObject("Object Repository/Fitur Register/a_CREATE NEW ACCOUNT"))
+
+6
+00:00:10,428 --> 00:00:12,439
+21. delay(2)
+
+7
+00:00:12,440 --> 00:00:13,133
+25. setText(findTestObject("Object Repository/Fitur Register/input__usernameRegisterPage"), username)
+
+8
+00:00:13,141 --> 00:00:13,593
+29. click(findTestObject("Object Repository/Fitur Register/label_Email"))
+
+9
+00:00:13,594 --> 00:00:14,863
+33. setText(findTestObject("Object Repository/Fitur Register/input__emailRegisterPage"), email)
+
+10
+00:00:14,864 --> 00:00:16,073
+37. setText(findTestObject("Object Repository/Fitur Register/input__passwordRegisterPage"), password)
+
+11
+00:00:16,073 --> 00:00:16,602
+41. click(findTestObject("Object Repository/Fitur Register/label_Confirm password"))
+
+12
+00:00:16,603 --> 00:00:17,713
+45. setText(findTestObject("Object Repository/Fitur Register/input__confirm_passwordRegisterPage"), confirmpassword)
+
+13
+00:00:17,713 --> 00:00:18,819
+49. setText(findTestObject("Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage"), firstname)
+
+14
+00:00:18,819 --> 00:00:19,396
+53. click(findTestObject("Object Repository/Fitur Register/label_Last Name"))
+
+15
+00:00:19,396 --> 00:00:20,544
+57. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033"), lastname)
+
+16
+00:00:20,544 --> 00:00:21,754
+61. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a"), phone)
+
+17
+00:00:21,755 --> 00:00:25,168
+65. selectOptionByValue(findTestObject("Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:153", true)
+
+18
+00:00:25,169 --> 00:00:25,798
+69. setText(findTestObject("Object Repository/Fitur Register/input_Country_cityRegisterPage"), city)
+
+19
+00:00:25,799 --> 00:00:26,958
+73. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3"), address)
+
+20
+00:00:26,959 --> 00:00:27,441
+77. click(findTestObject("Object Repository/Fitur Register/label_State  Province  Region"))
+
+21
+00:00:27,441 --> 00:00:28,618
+81. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54"), state)
+
+22
+00:00:28,619 --> 00:00:29,810
+85. setText(findTestObject("Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f"), postalcode)
+
+23
+00:00:29,811 --> 00:00:30,397
+89. click(findTestObject("Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450"))
+
+24
+00:00:30,397 --> 00:00:30,958
+93. click(findTestObject("Object Repository/Fitur Register/button_REGISTER"))
+
+25
+00:00:30,958 --> 00:00:31,149
+97. closeBrowser()
+
