@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="testing 2" time="37.481" tests="2" failures="0" errors="0">
+   <testsuite name="testing 2" tests="2" failures="0" errors="0" time="37.481" skipped="0" timestamp="10-02-2024T23:38:32" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/testing 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240210_233825\\testing 2\\20240210_233826"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240210_233825\\testing 2\\20240210_233826\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="88910da6f26142cbb4c96b4abc053a76"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" time="19.203" classname="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" status="PASSED">
+         <system-out><![CDATA[10-02-2024T23:38:32 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven): Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)
+
+10-02-2024T23:38:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T23:38:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T23:38:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T23:38:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T23:38:34 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T23:38:36 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T23:38:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f"), "object:60", true): All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+10-02-2024T23:38:41 - [MESSAGE][PASSED] - All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+10-02-2024T23:38:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3"), "object:123", true): All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+10-02-2024T23:38:43 - [MESSAGE][PASSED] - All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+10-02-2024T23:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/input__emailContactUs"), email): Text 'yudhatesting' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+10-02-2024T23:38:44 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+10-02-2024T23:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/textarea__subjectTextareaContactUs"), subject): Text 'this product so cool!' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+10-02-2024T23:38:45 - [MESSAGE][PASSED] - Text 'this product so cool!' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+10-02-2024T23:38:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur contact us/button_SEND")): Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+10-02-2024T23:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+10-02-2024T23:38:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T23:38:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T23:38:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T23:38:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" time="18.045" classname="Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)" status="PASSED">
+         <system-out><![CDATA[10-02-2024T23:38:51 - [TEST_CASE][PASSED] - Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven): Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)
+
+10-02-2024T23:38:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T23:38:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T23:38:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T23:38:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T23:38:52 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T23:38:54 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T23:38:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f"), "object:60", true): All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+10-02-2024T23:38:59 - [MESSAGE][PASSED] - All options with value 'object:60' are selected in object 'Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'  using regular expression
+
+10-02-2024T23:38:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3"), "object:123", true): All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+10-02-2024T23:39:01 - [MESSAGE][PASSED] - All options with value 'object:123' are selected in object 'Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'  using regular expression
+
+10-02-2024T23:39:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/input__emailContactUs"), email): Text 'yudhatesting2' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+10-02-2024T23:39:02 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/fitur contact us/input__emailContactUs'
+
+10-02-2024T23:39:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur contact us/textarea__subjectTextareaContactUs"), subject): Text 'I want to buy this product' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+10-02-2024T23:39:03 - [MESSAGE][PASSED] - Text 'I want to buy this product' is set on object 'Object Repository/fitur contact us/textarea__subjectTextareaContactUs'
+
+10-02-2024T23:39:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur contact us/button_SEND")): Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+10-02-2024T23:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur contact us/button_SEND' is clicked on
+
+10-02-2024T23:39:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T23:39:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T23:39:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T23:39:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-02-2024T23:38:32 - [TEST_SUITE][PASSED] - testing 2: Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

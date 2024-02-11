@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testing 2,Chrome 121.0.0.0,,,10-02-2024 23:38:32,10-02-2024 23:39:09,37.481s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven),Chrome 121.0.0.0,,,10-02-2024 23:38:32,10-02-2024 23:38:51,19.203s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 23:38:32,10-02-2024 23:38:34,1.470s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 23:38:34,10-02-2024 23:38:36,2.587s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f""), ""object:60"", true)",Chrome 121.0.0.0,,,10-02-2024 23:38:36,10-02-2024 23:38:41,4.797s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3""), ""object:123"", true)",Chrome 121.0.0.0,,,10-02-2024 23:38:41,10-02-2024 23:38:43,1.778s,PASSED
+"setText(findTestObject(""Object Repository/fitur contact us/input__emailContactUs""), email)",Chrome 121.0.0.0,,,10-02-2024 23:38:43,10-02-2024 23:38:44,1.046s,PASSED
+"setText(findTestObject(""Object Repository/fitur contact us/textarea__subjectTextareaContactUs""), subject)",Chrome 121.0.0.0,,,10-02-2024 23:38:44,10-02-2024 23:38:45,1.453s,PASSED
+"click(findTestObject(""Object Repository/fitur contact us/button_SEND""))",Chrome 121.0.0.0,,,10-02-2024 23:38:45,10-02-2024 23:38:46,0.562s,PASSED
+delay(5),Chrome 121.0.0.0,,,10-02-2024 23:38:46,10-02-2024 23:38:51,5.034s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 23:38:51,10-02-2024 23:38:51,0.219s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/18 Gagal mengisi form contact us (data driven),Chrome 121.0.0.0,,,10-02-2024 23:38:51,10-02-2024 23:39:09,18.045s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 23:38:51,10-02-2024 23:38:52,0.649s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 23:38:52,10-02-2024 23:38:54,2.465s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/fitur contact us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f""), ""object:60"", true)",Chrome 121.0.0.0,,,10-02-2024 23:38:54,10-02-2024 23:38:59,4.700s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/fitur contact us/select_Select ProductHP Chromebook 14 G1(EN_361ba3""), ""object:123"", true)",Chrome 121.0.0.0,,,10-02-2024 23:38:59,10-02-2024 23:39:01,1.850s,PASSED
+"setText(findTestObject(""Object Repository/fitur contact us/input__emailContactUs""), email)",Chrome 121.0.0.0,,,10-02-2024 23:39:01,10-02-2024 23:39:02,1.114s,PASSED
+"setText(findTestObject(""Object Repository/fitur contact us/textarea__subjectTextareaContactUs""), subject)",Chrome 121.0.0.0,,,10-02-2024 23:39:02,10-02-2024 23:39:03,1.543s,PASSED
+"click(findTestObject(""Object Repository/fitur contact us/button_SEND""))",Chrome 121.0.0.0,,,10-02-2024 23:39:03,10-02-2024 23:39:04,0.474s,PASSED
+delay(5),Chrome 121.0.0.0,,,10-02-2024 23:39:04,10-02-2024 23:39:09,5.007s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 23:39:09,10-02-2024 23:39:09,0.222s,PASSED

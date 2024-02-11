@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3 all checkout" time="273.072" tests="6" failures="0" errors="0">
+   <testsuite name="3 all checkout" tests="6" failures="0" errors="0" time="273.072" skipped="0" timestamp="10-02-2024T19:46:27" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suites/3 all checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240210_194011\\1 Test Suites\\3 all checkout\\20240210_194016"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Final-Project-QA-WEB\\Reports\\20240210_194011\\1 Test Suites\\3 all checkout\\20240210_194016\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.151"/>
+         <property name="sessionId" value="a43b57f8865796817c6154c0b72232f0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)" time="56.496" classname="Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)" status="PASSED">
+         <system-out><![CDATA[10-02-2024T19:46:27 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven): Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)
+
+10-02-2024T19:46:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T19:46:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T19:46:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T19:46:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T19:46:29 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:46:31 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:46:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/a_My account                        My orde_124641")): Object: 'Object Repository/fitur checkout 1/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T19:46:35 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T19:46:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout 1/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 1/input_OR_username'
+
+10-02-2024T19:46:36 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 1/input_OR_username'
+
+10-02-2024T19:46:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/label_Password")): Object: 'Object Repository/fitur checkout 1/label_Password' is clicked on
+
+10-02-2024T19:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/label_Password' is clicked on
+
+10-02-2024T19:46:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur checkout 1/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur checkout 1/input_Username_password'
+
+10-02-2024T19:46:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur checkout 1/input_Username_password'
+
+10-02-2024T19:46:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_SIGN IN")): Object: 'Object Repository/fitur checkout 1/button_SIGN IN' is clicked on
+
+10-02-2024T19:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_SIGN IN' is clicked on
+
+10-02-2024T19:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now")): Object: 'Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now' is clicked on
+
+10-02-2024T19:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now' is clicked on
+
+10-02-2024T19:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/img_SHOP NOW_20")): Object: 'Object Repository/fitur checkout 1/img_SHOP NOW_20' is clicked on
+
+10-02-2024T19:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/img_SHOP NOW_20' is clicked on
+
+10-02-2024T19:46:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_ADD TO CART")): Object: 'Object Repository/fitur checkout 1/button_ADD TO CART' is clicked on
+
+10-02-2024T19:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_ADD TO CART' is clicked on
+
+10-02-2024T19:46:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/a_SPEAKERS")): Object: 'Object Repository/fitur checkout 1/a_SPEAKERS' is clicked on
+
+10-02-2024T19:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/a_SPEAKERS' is clicked on
+
+10-02-2024T19:47:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/img_SHOP NOW_25")): Object: 'Object Repository/fitur checkout 1/img_SHOP NOW_25' is clicked on
+
+10-02-2024T19:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/img_SHOP NOW_25' is clicked on
+
+10-02-2024T19:47:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_ADD TO CART")): Object: 'Object Repository/fitur checkout 1/button_ADD TO CART' is clicked on
+
+10-02-2024T19:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_ADD TO CART' is clicked on
+
+10-02-2024T19:47:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/a_SPEAKERS")): Object: 'Object Repository/fitur checkout 1/a_SPEAKERS' is clicked on
+
+10-02-2024T19:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/a_SPEAKERS' is clicked on
+
+10-02-2024T19:47:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/a_11")): Object: 'Object Repository/fitur checkout 1/a_11' is clicked on
+
+10-02-2024T19:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/a_11' is clicked on
+
+10-02-2024T19:47:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)")): Object: 'Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)' is clicked on
+
+10-02-2024T19:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)' is clicked on
+
+10-02-2024T19:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_NEXT")): Object: 'Object Repository/fitur checkout 1/button_NEXT' is clicked on
+
+10-02-2024T19:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_NEXT' is clicked on
+
+10-02-2024T19:47:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout 1/input__safepay_username"), username): Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 1/input__safepay_username'
+
+10-02-2024T19:47:11 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 1/input__safepay_username'
+
+10-02-2024T19:47:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-02-2024T19:47:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-02-2024T19:47:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout 1/input__safepay_password"), password): Text 'Dharmayudha1' is set on object 'Object Repository/fitur checkout 1/input__safepay_password'
+
+10-02-2024T19:47:15 - [MESSAGE][PASSED] - Text 'Dharmayudha1' is set on object 'Object Repository/fitur checkout 1/input__safepay_password'
+
+10-02-2024T19:47:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-02-2024T19:47:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-02-2024T19:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_PAY NOW")): Object: 'Object Repository/fitur checkout 1/button_PAY NOW' is clicked on
+
+10-02-2024T19:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_PAY NOW' is clicked on
+
+10-02-2024T19:47:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T19:47:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T19:47:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T19:47:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)" time="52.601" classname="Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)" status="PASSED">
+         <system-out><![CDATA[10-02-2024T19:47:24 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven): Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)
+
+10-02-2024T19:47:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T19:47:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T19:47:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T19:47:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T19:47:24 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:47:27 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/a_My account                        My orde_124641")): Object: 'Object Repository/fitur checkout 1/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T19:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T19:47:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout 1/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 1/input_OR_username'
+
+10-02-2024T19:47:32 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 1/input_OR_username'
+
+10-02-2024T19:47:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/label_Password")): Object: 'Object Repository/fitur checkout 1/label_Password' is clicked on
+
+10-02-2024T19:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/label_Password' is clicked on
+
+10-02-2024T19:47:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur checkout 1/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur checkout 1/input_Username_password'
+
+10-02-2024T19:47:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur checkout 1/input_Username_password'
+
+10-02-2024T19:47:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_SIGN IN")): Object: 'Object Repository/fitur checkout 1/button_SIGN IN' is clicked on
+
+10-02-2024T19:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_SIGN IN' is clicked on
+
+10-02-2024T19:47:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now")): Object: 'Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now' is clicked on
+
+10-02-2024T19:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/div_SPEAKERS                        Shop Now' is clicked on
+
+10-02-2024T19:47:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/img_SHOP NOW_20")): Object: 'Object Repository/fitur checkout 1/img_SHOP NOW_20' is clicked on
+
+10-02-2024T19:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/img_SHOP NOW_20' is clicked on
+
+10-02-2024T19:47:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_ADD TO CART")): Object: 'Object Repository/fitur checkout 1/button_ADD TO CART' is clicked on
+
+10-02-2024T19:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_ADD TO CART' is clicked on
+
+10-02-2024T19:47:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/a_SPEAKERS")): Object: 'Object Repository/fitur checkout 1/a_SPEAKERS' is clicked on
+
+10-02-2024T19:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/a_SPEAKERS' is clicked on
+
+10-02-2024T19:47:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/img_SHOP NOW_25")): Object: 'Object Repository/fitur checkout 1/img_SHOP NOW_25' is clicked on
+
+10-02-2024T19:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/img_SHOP NOW_25' is clicked on
+
+10-02-2024T19:47:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_ADD TO CART")): Object: 'Object Repository/fitur checkout 1/button_ADD TO CART' is clicked on
+
+10-02-2024T19:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_ADD TO CART' is clicked on
+
+10-02-2024T19:47:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/a_SPEAKERS")): Object: 'Object Repository/fitur checkout 1/a_SPEAKERS' is clicked on
+
+10-02-2024T19:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/a_SPEAKERS' is clicked on
+
+10-02-2024T19:47:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/a_11")): Object: 'Object Repository/fitur checkout 1/a_11' is clicked on
+
+10-02-2024T19:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/a_11' is clicked on
+
+10-02-2024T19:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)")): Object: 'Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)' is clicked on
+
+10-02-2024T19:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_CHECKOUT (7,634.90)' is clicked on
+
+10-02-2024T19:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_NEXT")): Object: 'Object Repository/fitur checkout 1/button_NEXT' is clicked on
+
+10-02-2024T19:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_NEXT' is clicked on
+
+10-02-2024T19:48:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout 1/input__safepay_username"), username): Text 'yudhatesting2' is set on object 'Object Repository/fitur checkout 1/input__safepay_username'
+
+10-02-2024T19:48:04 - [MESSAGE][PASSED] - Text 'yudhatesting2' is set on object 'Object Repository/fitur checkout 1/input__safepay_username'
+
+10-02-2024T19:48:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-02-2024T19:48:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-02-2024T19:48:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout 1/input__safepay_password"), password): Text 'Dharmayudha2' is set on object 'Object Repository/fitur checkout 1/input__safepay_password'
+
+10-02-2024T19:48:08 - [MESSAGE][PASSED] - Text 'Dharmayudha2' is set on object 'Object Repository/fitur checkout 1/input__safepay_password'
+
+10-02-2024T19:48:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+10-02-2024T19:48:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+10-02-2024T19:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 1/button_PAY NOW")): Object: 'Object Repository/fitur checkout 1/button_PAY NOW' is clicked on
+
+10-02-2024T19:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 1/button_PAY NOW' is clicked on
+
+10-02-2024T19:48:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T19:48:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T19:48:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T19:48:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1 Positive test case/8 Checkout Popular item - CC Payment" time="34.496" classname="Test Cases/1 Positive test case/8 Checkout Popular item - CC Payment" status="PASSED">
+         <system-out><![CDATA[10-02-2024T19:48:16 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/8 Checkout Popular item - CC Payment: Test Cases/1 Positive test case/8 Checkout Popular item - CC Payment
+
+10-02-2024T19:48:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T19:48:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T19:48:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T19:48:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T19:48:17 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:48:20 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/a_My account                        My orde_124641")): Object: 'Object Repository/fitur checkout 2/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T19:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T19:48:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout 2/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 2/input_OR_username'
+
+10-02-2024T19:48:24 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur checkout 2/input_OR_username'
+
+10-02-2024T19:48:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fitur checkout 2/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fitur checkout 2/input_Username_password'
+
+10-02-2024T19:48:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fitur checkout 2/input_Username_password'
+
+10-02-2024T19:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_SIGN IN")): Object: 'Object Repository/fitur checkout 2/button_SIGN IN' is clicked on
+
+10-02-2024T19:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_SIGN IN' is clicked on
+
+10-02-2024T19:48:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/fitur checkout 2/label_View Details"), 10): Object 'Object Repository/fitur checkout 2/label_View Details' is present
+
+10-02-2024T19:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/fitur checkout 2/label_View Details' is present
+
+10-02-2024T19:48:27 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/fitur checkout 2/label_View Details"), 10)): null
+
+10-02-2024T19:48:28 - [MESSAGE][PASSED] - Object 'Object Repository/fitur checkout 2/label_View Details' is present
+
+10-02-2024T19:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/label_View Details")): Object: 'Object Repository/fitur checkout 2/label_View Details' is clicked on
+
+10-02-2024T19:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/label_View Details' is clicked on
+
+10-02-2024T19:48:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_ADD TO CART")): Object: 'Object Repository/fitur checkout 2/button_ADD TO CART' is clicked on
+
+10-02-2024T19:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_ADD TO CART' is clicked on
+
+10-02-2024T19:48:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/a_LAPTOPS")): Object: 'Object Repository/fitur checkout 2/a_LAPTOPS' is clicked on
+
+10-02-2024T19:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/a_LAPTOPS' is clicked on
+
+10-02-2024T19:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/a_3")): Object: 'Object Repository/fitur checkout 2/a_3' is clicked on
+
+10-02-2024T19:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/a_3' is clicked on
+
+10-02-2024T19:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_CHECKOUT (3,785.97)")): Object: 'Object Repository/fitur checkout 2/button_CHECKOUT (3,785.97)' is clicked on
+
+10-02-2024T19:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_CHECKOUT (3,785.97)' is clicked on
+
+10-02-2024T19:48:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_NEXT")): Object: 'Object Repository/fitur checkout 2/button_NEXT' is clicked on
+
+10-02-2024T19:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_NEXT' is clicked on
+
+10-02-2024T19:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/img")): Object: 'Object Repository/fitur checkout 2/img' is clicked on
+
+10-02-2024T19:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/img' is clicked on
+
+10-02-2024T19:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout 2/button_PAY NOW")): Object: 'Object Repository/fitur checkout 2/button_PAY NOW' is clicked on
+
+10-02-2024T19:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout 2/button_PAY NOW' is clicked on
+
+10-02-2024T19:48:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T19:48:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T19:48:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T19:48:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1 Positive test case/9 Chekout tanpa login (data driven)" time="31.785" classname="Test Cases/1 Positive test case/9 Chekout tanpa login (data driven)" status="PASSED">
+         <system-out><![CDATA[10-02-2024T19:48:51 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/9 Chekout tanpa login (data driven): Test Cases/1 Positive test case/9 Chekout tanpa login (data driven)
+
+10-02-2024T19:48:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T19:48:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T19:48:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T19:48:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T19:48:51 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:48:54 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:48:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/div_MICE                        Shop Now")): Object: 'Object Repository/fitur checkout login/div_MICE                        Shop Now' is clicked on
+
+10-02-2024T19:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/div_MICE                        Shop Now' is clicked on
+
+10-02-2024T19:48:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/img_SHOP NOW_29")): Object: 'Object Repository/fitur checkout login/img_SHOP NOW_29' is clicked on
+
+10-02-2024T19:49:01 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/img_SHOP NOW_29' is clicked on
+
+10-02-2024T19:49:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_ADD TO CART")): Object: 'Object Repository/fitur checkout login/button_ADD TO CART' is clicked on
+
+10-02-2024T19:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_ADD TO CART' is clicked on
+
+10-02-2024T19:49:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/a_MICE")): Object: 'Object Repository/fitur checkout login/a_MICE' is clicked on
+
+10-02-2024T19:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/a_MICE' is clicked on
+
+10-02-2024T19:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/a_1")): Object: 'Object Repository/fitur checkout login/a_1' is clicked on
+
+10-02-2024T19:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/a_1' is clicked on
+
+10-02-2024T19:49:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_CHECKOUT (9.99)")): Object: 'Object Repository/fitur checkout login/button_CHECKOUT (9.99)' is clicked on
+
+10-02-2024T19:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_CHECKOUT (9.99)' is clicked on
+
+10-02-2024T19:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284"), username): Text 'yudhatesting' is set on object 'Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284'
+
+10-02-2024T19:49:10 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284'
+
+10-02-2024T19:49:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout login/input_Username_passwordInOrderPayment"), password): Text 'Dharmayudha1' is set on object 'Object Repository/fitur checkout login/input_Username_passwordInOrderPayment'
+
+10-02-2024T19:49:11 - [MESSAGE][PASSED] - Text 'Dharmayudha1' is set on object 'Object Repository/fitur checkout login/input_Username_passwordInOrderPayment'
+
+10-02-2024T19:49:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_LOGIN")): Object: 'Object Repository/fitur checkout login/button_LOGIN' is clicked on
+
+10-02-2024T19:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_LOGIN' is clicked on
+
+10-02-2024T19:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_NEXT")): Object: 'Object Repository/fitur checkout login/button_NEXT' is clicked on
+
+10-02-2024T19:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_NEXT' is clicked on
+
+10-02-2024T19:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_PAY NOW")): Object: 'Object Repository/fitur checkout login/button_PAY NOW' is clicked on
+
+10-02-2024T19:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_PAY NOW' is clicked on
+
+10-02-2024T19:49:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T19:49:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T19:49:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T19:49:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1 Positive test case/9 Chekout tanpa login (data driven)" time="44.339" classname="Test Cases/1 Positive test case/9 Chekout tanpa login (data driven)" status="PASSED">
+         <system-out><![CDATA[10-02-2024T19:49:23 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/9 Chekout tanpa login (data driven): Test Cases/1 Positive test case/9 Chekout tanpa login (data driven)
+
+10-02-2024T19:49:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T19:49:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T19:49:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T19:49:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T19:49:23 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:49:30 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/div_MICE                        Shop Now")): Object: 'Object Repository/fitur checkout login/div_MICE                        Shop Now' is clicked on
+
+10-02-2024T19:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/div_MICE                        Shop Now' is clicked on
+
+10-02-2024T19:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/img_SHOP NOW_29")): Object: 'Object Repository/fitur checkout login/img_SHOP NOW_29' is clicked on
+
+10-02-2024T19:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/img_SHOP NOW_29' is clicked on
+
+10-02-2024T19:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_ADD TO CART")): Object: 'Object Repository/fitur checkout login/button_ADD TO CART' is clicked on
+
+10-02-2024T19:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_ADD TO CART' is clicked on
+
+10-02-2024T19:49:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/a_MICE")): Object: 'Object Repository/fitur checkout login/a_MICE' is clicked on
+
+10-02-2024T19:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/a_MICE' is clicked on
+
+10-02-2024T19:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/a_1")): Object: 'Object Repository/fitur checkout login/a_1' is clicked on
+
+10-02-2024T19:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/a_1' is clicked on
+
+10-02-2024T19:49:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_CHECKOUT (9.99)")): Object: 'Object Repository/fitur checkout login/button_CHECKOUT (9.99)' is clicked on
+
+10-02-2024T19:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_CHECKOUT (9.99)' is clicked on
+
+10-02-2024T19:49:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284"), username): Text 'yudhatesting' is set on object 'Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284'
+
+10-02-2024T19:49:56 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fitur checkout login/input_Already have an account_usernameInOrd_818284'
+
+10-02-2024T19:49:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitur checkout login/input_Username_passwordInOrderPayment"), password): Text 'Dharmayudha1' is set on object 'Object Repository/fitur checkout login/input_Username_passwordInOrderPayment'
+
+10-02-2024T19:49:57 - [MESSAGE][PASSED] - Text 'Dharmayudha1' is set on object 'Object Repository/fitur checkout login/input_Username_passwordInOrderPayment'
+
+10-02-2024T19:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_LOGIN")): Object: 'Object Repository/fitur checkout login/button_LOGIN' is clicked on
+
+10-02-2024T19:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_LOGIN' is clicked on
+
+10-02-2024T19:49:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_NEXT")): Object: 'Object Repository/fitur checkout login/button_NEXT' is clicked on
+
+10-02-2024T19:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_NEXT' is clicked on
+
+10-02-2024T19:50:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitur checkout login/button_PAY NOW")): Object: 'Object Repository/fitur checkout login/button_PAY NOW' is clicked on
+
+10-02-2024T19:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/fitur checkout login/button_PAY NOW' is clicked on
+
+10-02-2024T19:50:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T19:50:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T19:50:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T19:50:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1 Positive test case/12 Edit Data Checkout" time="53.071" classname="Test Cases/1 Positive test case/12 Edit Data Checkout" status="PASSED">
+         <system-out><![CDATA[10-02-2024T19:50:07 - [TEST_CASE][PASSED] - Test Cases/1 Positive test case/12 Edit Data Checkout: Test Cases/1 Positive test case/12 Edit Data Checkout
+
+10-02-2024T19:50:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T19:50:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T19:50:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T19:50:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T19:50:08 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/"): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:50:10 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+10-02-2024T19:50:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/a_My account                        My orde_124641")): Object: 'Object Repository/fiutr edit checkout/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T19:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/a_My account                        My orde_124641' is clicked on
+
+10-02-2024T19:50:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fiutr edit checkout/input_OR_username"), "yudhatesting"): Text 'yudhatesting' is set on object 'Object Repository/fiutr edit checkout/input_OR_username'
+
+10-02-2024T19:50:15 - [MESSAGE][PASSED] - Text 'yudhatesting' is set on object 'Object Repository/fiutr edit checkout/input_OR_username'
+
+10-02-2024T19:50:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/fiutr edit checkout/input_Username_password"), "VjyC/is+sZNhzZxZ8kSNJw=="): Text ****** has been set on object 'Object Repository/fiutr edit checkout/input_Username_password'
+
+10-02-2024T19:50:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/fiutr edit checkout/input_Username_password'
+
+10-02-2024T19:50:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/button_SIGN IN")): Object: 'Object Repository/fiutr edit checkout/button_SIGN IN' is clicked on
+
+10-02-2024T19:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/button_SIGN IN' is clicked on
+
+10-02-2024T19:50:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/div_LAPTOPS                        Shop Now")): Object: 'Object Repository/fiutr edit checkout/div_LAPTOPS                        Shop Now' is clicked on
+
+10-02-2024T19:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/div_LAPTOPS                        Shop Now' is clicked on
+
+10-02-2024T19:50:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/img_SHOP NOW_9")): Object: 'Object Repository/fiutr edit checkout/img_SHOP NOW_9' is clicked on
+
+10-02-2024T19:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/img_SHOP NOW_9' is clicked on
+
+10-02-2024T19:50:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/button_ADD TO CART")): Object: 'Object Repository/fiutr edit checkout/button_ADD TO CART' is clicked on
+
+10-02-2024T19:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/button_ADD TO CART' is clicked on
+
+10-02-2024T19:50:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/a_LAPTOPS")): Object: 'Object Repository/fiutr edit checkout/a_LAPTOPS' is clicked on
+
+10-02-2024T19:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/a_LAPTOPS' is clicked on
+
+10-02-2024T19:50:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/img_SHOP NOW_10")): Object: 'Object Repository/fiutr edit checkout/img_SHOP NOW_10' is clicked on
+
+10-02-2024T19:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/img_SHOP NOW_10' is clicked on
+
+10-02-2024T19:50:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/button_ADD TO CART")): Object: 'Object Repository/fiutr edit checkout/button_ADD TO CART' is clicked on
+
+10-02-2024T19:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/button_ADD TO CART' is clicked on
+
+10-02-2024T19:50:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/a_LAPTOPS")): Object: 'Object Repository/fiutr edit checkout/a_LAPTOPS' is clicked on
+
+10-02-2024T19:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/a_LAPTOPS' is clicked on
+
+10-02-2024T19:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/a_2")): Object: 'Object Repository/fiutr edit checkout/a_2' is clicked on
+
+10-02-2024T19:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/a_2' is clicked on
+
+10-02-2024T19:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/a_EDIT")): Object: 'Object Repository/fiutr edit checkout/a_EDIT' is clicked on
+
+10-02-2024T19:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/a_EDIT' is clicked on
+
+10-02-2024T19:50:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/div_Quantity_plus")): Object: 'Object Repository/fiutr edit checkout/div_Quantity_plus' is clicked on
+
+10-02-2024T19:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/div_Quantity_plus' is clicked on
+
+10-02-2024T19:50:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/button_ADD TO CART")): Object: 'Object Repository/fiutr edit checkout/button_ADD TO CART' is clicked on
+
+10-02-2024T19:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/button_ADD TO CART' is clicked on
+
+10-02-2024T19:50:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/a_EDIT_1")): Object: 'Object Repository/fiutr edit checkout/a_EDIT_1' is clicked on
+
+10-02-2024T19:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/a_EDIT_1' is clicked on
+
+10-02-2024T19:50:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/div_Quantity_plus")): Object: 'Object Repository/fiutr edit checkout/div_Quantity_plus' is clicked on
+
+10-02-2024T19:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/div_Quantity_plus' is clicked on
+
+10-02-2024T19:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/button_ADD TO CART")): Object: 'Object Repository/fiutr edit checkout/button_ADD TO CART' is clicked on
+
+10-02-2024T19:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/button_ADD TO CART' is clicked on
+
+10-02-2024T19:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/button_CHECKOUT (3,123.96)")): Object: 'Object Repository/fiutr edit checkout/button_CHECKOUT (3,123.96)' is clicked on
+
+10-02-2024T19:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/button_CHECKOUT (3,123.96)' is clicked on
+
+10-02-2024T19:50:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/button_NEXT")): Object: 'Object Repository/fiutr edit checkout/button_NEXT' is clicked on
+
+10-02-2024T19:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/button_NEXT' is clicked on
+
+10-02-2024T19:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fiutr edit checkout/button_PAY NOW")): Object: 'Object Repository/fiutr edit checkout/button_PAY NOW' is clicked on
+
+10-02-2024T19:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/fiutr edit checkout/button_PAY NOW' is clicked on
+
+10-02-2024T19:50:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+10-02-2024T19:51:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+10-02-2024T19:51:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T19:51:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-02-2024T19:46:27 - [TEST_SUITE][PASSED] - 3 all checkout: Test Cases/1 Positive test case/12 Edit Data Checkout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

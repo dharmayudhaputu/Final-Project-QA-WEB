@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testing 2,Chrome 121.0.0.0,,,10-02-2024 23:30:31,10-02-2024 23:31:03,32.115s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/14 Gagal login (data driven),Chrome 121.0.0.0,,,10-02-2024 23:30:31,10-02-2024 23:30:47,16.506s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 23:30:31,10-02-2024 23:30:33,1.541s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 23:30:33,10-02-2024 23:30:35,2.766s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,10-02-2024 23:30:35,10-02-2024 23:30:39,3.782s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_OR_username""), username)",Chrome 121.0.0.0,,,10-02-2024 23:30:39,10-02-2024 23:30:40,0.902s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_Username_password""), password)",Chrome 121.0.0.0,,,10-02-2024 23:30:40,10-02-2024 23:30:41,1.405s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SIGN IN""))",Chrome 121.0.0.0,,,10-02-2024 23:30:41,10-02-2024 23:30:42,0.561s,PASSED
+delay(5),Chrome 121.0.0.0,,,10-02-2024 23:30:42,10-02-2024 23:30:47,5.038s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 23:30:47,10-02-2024 23:30:47,0.217s,PASSED
+,,,,,,,
+Test Cases/2 negative test case/14 Gagal login (data driven),Chrome 121.0.0.0,,,10-02-2024 23:30:47,10-02-2024 23:31:03,15.371s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 23:30:47,10-02-2024 23:30:48,0.712s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 23:30:48,10-02-2024 23:30:51,2.758s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,10-02-2024 23:30:51,10-02-2024 23:30:55,3.815s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_OR_username""), username)",Chrome 121.0.0.0,,,10-02-2024 23:30:55,10-02-2024 23:30:55,0.898s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_Username_password""), password)",Chrome 121.0.0.0,,,10-02-2024 23:30:55,10-02-2024 23:30:57,1.408s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SIGN IN""))",Chrome 121.0.0.0,,,10-02-2024 23:30:57,10-02-2024 23:30:57,0.538s,PASSED
+delay(5),Chrome 121.0.0.0,,,10-02-2024 23:30:57,10-02-2024 23:31:02,5.002s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 23:31:02,10-02-2024 23:31:03,0.219s,PASSED

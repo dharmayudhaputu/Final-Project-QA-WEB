@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>18 Gagal mengisi form contact us (data driven)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7b2d796-10f0-4cad-8f99-a671ffadb089</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb5ce4e2-d81e-46e1-b415-1cda81a8fb49</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a74feb6d-3631-46a0-bd71-ea886d2edd2e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('9 data contact us gagal')</defaultValue>
+      <description></description>
+      <id>cb5ce4e2-d81e-46e1-b415-1cda81a8fb49</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('9 data contact us gagal')</defaultValue>
+      <description></description>
+      <id>a74feb6d-3631-46a0-bd71-ea886d2edd2e</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+</TestCaseEntity>

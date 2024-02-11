@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 login and register,Chrome 121.0.0.0,,,10-02-2024 20:27:34,10-02-2024 20:29:21,1m - 46.568s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/2 Create Account (data driven),Chrome 121.0.0.0,Pembuatan account user baru,,10-02-2024 20:27:34,10-02-2024 20:28:18,44.115s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 20:27:35,10-02-2024 20:27:36,1.366s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 20:27:36,10-02-2024 20:27:40,4.279s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,10-02-2024 20:27:40,10-02-2024 20:27:45,4.356s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,10-02-2024 20:27:45,10-02-2024 20:27:45,0.580s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,10-02-2024 20:27:45,10-02-2024 20:28:01,15.666s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Email""))",Chrome 121.0.0.0,,,10-02-2024 20:28:01,10-02-2024 20:28:01,0.458s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,10-02-2024 20:28:01,10-02-2024 20:28:03,1.254s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,10-02-2024 20:28:03,10-02-2024 20:28:04,1.147s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Confirm password""))",Chrome 121.0.0.0,,,10-02-2024 20:28:04,10-02-2024 20:28:04,0.577s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__confirm_passwordRegisterPage""), confirmpassword)",Chrome 121.0.0.0,,,10-02-2024 20:28:04,10-02-2024 20:28:06,1.090s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage""), firstname)",Chrome 121.0.0.0,,,10-02-2024 20:28:06,10-02-2024 20:28:07,1.118s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Last Name""))",Chrome 121.0.0.0,,,10-02-2024 20:28:07,10-02-2024 20:28:07,0.550s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033""), lastname)",Chrome 121.0.0.0,,,10-02-2024 20:28:07,10-02-2024 20:28:08,1.243s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a""), phone)",Chrome 121.0.0.0,,,10-02-2024 20:28:08,10-02-2024 20:28:10,1.130s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a""), ""object:153"", true)",Chrome 121.0.0.0,,,10-02-2024 20:28:10,10-02-2024 20:28:13,3.099s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_Country_cityRegisterPage""), city)",Chrome 121.0.0.0,,,10-02-2024 20:28:13,10-02-2024 20:28:13,0.626s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3""), address)",Chrome 121.0.0.0,,,10-02-2024 20:28:13,10-02-2024 20:28:15,1.245s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_State  Province  Region""))",Chrome 121.0.0.0,,,10-02-2024 20:28:15,10-02-2024 20:28:15,0.542s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54""), state)",Chrome 121.0.0.0,,,10-02-2024 20:28:15,10-02-2024 20:28:16,1.175s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f""), postalcode)",Chrome 121.0.0.0,,,10-02-2024 20:28:16,10-02-2024 20:28:17,1.082s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,10-02-2024 20:28:17,10-02-2024 20:28:18,0.587s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/button_REGISTER""))",Chrome 121.0.0.0,,,10-02-2024 20:28:18,10-02-2024 20:28:18,0.565s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/2 Create Account (data driven),Chrome 121.0.0.0,Pembuatan account user baru,,10-02-2024 20:28:19,10-02-2024 20:28:47,28.471s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 20:28:19,10-02-2024 20:28:20,0.936s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 20:28:20,10-02-2024 20:28:22,2.533s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,10-02-2024 20:28:22,10-02-2024 20:28:28,5.599s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,10-02-2024 20:28:28,10-02-2024 20:28:28,0.689s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,10-02-2024 20:28:28,10-02-2024 20:28:30,1.462s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Email""))",Chrome 121.0.0.0,,,10-02-2024 20:28:30,10-02-2024 20:28:30,0.445s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,10-02-2024 20:28:30,10-02-2024 20:28:31,1.109s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,10-02-2024 20:28:31,10-02-2024 20:28:33,1.187s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Confirm password""))",Chrome 121.0.0.0,,,10-02-2024 20:28:33,10-02-2024 20:28:33,0.552s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input__confirm_passwordRegisterPage""), confirmpassword)",Chrome 121.0.0.0,,,10-02-2024 20:28:33,10-02-2024 20:28:34,1.065s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_PERSONAL DETAILS_first_nameRegisterPage""), firstname)",Chrome 121.0.0.0,,,10-02-2024 20:28:34,10-02-2024 20:28:35,1.165s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_Last Name""))",Chrome 121.0.0.0,,,10-02-2024 20:28:35,10-02-2024 20:28:36,0.540s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 30 character_last_nameR_6ef033""), lastname)",Chrome 121.0.0.0,,,10-02-2024 20:28:36,10-02-2024 20:28:37,1.180s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 30 character_phone_numb_7c938a""), phone)",Chrome 121.0.0.0,,,10-02-2024 20:28:37,10-02-2024 20:28:38,1.127s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Fitur Register/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a""), ""object:153"", true)",Chrome 121.0.0.0,,,10-02-2024 20:28:38,10-02-2024 20:28:41,2.905s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_Country_cityRegisterPage""), city)",Chrome 121.0.0.0,,,10-02-2024 20:28:41,10-02-2024 20:28:42,0.660s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 25 character_addressReg_9e23b3""), address)",Chrome 121.0.0.0,,,10-02-2024 20:28:42,10-02-2024 20:28:43,1.220s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/label_State  Province  Region""))",Chrome 121.0.0.0,,,10-02-2024 20:28:43,10-02-2024 20:28:44,0.549s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 50 character_state__pro_272a54""), state)",Chrome 121.0.0.0,,,10-02-2024 20:28:44,10-02-2024 20:28:45,1.184s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Register/input_- Use maximum 10 character_postal_cod_639c2f""), postalcode)",Chrome 121.0.0.0,,,10-02-2024 20:28:45,10-02-2024 20:28:46,1.232s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,10-02-2024 20:28:46,10-02-2024 20:28:47,0.555s,PASSED
+"click(findTestObject(""Object Repository/Fitur Register/button_REGISTER""))",Chrome 121.0.0.0,,,10-02-2024 20:28:47,10-02-2024 20:28:47,0.556s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/3 login user (data driven),Chrome 121.0.0.0,Pengujian scenario login oleh user,,10-02-2024 20:28:47,10-02-2024 20:29:04,16.607s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 20:28:47,10-02-2024 20:28:48,0.831s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 20:28:48,10-02-2024 20:28:50,2.441s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,10-02-2024 20:28:50,10-02-2024 20:28:54,3.907s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,10-02-2024 20:28:54,10-02-2024 20:28:55,0.995s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_Username_password""), ""Dharmayudha1"")",Chrome 121.0.0.0,,,10-02-2024 20:28:55,10-02-2024 20:28:57,1.431s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SIGN IN""))",Chrome 121.0.0.0,,,10-02-2024 20:28:57,10-02-2024 20:28:57,0.543s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SEE OFFER""))",Chrome 121.0.0.0,,,10-02-2024 20:28:57,10-02-2024 20:28:58,1.128s,PASSED
+delay(5),Chrome 121.0.0.0,,,10-02-2024 20:28:58,10-02-2024 20:29:03,5.056s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 20:29:03,10-02-2024 20:29:04,0.203s,PASSED
+,,,,,,,
+Test Cases/1 Positive test case/3 login user (data driven),Chrome 121.0.0.0,Pengujian scenario login oleh user,,10-02-2024 20:29:04,10-02-2024 20:29:21,16.945s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 20:29:04,10-02-2024 20:29:04,0.640s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/"")",Chrome 121.0.0.0,,,10-02-2024 20:29:04,10-02-2024 20:29:07,2.444s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,10-02-2024 20:29:07,10-02-2024 20:29:11,3.886s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_OR_username""), ""yudhatesting"")",Chrome 121.0.0.0,,,10-02-2024 20:29:11,10-02-2024 20:29:12,0.998s,PASSED
+"setText(findTestObject(""Object Repository/Fitur Login User/input_Username_password""), ""Dharmayudha1"")",Chrome 121.0.0.0,,,10-02-2024 20:29:12,10-02-2024 20:29:13,1.494s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SIGN IN""))",Chrome 121.0.0.0,,,10-02-2024 20:29:13,10-02-2024 20:29:14,0.532s,PASSED
+"click(findTestObject(""Object Repository/Fitur Login User/button_SEE OFFER""))",Chrome 121.0.0.0,,,10-02-2024 20:29:14,10-02-2024 20:29:15,1.762s,PASSED
+delay(5),Chrome 121.0.0.0,,,10-02-2024 20:29:15,10-02-2024 20:29:20,5.003s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 20:29:20,10-02-2024 20:29:21,0.175s,PASSED

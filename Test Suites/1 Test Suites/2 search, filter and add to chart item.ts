@@ -15,14 +15,14 @@
       <guid>1eef5947-2ee3-4388-927f-e5b9ec660265</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/4 Search Item (if-else)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/4 Search Item (if-else)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6dc7c0b4-f75d-4611-aa95-a654d892242f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/5 Filter item (switch-case and data driven)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/5 Filter item (switch-case and data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ad239c3e-4278-4584-a69d-14a0a99c038d</id>
@@ -44,7 +44,7 @@
       <guid>843a755c-b73a-4441-b2f7-ff86e1dae6b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/6 Add to Chart (switch-case and data driven)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/6 Add to Chart (switch-case and data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3c91f778-3798-4d15-9147-e50483411bee</id>
@@ -66,7 +66,7 @@
       <guid>d68f08c0-dca7-4ec9-ae09-2d24ce465102</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/10. Contact Us</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/10. Contact Us</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>859d26ff-b93c-45ee-9314-0f8cf7467661</id>
@@ -94,7 +94,7 @@
       <guid>a188b719-0d7d-4240-8509-03f6a36975e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/11 Checking Link Sosial Media - customkeyword dan assert</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/11 Checking Link Sosial Media - customkeyword dan assert</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

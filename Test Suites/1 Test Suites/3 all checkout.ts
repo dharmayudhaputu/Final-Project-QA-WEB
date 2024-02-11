@@ -15,7 +15,7 @@
       <guid>fc597cda-911f-4805-8659-c2eec7ea5b69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/7 Checkout Basic Item - Safepay Payment (data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b8ea0fbc-a2bb-4055-9d43-964da83ccc1a</id>
@@ -43,14 +43,14 @@
       <guid>a8f9299f-97b9-4479-a78c-1e698eebeb93</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/8 Checkout Popular item - CC Payment</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/8 Checkout Popular item - CC Payment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7b428343-8d30-4753-89d4-67ca966715fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/9 Chekout tanpa login (data driven)</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/9 Chekout tanpa login (data driven)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b727bea3-dcb6-417c-8474-103c09f7166e</id>
@@ -78,7 +78,7 @@
       <guid>516df829-1a1f-43e1-bf58-2cabd2a781f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Positive test case/12 Edit Data Checkout</testCaseId>
+      <testCaseId>Test Cases/1 Positive test case/12 Edit Data Checkout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
